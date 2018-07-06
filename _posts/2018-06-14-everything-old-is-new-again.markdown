@@ -11,10 +11,7 @@ I got hired because I knew some things about Quadruple Amplitude Modulation (QAM
 
 It was there that I developed a love for Sun Microsystems (my workstation was a SUN Ultra 5) and it’s Solaris OS, things like IPS, SMF, Dtrace (which Oracle recently open-sourced under the GPL), and later ZFS (I run a FreeNAS system at home, just because), and it’s rock solid stability where a joy compared to some other OS’es at the time. Besides the technology I was also fascinated by some of the people at the company, not the least of which was it’s co-founder Andreas von Bechtolsheim (or Andy Bechtolsheim for you Americans) currently the co-founder of Arista Networks, and one of the original investors in Google.  To get a sense of his many accomplishments check out the video below.
 
-<center>
-
 [![Andy B](http://img.youtube.com/vi/GjR7sRASjdo/0.jpg)](https://www.youtube.com/watch?v=GjR7sRASjdo))  
-</center>
 
 He also recently presented at a Tech Field Day event (NFD16) on the future of networking, specifically the 400 Gigabit Landscape, also available on YouTube if you are inclined to watch it. One of the other co-founders of Sun Microsystems, Vinod Khosla, recently came onboard as an investor at Rubrik (where I work) through his VC firm Khosla Ventures which warmed my heart. I always felt a great respect for the company even though I later ended up competing with them in the market when I joined my first vendor company.
 
@@ -34,8 +31,6 @@ I would recon that most of these systems are treated as their own little (or ver
 
 As we do for all backups we also use our SLA based approach, incremental-forever backups, archival to the Public Cloud, etc. Similar to the Linux and Windows support, we are offering a connector (RBS/Rubrik Backup Service) with low resource and operational overhead. The connector supports granular folder/file level backups via the filesets concept that integrates with SLA policies. Filesets are a logical construct based on Includes and Excludes. These are often around a direct path to a file or folder but can use wildcards for greater flexibility around what is included or excluded.
 
-<center>
-
 ![blog image]({{ "/assets/filesets.png" | absolute_url }})
-</center>
+
 Filesets can be customized to meet specific needs including the ability to call Pre/ Post Scripts to a.o. provide application-consistent backups. Welcome to the future! 😉

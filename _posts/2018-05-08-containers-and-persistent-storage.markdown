@@ -41,7 +41,7 @@ Storage vendors have an incentive to make consuming their particular storage as 
 
 One example is Pure Storage who provide a Docker Volume Plugin for their FlashArray and FlashBlade systems. Current they support Docker, Swarm, and Mesos. Most other big name storage vendors also have plugins available.
 
-Then there are things like [REX-Ray](https://rexray.readthedocs.io/en/stable/) REX-Ray which is an open source, storage management solution, it was born out of the now defunct {code} by Dell EMC team. It allows you to use multiple different storage backends and serve those up as persistent storage for your container workloads.
+Then there are things like [REX-Ray](https://rexray.readthedocs.io/en/stable/) which is an open source, storage management solution, it was born out of the now defunct {code} by Dell EMC team. It allows you to use multiple different storage backends and serve those up as persistent storage for your container workloads.
 
 On the virtualization front VMware has something called the vSphere Docker Volume Service which consists of two parts, the Docker Volume Plugin and a vSphere Installation Bundle (VIB) to install on the ESXi hosts. This allows you to serve up vSphere Datastores (be it Virtual SAN, VMFS, NFS based) as persistent storage to your container workloads.
 
