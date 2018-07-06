@@ -39,7 +39,7 @@ As mentioned before MongoDB uses a single master architecture, preferring consis
 
 Rubrik Datos IO is meant to facilitate application-consistent backup, point-in-time recovery, and deduplication for sharded and unsharded MongoDB clusters and geo-distributed MongoDB deployments.
 
-mongoDB-image.png
+![blog image]({{ "/assets/mongoDB-image.png" | absolute_url }})
 
 The solution is called RecoverX which is a scale-out data protection software that acts as the control plane to move backup data between your production MongoDB environment and a secondary storage location. It performs continuous backups using the Oplog’s, it streams data in parallel from multiple MongoDB nodes. It also semantically deduplicates files across the MongoDB cluster in order to only store only one instance of the data if you are backing up to different directories but is simultaneously tracked in a metadata map for recovery.
 
@@ -47,13 +47,13 @@ The solution is called RecoverX which is a scale-out data protection software th
 
 The workflow of backing up your MongoDB data is based on a policy in which you select the datasource (MongoDB or others), select the specific MongoDB cluster and version store (secondary storage location), which specific database(s) you want to protect and a schedule that defines RPO/RTO values.
 
-Screen Shot 2018-06-18 at 17.49.06
+![blog image]({{ "/assets/recoverx1.png" | absolute_url }})
 
 Once the policy is added the first full backup is triggered, this happens without quiescing the database.
 
 Recovering data works via the Time Travel tab which allows you to select the directories to recover and see it’s available timestamps. Orchestrated recovery then allows you to select the MongoDB destination cluster, database, and collection to restore to.
 
-Screen Shot 2018-06-18 at 18.38.11
+![blog image]({{ "/assets/recoverx2.png" | absolute_url }})
 
 Collections can be recovered to the same MongoDB database or a different instance for test and dev.
 
