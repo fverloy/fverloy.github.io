@@ -11,14 +11,17 @@ I got hired because I knew some things about Quadruple Amplitude Modulation (QAM
 
 It was there that I developed a love for Sun Microsystems (my workstation was a SUN Ultra 5) and it’s Solaris OS, things like IPS, SMF, Dtrace (which Oracle recently open-sourced under the GPL), and later ZFS (I run a FreeNAS system at home, just because), and it’s rock solid stability where a joy compared to some other OS’es at the time. Besides the technology I was also fascinated by some of the people at the company, not the least of which was it’s co-founder Andreas von Bechtolsheim (or Andy Bechtolsheim for you Americans) currently the co-founder of Arista Networks, and one of the original investors in Google.  To get a sense of his many accomplishments check out the video below.
 
-[![Andy B](http://img.youtube.com/vi/GjR7sRASjdo/0.jpg)](https://www.youtube.com/watch?v=GjR7sRASjdo)
+<center>
+[![Andy B](http://img.youtube.com/vi/GjR7sRASjdo/0.jpg)](https://www.youtube.com/watch?v=GjR7sRASjdo))  
+</center>
 
 He also recently presented at a Tech Field Day event (NFD16) on the future of networking, specifically the 400 Gigabit Landscape, also available on YouTube if you are inclined to watch it. One of the other co-founders of Sun Microsystems, Vinod Khosla, recently came onboard as an investor at Rubrik (where I work) through his VC firm Khosla Ventures which warmed my heart. I always felt a great respect for the company even though I later ended up competing with them in the market when I joined my first vendor company.
 
 We all know what happened to Sun Microsystems in the end, but I’m still waiting for Jonathan Schwartz to write that Sun Microsystems book he tweeted about shortly after the acquisition by Oracle in 2010 🙂
-
+<center>
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m thinking of writing a book about my experiences as Sun&#39;s CEO (will not be in haiku). What would you like to read about? <a href="https://twitter.com/hashtag/jonathanbook?src=hash&amp;ref_src=twsrc%5Etfw">#jonathanbook</a></p>&mdash; Jonathan Schwartz (@OpenJonathan) <a href="https://twitter.com/OpenJonathan/status/8820705925?ref_src=twsrc%5Etfw">February 8, 2010</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
 
 There is also an interesting article from the IEEE spectrum called [“After the Sun (Microsystems) Sets, the Real Stories Come Out”](https://spectrum.ieee.org/view-from-the-valley/tech-history/cyberspace/after-the-sun-microsystems-sets-the-real-stories-come-out) that presents some insights into what is was like at the time.
 
