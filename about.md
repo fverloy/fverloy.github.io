@@ -4,15 +4,20 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi there!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My name is Filip Verloy, you’ve reached my personal blog where I mainly write about technology related to my employer Rubrik and the rest of the virtualisation and storage industry.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Besides blogging about technology, and occasionally more philosophical topics (more like rants really) related to the workplace, I love books and spend a lot of my limited free time reading, mostly non-fiction.
 
+I’m mainly interested in storage, orchestration/cmp’s (Mesos, Kubernetes,…), Containers (Docker, LXC, Rkt,…), Networking (SDN,…), Analytics (ELK,…) and Machine Learning. I’ve worked for VMware, Riverbed, Nuage Networks, Dell, Citrix, and several VARs in the past. I’m currently the Field CTO for the EMEA region at Rubrik. I like to understand the fundamentals behind technology, like the great Stephen Hawking says “the greatest enemy of knowledge is not ignorance, it is the illusion of knowledge”.
 
-[jekyll-organization]: https://github.com/jekyll
+I enjoy public speaking and sharing knowledge (hence this blog) but most importantly being challenged and learning on a daily basis. If you see me at an event please come up and say hi, always looking to connect, and learn from different people.
+
+I was awarded vExpert 2014, 2015, 2016, 2017, and 2018 and hold a plethora (= too many to keep current) of industry certifications (see Linkedin for more info).
+
+But above all I don’t take myself too seriously (at all), our time here is limited let’s enjoy it as much as possible.
+
+Although I mainly blog about technology that is related to my employer, it is in no way endorsed or approved by my employer and all opinions are my own.
+
+You can also find me on https://twitter/filipv or https://www.linkedin.com/in/verloy/ 
