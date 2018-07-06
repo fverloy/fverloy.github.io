@@ -20,4 +20,4 @@ But above all I don’t take myself too seriously (at all), our time here is lim
 
 Although I mainly blog about technology that is related to my employer, it is in no way endorsed or approved by my employer and all opinions are my own.
 
-You can also find me on https://twitter/filipv or https://www.linkedin.com/in/verloy/ 
+You can also find me on [Twitter](https://twitter/filipv) or [Linkedin](https://www.linkedin.com/in/verloy/)
