@@ -42,6 +42,6 @@ Erasure codes are typically quite flexible in the way you can implement them, me
 
 The logic behind it can seem quite complex, I have linked to a nice video explanation by Backblaze below;
 
-[![BackBlaze EC](http://img.youtube.com/vi/jgO09opx56o/0.jpg](https://youtu.be/jgO09opx56o)
+[!BackBlaze EC(http://img.youtube.com/vi/jgO09opx56o/0.jpg](https://youtu.be/jgO09opx56o)
 
 * (http://web.eecs.utk.edu/~plank/plank/papers/CS-96-332.pdf)
