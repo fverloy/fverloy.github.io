@@ -18,3 +18,5 @@ As my editor I'm using [Visual Studio Code](https://code.visualstudio.com/), and
 I'm still debating using another theme, but I'm kinda digging the simplicity and speed of the default one called Minima. Another thing I'll probably add is [pagination](https://jekyllrb.com/docs/pagination/) and maybe see if I can use [disqus](http://sgeos.github.io/jekyll/disqus/2016/02/15/adding-disqus-to-a-jekyll-blog.html) for commenting. I also still need to look at Google indexing/SEO. 
 
 Overall still some work to do, but happy with the migration so far. 
+
+UPDATE 1: Small issue found with [AMP](https://www.ampproject.org/) links. Apparently historical Twitter links automatically point to (now non-existent) AMP versions of my blog, which leads to 404's right now. An AMP plugin doesn't seem to be available with [GitHub Pages and Jekyll](https://help.github.com/articles/configuring-jekyll-plugins/) right now. 
