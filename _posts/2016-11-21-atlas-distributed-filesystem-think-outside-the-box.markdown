@@ -14,7 +14,7 @@ A couple of things I wanted to clarify first, when I say “also down the applia
 Secondly, some traditional vendors can indeed deliver their solution in an appliance based model, be it their own branded one, or pre-packaged via a partnership with a traditional hardware vendor. I’m not saying there is something inherently bad about this, simplifying the acquisition of a backup solution via an appliance based model is great, but there the comparison stops, it will still be a legacy based architecture with disparate software components, typically these software components, think media server,  database server, search server, storage node, etc. need individual love and care, daily babysitting if you will, to keep them going.
 Lastly from a component point of view our appliance consists of multiple independent (masterless) nodes that are each capable of running all tasks of the data management solution, in other words there is no need to protect, or indeed worry about, individual software and hardware components as everything is running distributed and able to sustain multiple failures while remaining operational.
 
-![blog image]({{ "/assets/nospoonjpg" | absolute_url }})
+![blog image]({{ "/assets/nospoon.jpg" | absolute_url }})
 _There is no spoon (box)_
 
 So the difference lies in the software architecture, not the packaging, as such we need to look beyond the box itself and dive into why starting from a clustered distributed system as a base makes much more sense in todays information era.
