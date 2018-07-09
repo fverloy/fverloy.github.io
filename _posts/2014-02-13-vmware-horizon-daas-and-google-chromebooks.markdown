@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On VMware, Google, and OpenFlow"
+title:  "VMware Horizon DaaS and Google Chromebooks"
 date:   2014-02-13 14:21:43 +0200
 categories: VMware, Google, Chromebooks
 permalink: /2014/02/13/vmware-horizon-daas-and-google-chromebooks/
