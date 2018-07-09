@@ -15,6 +15,7 @@ Secondly, some traditional vendors can indeed deliver their solution in an appli
 Lastly from a component point of view our appliance consists of multiple independent (masterless) nodes that are each capable of running all tasks of the data management solution, in other words there is no need to protect, or indeed worry about, individual software and hardware components as everything is running distributed and able to sustain multiple failures while remaining operational.
 
 ![blog image]({{ "/assets/nospoon.jpg" | absolute_url }})
+
 _There is no spoon (box)_
 
 So the difference lies in the software architecture, not the packaging, as such we need to look beyond the box itself and dive into why starting from a clustered distributed system as a base makes much more sense in todays information era.
