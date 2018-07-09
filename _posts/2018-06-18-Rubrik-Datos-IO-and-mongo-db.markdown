@@ -5,7 +5,7 @@ date:   2018-06-18 14:21:43 +0200
 categories: Rubrik 
 permalink: /2018/06/18/rubrik-datos-io-and-mongodb/
 redirect_from:
-  - /2018/06/18/rubrik-datos-io-and-mongodb/amp
+  - /2018/06/18/rubrik-datos-io-and-mongodb/amp/
 ---
 ![blog image]({{ "/assets/leaves.jpg" | absolute_url }})
 
