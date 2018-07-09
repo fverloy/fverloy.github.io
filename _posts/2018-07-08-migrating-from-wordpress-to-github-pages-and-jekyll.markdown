@@ -5,9 +5,9 @@ date:   2018-07-08 14:21:43 +0200
 categories: Blog, GitHub
 permalink: /2018/07/08/migrating-from-wordpress-to-github-pages-and-jekyll/
 ---
-Taking a look a what I was using and paying WordPress.com for I felt it no longer made sense to keep using the service. After looking at some alternatives I decided upon using GitHub Pages to host my blog. It will force me to use a certain toolset (ways around it ofc) and it's free! :-)
+Taking a look a what I was using and paying WordPress.com for I felt it no longer made sense to keep using the service. After looking at some alternatives I decided upon using GitHub Pages to host my blog. It will force me to use a certain toolset and it's free! :-)
 
-You can easily export your old blogs via WordPress.com and you'll get them in XML format, as GitHub Pages with Jekyll uses markdown you need to convert that XML first. There are many tools available, just Google "wordpress xml to markdown" and you'll get a bunch of hits. I tried a couple, inlcuding [exitwp](https://github.com/thomasf/exitwp) but felt too much manual cleanup was needed still simply because some of the constructs are not available in markdown. For example, I found no way to link directly to a YouTube video (with a preview screen) from markfown so that is something I had to manually change. (You can have a screenshot preview linking to the video on YouTube.com itself). 
+You can easily export your old blogs via WordPress.com and you'll get them in XML format, as GitHub Pages with Jekyll uses markdown you need to convert that XML first. There are many tools available, just Google "wordpress xml to markdown" and you'll get a bunch of hits. I tried a couple, including [exitwp](https://github.com/thomasf/exitwp) but felt too much manual cleanup was needed still simply because some of the constructs are not available in markdown. For example, I found no way to link directly to a YouTube video (with a preview screen) from markfown so that is something I had to manually change. (You can have a screenshot preview linking to the video on YouTube.com itself). 
 
 As I'm using Cloudflare for DNS/CDN/DDoS/... I needed to change the A records to point to GitHub Pages, more info on how to do that can be found [here.](https://help.github.com/articles/setting-up-an-apex-domain/)
 
