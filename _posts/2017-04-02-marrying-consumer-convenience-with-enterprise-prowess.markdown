@@ -23,7 +23,7 @@ What if most of the heavy lifting is taken care of by the system itself, interna
 
 That is what the Rubrik Cloud Data Management solution is trying to achieve, under the hood it is a very, very capable piece of equipment but most of the complexity that comes with these enterprise capabilities has been automated away, and the little interaction that is left to the end-user is very straight forward, and dare I say enjoyable?
 
-![blog image]({{ "/assets/laptop-desktopx1.png" | absolute_url }})
+![blog image]({{ "/assets/laptop-desktop1x.png" | absolute_url }})
 
 Matching enterprise data management capabilities with the simplicity of a consumer application is a lofty goal, but one worthy to pursue in my humble opinion. After all…
 
