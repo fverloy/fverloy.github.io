@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "VMware’s Cloud Nativeness"
-date:   2014-05-12 14:21:43 +0200
-categories: VMware 
+date:   2017-12-31 14:21:43 +0200
+categories: VMware, CNA, PKS, SDDC
 permalink: /2017/12/31/vmwares-cloud-nativeness/
 ---
 

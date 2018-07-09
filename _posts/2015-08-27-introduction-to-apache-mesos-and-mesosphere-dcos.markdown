@@ -67,7 +67,7 @@ So Apache Mesos is a distributed system for running and building other distribut
 
 In Mesos, the framework (distributed system) issues a request for what is needed at that specific time to the scheduler. This differs from traditional distributed systems as normally the person (again, in Mesos it will be the framework making the request, not a person) making the request would need to figure out the specification beforehand and request those resources, typically the requirements change (think Map/Reduce for example where there is a change in required resources between the Map and Reduce phases).
 
-Mesos ![blog image]({{ "/assets/mesos10.png" | absolute_url }})then offers the best approximation of those resources immediately instead of waiting to able to fulfil the request completely/exactly. (it wants to be non-blocking as this in most cases is sufficient, i.e. you don’t need the exact amount of requested resources immediately)
+![blog image]({{ "/assets/mesos10.png" | absolute_url }})Mesos then offers the best approximation of those resources immediately instead of waiting to able to fulfil the request completely/exactly. (it wants to be non-blocking as this in most cases is sufficient, i.e. you don’t need the exact amount of requested resources immediately)
 
 ![blog image]({{ "/assets/mesos11.png" | absolute_url }})Now the framework (distributed system) uses the offers from Mesos to perform it’s own scheduling, e.g. “two-level scheduling”
 
