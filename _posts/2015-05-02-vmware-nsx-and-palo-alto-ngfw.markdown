@@ -5,7 +5,7 @@ date:   2015-05-02 14:21:43 +0200
 categories: VMware, NSX, SDN, Palo Alto Networks 
 permalink: /2015/05/02/vmware-nsx-and-palo-alto-ngfw/
 ---
-![blog image]({{ "/assets/pan.jpg" | absolute_url }})
+![blog image]({{ "/assets/pan.jpeg" | absolute_url }})
 
 VMware NSX is a platform for network and security virtualization, and as such it has the capability to integrate onto it’s platform certain functionalities that are not delivered by VMware itself. One such integration point is with Palo Alto Networks’s Next-Generation Firewall.
 
