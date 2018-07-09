@@ -4,6 +4,7 @@ title:  "Rubrik Datos IO and MongoDB"
 date:   2018-06-18 14:21:43 +0200
 categories: Rubrik 
 permalink: /2018/06/18/rubrik-datos-io-and-mongodb/
+permalink: /2018/06/18/rubrik-datos-io-and-mongodb/amp
 ---
 ![blog image]({{ "/assets/leaves.jpg" | absolute_url }})
 
