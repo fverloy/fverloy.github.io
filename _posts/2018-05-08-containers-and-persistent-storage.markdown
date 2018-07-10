@@ -3,7 +3,7 @@ layout: post
 title:  "Containers and persistent storage"
 date:   2018-05-08 14:21:43 +0200
 categories: Containers 
-permalink: /2018/06/08/containers-and-persistent-storage/
+permalink: /2018/05/08/containers-and-persistent-storage/
 ---
 ![blog image]({{ "/assets/ytho.jpg" | absolute_url }})
 
