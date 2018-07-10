@@ -4,6 +4,8 @@ title:  "VMware’s Cloud Nativeness"
 date:   2017-12-31 14:21:43 +0200
 categories: VMware, CNA, PKS, SDDC
 permalink: /2017/12/31/vmwares-cloud-nativeness/
+redirect_from:
+  - /2017/12/31/vmwares-cloud-nativeness/amp/
 ---
 
 ![blog image]({{ "/assets/sunset-at-palo-alto-hq.jpg" | absolute_url }})

@@ -4,6 +4,8 @@ title:  "Rubrik's Masterless Cluster Approach"
 date:   2017-10-23 14:21:43 +0200
 categories: Rubrik 
 permalink: /2017/10/23/rubriks-masterless-cluster-approach/
+redirect_from:
+  - /2017/10/23/rubriks-masterless-cluster-approach/amp/
 ---
 
 ![blog image]({{ "/assets/slaythemasters_screenshot.png" | absolute_url }})
