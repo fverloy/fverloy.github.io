@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Effects of latency and packet loss on TCP throughput"
-date:   2012-06-16 14:21:43 +0200
+date:   2013-06-19 14:21:43 +0200
 categories: Riverbed 
 permalink: /2013/06/19/effects-of-latency-and-packet-loss-on-tcp-throughput/
 ---
