@@ -4,6 +4,8 @@ title:  "Marrying consumer convenience with enterprise prowess"
 date:   2017-04-02 14:21:43 +0200
 categories: Rubrik 
 permalink: /2017/04/02/marrying-consumer-convenience-with-enterprise-prowess/
+redirect_from:
+  - /2017/04/02/marrying-consumer-convenience-with-enterprise-prowess/amp/
 ---
 If you look at the consumer applications we interface with on a daily basis, things like Facebook, Google, Twitter,… these all tend to be very easy to use and understand, typically little to no explanation is needed on how to use them, you simply sign-up and you get going.
 

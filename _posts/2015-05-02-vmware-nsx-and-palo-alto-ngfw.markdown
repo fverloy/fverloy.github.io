@@ -4,6 +4,8 @@ title:  "VMware NSX and Palo Alto NGFW"
 date:   2015-05-02 14:21:43 +0200
 categories: VMware, NSX, SDN, Palo Alto Networks 
 permalink: /2015/05/02/vmware-nsx-and-palo-alto-ngfw/
+redirect_from:
+  - /2015/05/02/vmware-nsx-and-palo-alto-ngfw/amp/
 ---
 ![blog image]({{ "/assets/pan.jpeg" | absolute_url }})
 

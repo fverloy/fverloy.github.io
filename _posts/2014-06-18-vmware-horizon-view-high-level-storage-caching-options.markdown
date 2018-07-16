@@ -4,6 +4,8 @@ title:  "VMware Horizon View – High Level Storage Caching Options"
 date:   2014-06-18 14:21:43 +0200
 categories: VMware, Horizon, Storage, Caching
 permalink: /2014/06/18/vmware-horizon-view-high-level-storage-caching-options/
+redirect_from:
+  - /2014/06/18/vmware-horizon-view-high-level-storage-caching-options/amp/
 ---
 **What are we trying to solve?**
 

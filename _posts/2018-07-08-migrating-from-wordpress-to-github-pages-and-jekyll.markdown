@@ -4,6 +4,8 @@ title:  "Migrating my blog from WordPress to GitHub Pages and Jekyll"
 date:   2018-07-08 14:21:43 +0200
 categories: Blog, GitHub
 permalink: /2018/07/08/migrating-from-wordpress-to-github-pages-and-jekyll/
+redirect_from:
+  - /2018/07/08/migrating-from-wordpress-to-github-pages-and-jekyll/amp/
 ---
 Taking a look a what I was using and paying WordPress.com for I felt it no longer made sense to keep using the service. After looking at some alternatives I decided upon using GitHub Pages to host my blog. It will force me to use a certain toolset, and it's free! :-)
 

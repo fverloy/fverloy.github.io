@@ -4,6 +4,8 @@ title:  "On SDN, NFV, and OpenFlow"
 date:   2014-03-17 14:21:43 +0200
 categories: SDN, NFV, OpenFlow
 permalink: /2014/03/17/on-sdn-nfv-and-openflow/
+redirect_from:
+  - /2014/03/17/on-sdn-nfv-and-openflow/amp/
 ---
 **Introduction**
 

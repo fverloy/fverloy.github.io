@@ -4,6 +4,8 @@ title:  "Virtualization improves Oracle"
 date:   2014-04-24 14:21:43 +0200
 categories: VMware, vSphere, Oracle
 permalink: /2014/04/24/virtualization-improves-oracle/
+redirect_from:
+  - /2014/04/24/virtualization-improves-oracle/amp/
 ---
 ![blog image]({{ "/assets/oracle1.jpg" | absolute_url }})
 

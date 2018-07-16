@@ -4,6 +4,8 @@ title:  "VMware Horizon DaaS and Google Chromebooks"
 date:   2014-02-13 14:21:43 +0200
 categories: VMware, Google, Chromebooks
 permalink: /2014/02/13/vmware-horizon-daas-and-google-chromebooks/
+redirect_from:
+  - /2014/02/13/vmware-horizon-daas-and-google-chromebooks/amp/
 ---
 Yesterday at VMware’s Partner Exchange (PEX), VMware announced that it is joining forces with Google to modernize corporate desktops for the Mobile Cloud Era by providing businesses with secure, cloud access to Windows applications, data and Desktops on Google Chromebooks.
 

@@ -4,6 +4,8 @@ title:  "Managing Riverbed VSP with VMware vCenter"
 date:   2012-11-27 14:21:43 +0200
 categories: Riverbed, VMware
 permalink: /2012/11/27/managing-riverbed-vsp-with-vmware-vcenter/
+redirect_from:
+  - /2012/11/27/managing-riverbed-vsp-with-vmware-vcenter/amp/
 ---
 Riverbed has recently released version 2 of the EX platform software, this includes RiOS 8 and Virtual Services Platform v2. VSPv2 runs VMware ESXi 5 as it’s hypervisor layer and as such can be managed by VMware vCenter.
 

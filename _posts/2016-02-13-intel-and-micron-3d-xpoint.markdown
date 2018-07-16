@@ -4,6 +4,8 @@ title:  "Intel and Micron 3D XPoint"
 date:   2016-02-13 14:21:43 +0200
 categories: Storage, Intel 
 permalink: /2016/02/13/intel-and-micron-3d-xpoint/
+redirect_from:
+  - /2016/02/13/intel-and-micron-3d-xpoint/amp/
 ---
 
 ![blog image]({{ "/assets/intel_micron.jpg" | absolute_url }})

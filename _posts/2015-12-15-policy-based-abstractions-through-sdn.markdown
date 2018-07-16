@@ -4,6 +4,8 @@ title:  "Policy Based Abstractions through SDN"
 date:   2015-12-15 14:21:43 +0200
 categories: SDN, Nuage Networks 
 permalink: /2015/12/15/policy-based-abstractions-through-sdn/
+redirect_from:
+  - /2015/12/15/policy-based-abstractions-through-sdn/amp/
 ---
 As I’m sure you’re tired of hearing by now IT is typically divided in multiple silo’s which don’t always see eye to eye. Sometimes people are afraid of needing to adjust perceived best practises in their own domain to better collaborate with the rest of the organization, in many cases though it’s simply a matter of not understanding each other because you are not speaking the same language.
 

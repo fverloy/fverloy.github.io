@@ -4,6 +4,8 @@ title:  "Zero Trust Network Architecture and Micro-Segmentation"
 date:   2014-07-01 14:21:43 +0200
 categories: Zero Trust, Micro-segmentation
 permalink: /2014/07/01/zero-trust-network-architecture-and-micro-segmentation/
+redirect_from:
+  - /2014/07/01/zero-trust-network-architecture-and-micro-segmentation/amp/
 ---
 **A killer application**
 

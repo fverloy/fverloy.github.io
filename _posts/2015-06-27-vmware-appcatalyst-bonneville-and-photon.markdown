@@ -4,6 +4,8 @@ title:  "VMware AppCatalyst, Bonneville, and Photon."
 date:   2015-06-27 14:21:43 +0200
 categories: VMware, AppCatalyst, Bonneville, Photon 
 permalink: /2015/06/27/vmware-appcatalyst-bonneville-and-photon/
+redirect_from:
+  - /2015/06/27/vmware-appcatalyst-bonneville-and-photon/amp/
 ---
 VMware has lot’s and lot’s of customers, running lot’s and lot’s of workloads, both dev and test workloads and production workloads, you know like, super duper important stuff that cannot, under any circumstance break.
 

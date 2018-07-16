@@ -4,6 +4,8 @@ title:  "Whitewater 3 – waves of innovation washing onto the shore"
 date:   2013-08-09 14:21:43 +0200
 categories: Riverbed, Whitewater, Backup
 permalink: /2013/08/09/whitewater-3-waves-of-innovation-washing-onto-the-shore/
+redirect_from:
+  - /2013/08/09/whitewater-3-waves-of-innovation-washing-onto-the-shore/amp/
 ---
 Riverbed recently released the latest edition of it’s cloud storage gateway, both upgrading the software and providing new hardware options.
 

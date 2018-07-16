@@ -4,6 +4,8 @@ title:  "VMware Integrated OpenStack (VIO)"
 date:   2014-08-25 14:21:43 +0200
 categories: VMware, VIO, OpenStack
 permalink: /2014/08/25/vmware-integrated-openstack-vio/
+redirect_from:
+  - /2014/08/25/vmware-integrated-openstack-vio/amp/
 ---
 ![blog image]({{ "/assets/openstack-logo.jpg" | absolute_url }})
 

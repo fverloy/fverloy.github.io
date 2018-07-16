@@ -4,6 +4,8 @@ title:  "File- and Block Storage over a WAN"
 date:   2012-08-02 14:21:43 +0200
 categories: Riverbed, WAN, Storage
 permalink: /2012/08/02/file-and-block-storage-over-a-wan/
+redirect_from:
+  - /2012/08/02/file-and-block-storage-over-a-wan/amp/
 ---
 In this post I wanted to explore how you can accelerate file storage (using CIFS as an example) over a wide area network and why it traditionally does not work for block storage (using iSCSI as an example). First let’s look into some of the (greatly simplified) common differences between the types of storage.
 

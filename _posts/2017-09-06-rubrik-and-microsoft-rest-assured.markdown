@@ -4,6 +4,8 @@ title:  "Rubrik and Microsoft, rest assured."
 date:   2017-09-06 14:21:43 +0200
 categories: Rubrik, Microsoft 
 permalink: /2017/09/06/rubrik-and-microsoft-rest-assured/
+redirect_from:
+  - /2017/09/06/rubrik-and-microsoft-rest-assured/amp/
 ---
 
 ![blog image]({{ "/assets/unicorn-logo-small.png" | absolute_url }})

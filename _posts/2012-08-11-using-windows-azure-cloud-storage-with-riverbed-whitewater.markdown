@@ -4,6 +4,8 @@ title:  "Using Windows Azure Cloud Storage with Riverbed Whitewater"
 date:   2012-08-11 14:21:43 +0200
 categories: Riverbed, Azure, Microsoft
 permalink: /2012/08/11/using-windows-azure-cloud-storage-with-riverbed-whitewater/
+redirect_from:
+  - /2012/08/11/using-windows-azure-cloud-storage-with-riverbed-whitewater/amp/
 ---
 Riverbed Whitewater allows you to connect your on-premise backup and archive environment to a public cloud storage provider like Microsoft’s Windows Azure.
 

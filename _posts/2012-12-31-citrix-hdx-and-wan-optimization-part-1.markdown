@@ -4,6 +4,8 @@ title:  "Citrix HDX and WAN optimization (part 1)"
 date:   2012-12-31 14:21:43 +0200
 categories: Citrix, WAN, HDX, Riverbed
 permalink: /2012/12/31/citrix-hdx-and-wan-optimization-part-1/
+redirect_from:
+  - /2012/12/31/citrix-hdx-and-wan-optimization-part-1/amp/
 ---
 **Introduction**
 

@@ -4,6 +4,8 @@ title:  "Amazon Glacier and Backup economics"
 date:   2013-05-19 14:21:43 +0200
 categories: Amazon, Glacier, Backup
 permalink: /2013/05/19/amazon-glacier-and-backup-economics/
+redirect_from:
+  - /2013/05/19/amazon-glacier-and-backup-economics/amp/
 ---
 In the summer of last year Amazon announced Amazon Glacier, an extremely low cost storage service designed for data archiving and backup.
 

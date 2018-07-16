@@ -4,6 +4,8 @@ title:  "vSphere 6 – vMotion nonpareil"
 date:   2015-05-02 14:21:43 +0200
 categories: VMware, vSphere, vMotion
 permalink: /2015/02/02/vsphere-6-vmotion-nonpareil/
+redirect_from:
+  - /2015/02/02/vsphere-6-vmotion-nonpareil/amp/
 ---
 I remember when I was first asked to install ESX 2.x for a small internal project, must have been somewhere around 2004-2005, I was working at a local systems integrator and got the task because no one else was around at the time. When researching what this thing was and how it actually worked I got sucked in, then some time later when I saw VMotion(sic) for the first time I was hooked.
 

@@ -4,6 +4,8 @@ title:  "Docker networking overview"
 date:   2016-02-17 14:21:43 +0200
 categories: Docker, Networking 
 permalink: /2016/02/17/docker-networking-overview/
+redirect_from:
+  - /2016/02/17/docker-networking-overview/amp/
 ---
 
 ![blog image]({{ "/assets/docker-turtles-communication.jpg" | absolute_url }})

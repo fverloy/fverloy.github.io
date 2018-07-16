@@ -4,6 +4,8 @@ title:  "VMware OpenStack Virtual Appliance"
 date:   2014-08-01 14:21:43 +0200
 categories: VMware, OpenStack
 permalink: /2014/08/01/vmware-openstack-virtual-appliance/
+redirect_from:
+  - /2014/08/01/vmware-openstack-virtual-appliance/amp/
 ---
 ![blog image]({{ "/assets/team-openstack-vmware.png" | absolute_url }})
 

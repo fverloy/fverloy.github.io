@@ -4,6 +4,8 @@ title:  "Riverbed Whitewater and Caringo CAStor"
 date:   2012-12-26 14:21:43 +0200
 categories: Riverbed, Caringo
 permalink: /2012/12/26/riverbed-whitewater-and-caringo-castor/
+redirect_from:
+  - /2012/12/26/riverbed-whitewater-and-caringo-castor/amp/
 ---
 One of the coolest, in my humble opinion of course, solutions I was able to work with when I was at Dell, was the CAStor Object Storage system from Caringo, OEM’ed as the Dell DX6000.
 

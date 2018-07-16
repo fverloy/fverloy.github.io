@@ -4,6 +4,8 @@ title:  "NSX Service Chaining"
 date:   2014-05-12 14:21:43 +0200
 categories: NSX 
 permalink: /2014/05/12/nsx-service-chaining/
+redirect_from:
+  - /2014/05/12/nsx-service-chaining/amp/
 ---
 
 ![blog image]({{ "/assets/nsx_partners.jpg" | absolute_url }})

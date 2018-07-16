@@ -4,6 +4,8 @@ title:  "Atlas distributed filesystem, think outside the box."
 date:   2016-11-21 14:21:43 +0200
 categories: Rubrik 
 permalink: /2016/11/21/atlas-distributed-filesystem-think-outside-the-box/
+redirect_from:
+  - /2016/11/21/atlas-distributed-filesystem-think-outside-the-box/amp/
 ---
 
 ![blog image]({{ "/assets/atlas.jpg" | absolute_url }})

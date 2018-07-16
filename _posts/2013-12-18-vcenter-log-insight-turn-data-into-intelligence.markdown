@@ -4,6 +4,8 @@ title:  "vCenter Log Insight – Turn data into intelligence"
 date:   2013-12-18 14:21:43 +0200
 categories: VMware, vCenter Log Insight
 permalink: /2013/12/18/vcenter-log-insight-turn-data-into-intelligence/
+redirect_from:
+  - /2013/12/18/vcenter-log-insight-turn-data-into-intelligence/amp/
 ---
 I haven’t been blogging a lot the last couple of months, I’m still trying to drink from the water-hose having recently started at VMware, and of course customers come before blogs…
 

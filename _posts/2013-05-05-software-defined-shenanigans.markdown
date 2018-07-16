@@ -4,6 +4,8 @@ title:  "Software Defined Shenanigans"
 date:   2013-05-05 14:21:43 +0200
 categories: softaware defined, sdn, sds
 permalink: /2013/05/05/software-defined-shenanigans/
+redirect_from:
+  - /2013/05/05/software-defined-shenanigans/amp/
 ---
 Software defined anything (SDx) is the new black.
 

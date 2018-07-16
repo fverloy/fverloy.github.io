@@ -4,6 +4,8 @@ title:  "Fortinet integration with Nuage Networks SDN"
 date:   2016-04-17 14:21:43 +0200
 categories: Nuage Networks, SDN 
 permalink: /2016/04/17/fortinet-integration-with-nuage-networks-sdn/
+redirect_from:
+  - /2016/04/17/fortinet-integration-with-nuage-networks-sdn/amp/
 ---
 **Introduction**
 

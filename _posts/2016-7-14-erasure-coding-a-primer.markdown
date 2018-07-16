@@ -4,6 +4,8 @@ title:  "Erasure Coding – a primer"
 date:   2016-07-14 14:21:43 +0200
 categories: Storage 
 permalink: /2016/07/14/erasure-coding-a-primer/
+redirect_from:
+  - /2016/07/14/erasure-coding-a-primer/amp/
 ---
 
 ![blog image]({{ "/assets/vengeance-3.jpg" | absolute_url }})

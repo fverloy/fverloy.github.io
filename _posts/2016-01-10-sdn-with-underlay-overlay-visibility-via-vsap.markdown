@@ -4,6 +4,8 @@ title:  "SDN with Underlay – Overlay visibility via VSAP"
 date:   2016-01-10 14:21:43 +0200
 categories: Nuage Networks, SDN 
 permalink: /2016/01/10/sdn-with-underlay-overlay-visibility-via-vsap/
+redirect_from:
+  - /2016/01/10/sdn-with-underlay-overlay-visibility-via-vsap/amp/
 ---
 
 ![blog image]({{ "/assets/nuage-mac.png" | absolute_url }})

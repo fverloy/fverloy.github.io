@@ -4,6 +4,8 @@ title:  "SSL Acceleration"
 date:   2013-02-11 14:21:43 +0200
 categories: Riverbed, SSL
 permalink: /2013/02/11/ssl-acceleration/
+redirect_from:
+  - /2013/02/11/ssl-acceleration/amp/
 ---
 One of the prerequisites for WAN optimization is that the traffic we are attempting to de-duplicate across the WAN is not encrypted, we need “clear-text” data in order to find data patterns so de-duplication is most optimum.
 

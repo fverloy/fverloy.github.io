@@ -4,6 +4,8 @@ title:  "Your Salesforce.com, only faster."
 date:   2013-03-29 14:21:43 +0200
 categories: Salesforce, Riverbed
 permalink: /2012/11/06/your-salesforce-com-only-faster/
+redirect_from:
+  - /2012/11/06/your-salesforce-com-only-faster/amp/
 ---
 As mentioned in my previous post Riverbed has a joined SaaS optimization solution with Akamai called Steelhead Cloud Accelerator. In this blog post I will show you how to use this technology to accelerate your salesforce (people and the application).
 

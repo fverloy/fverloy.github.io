@@ -4,6 +4,8 @@ title:  "Effects of latency and packet loss on TCP throughput"
 date:   2013-06-19 14:21:43 +0200
 categories: Riverbed 
 permalink: /2013/06/19/effects-of-latency-and-packet-loss-on-tcp-throughput/
+redirect_from:
+  - /2013/06/19/effects-of-latency-and-packet-loss-on-tcp-throughput/amp/
 ---
 As an SE at a WAN optimization vendor I’m often faced with the following comment when meeting a new customer: “We don’t need WAN optimization because my ISP is offering me a great deal when I upgrade my bandwidth between A and B”.
 

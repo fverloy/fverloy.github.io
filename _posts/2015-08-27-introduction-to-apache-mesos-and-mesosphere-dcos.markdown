@@ -4,6 +4,8 @@ title:  "Introduction to Apache Mesos and Mesosphere DCOS"
 date:   2014-05-12 14:21:43 +0200
 categories: Mesos, Mesosphere, DCOS 
 permalink: /2015/08/27/introduction-to-apache-mesos-and-mesosphere-dcos/
+redirect_from:
+  - /2015/08/27/introduction-to-apache-mesos-and-mesosphere-dcos/amp/
 ---
 
 ![blog image]({{ "/assets/apache-mesos-logo.jpg" | absolute_url }})

@@ -4,6 +4,8 @@ title:  "Networking Field Day 10 – Nuage Networks"
 date:   2015-09-29 14:21:43 +0200
 categories: Nuage Networks, SDN, SD-WAN, Tech Field Day 
 permalink: /2015/09/29/networking-field-day-10-nuage-networks/
+redirect_from:
+  - /2015/09/29/networking-field-day-10-nuage-networks/amp/
 ---
 
 ![blog image]({{ "/assets/nwfieldday10.png" | absolute_url }})

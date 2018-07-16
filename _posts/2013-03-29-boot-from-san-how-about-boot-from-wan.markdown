@@ -4,6 +4,8 @@ title:  "Boot from SAN? How about boot from WAN!"
 date:   2013-03-29 14:21:43 +0200
 categories: Riverbed, WAN, Storage
 permalink: /2013/03/29/boot-from-san-how-about-boot-from-wan/
+redirect_from:
+  - /2013/03/29/boot-from-san-how-about-boot-from-wan/amp/
 ---
 If you ask an IT administrator to draw his/her ideal IT architecture you’ll probably get a picture of a big consolidated datacenter with all remote branches connecting to it without any locally installed servers/storage.
 

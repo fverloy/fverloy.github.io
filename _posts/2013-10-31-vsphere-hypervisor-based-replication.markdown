@@ -4,6 +4,8 @@ title:  "vSphere hypervisor-based replication"
 date:   2013-10-31 14:21:43 +0200
 categories: VMware, vSphere, Replication
 permalink: /2013/10/31/vsphere-hypervisor-based-replication/
+redirect_from:
+  - /2013/10/31/vsphere-hypervisor-based-replication/amp/
 ---
 vSphere Replication is VMware’s hypervisor (as opposed to storage array) asynchronous (minimum 15 minutes) based replication solution that works at the virtual machine (VMDK) level whereas storage array replication usually works at the datastore (VMFS) level. (One of the reasons why vVols will be interesting going forward).
 

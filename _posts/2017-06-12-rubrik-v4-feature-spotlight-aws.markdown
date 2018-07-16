@@ -4,6 +4,8 @@ title:  "Rubrik Alta feature spotlight: AWS."
 date:   2017-06-14 14:21:43 +0200
 categories: Rubrik, AWS 
 permalink: /2017/06/14/rubrik-v4-feature-spotlight-aws/
+redirect_from:
+  - /2017/06/14/rubrik-v4-feature-spotlight-aws/amp/
 ---
 
 ![blog image]({{ "/assets/rubrik_aws.png" | absolute_url }})

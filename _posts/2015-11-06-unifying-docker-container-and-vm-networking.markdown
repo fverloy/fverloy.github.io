@@ -4,6 +4,8 @@ title:  "Unifying Docker Container and VM networking"
 date:   2015-11-06 14:21:43 +0200
 categories: SDN, Docker, Containers, Nuage Networks 
 permalink: /2015/11/06/unifying-docker-container-and-vm-networking/
+redirect_from:
+  - /2015/11/06/unifying-docker-container-and-vm-networking/amp/
 ---
 
 ![blog image]({{ "/assets/dockerwhale.png" | absolute_url }})

@@ -4,6 +4,8 @@ title:  "VMware Branch Office Desktop with Granite and Atlantis ILIO"
 date:   2013-05-26 14:21:43 +0200
 categories: VMware, Atlantis ILIO
 permalink: /2013/05/26/vmware-branch-office-desktop-with-granite-and-atlantis-computing/
+redirect_from:
+  - /2013/05/26/vmware-branch-office-desktop-with-granite-and-atlantis-computing/amp/
 ---
 When using VMware View, or any other VDI based solution for that matter, across a Wide Area Network you need to think about certain limitations inherit in this setup that can potentially limit the user experience for your remote users.
 

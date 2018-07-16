@@ -4,6 +4,8 @@ title:  "Everything old is new again."
 date:   2018-06-14 14:21:43 +0200
 categories: SunMicrossystems 
 permalink: /2018/06/18/everything-old-is-new-again/
+redirect_from:
+  - /2018/06/18/everything-old-is-new-again/amp/
 ---
 My first job in IT, many moons ago, was at a company called MOTEC, it was a subcontractor of Telenet, one of the biggest ISPs in Belgium. We were responsible for building the cable based telephony systems that their customers used to make phone calls over the tv distribution network.
 
