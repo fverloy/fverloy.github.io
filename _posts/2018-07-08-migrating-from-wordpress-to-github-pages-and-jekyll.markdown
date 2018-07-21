@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Migrating my blog from WordPress to GitHub Pages and Jekyll"
 date:   2018-07-08 14:21:43 +0200
 categories: Blog, GitHub
