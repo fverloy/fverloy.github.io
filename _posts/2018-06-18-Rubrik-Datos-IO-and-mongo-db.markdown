@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Rubrik Datos IO and MongoDB"
 date:   2018-06-18 14:21:43 +0200
 categories: Rubrik 
