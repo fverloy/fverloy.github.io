@@ -31,7 +31,7 @@ This documentary tells the story of Compaq Computer and its three founders, who 
 
  Seemingly simple but deceptively complex, the game of "Go" serves as the backdrop for this battle between artificial intelligence and man. The documentary also depicts the story of DeepMind (acquired by Google)
 
-[![AlphaGo](http://img.youtube.com/vi/78tq1C8spV_g/0.jpg)](https://youtu.be/8tq1C8spV_g)
+[![AlphaGo](http://img.youtube.com/vi/8tq1C8spV_g/0.jpg)](https://youtu.be/8tq1C8spV_g)
 
 **American Experience Silicon Valley**
 
