@@ -33,7 +33,7 @@ This documentary tells the story of Compaq Computer and its three founders, who 
 
 [![AlphaGo](http://img.youtube.com/vi/78tq1C8spV_g/0.jpg)](https://youtu.be/8tq1C8spV_g)
 
-**American Experience | Silicon Valley**
+**American Experience Silicon Valley**
 
 The documentary tells the story of the pioneering scientists who transformed rural Santa Clara County into the hub of technological ingenuity we now know as Silicon Valley. The film spotlights the creativity of the young men who founded Fairchild Semiconductor and in particular the brilliant, charismatic young physicist Robert Noyce.
 
