@@ -69,6 +69,19 @@ Robert X. Cringely followed the Triumph of the Nerds series with Nerds 2.0.1 (Gl
 
 [![Nerds 2.0.1](http://img.youtube.com/vi/Pk2BWphDfvc/0.jpg)](https://youtu.be/Pk2BWphDfvc)
 
+**Steve Jobs: The Man in the Machine**
+
+Filmmaker Alex Gibney examines the life and legacy of the Apple co-founder, a man of intense personal drive whose passing led to an unprecedented outpouring of grief across the globe.
+
+[![man in the machine](http://img.youtube.com/vi/SrlPyKxdMX4/0.jpg)](https://youtu.be/SrlPyKxdMX4)
+
+**General Magic**
+
+GENERAL MAGIC is the untold tale of how a great vision and epic failure changed the world.
+The ideas that dominate the tech industry and our day to day lives were born at a secretive Silicon Valley start-up called ‘General Magic’, which spun out of Apple in 1990 to create the “next big thing”. General Magic shipped the first handheld personal communicator (or “smartphone”) in 1994. Featuring legendary members of the original Macintosh team, along with the creators of the iPod, iPhone, Android, and eBay, the film combines rare archival footage with contemporary stories of the “Magicians” today.  This is the story of one of history’s most talented tech teams and what happens when those who have a dream to change the world fail, fail again, fail better, and ultimately succeed.
+
+[![General Magic](http://img.youtube.com/vi/uTdyb-RWNKo/0.jpg)](https://youtu.be/uTdyb-RWNKo)
+
 **From Bedrooms to Billions**
 
 From Bedrooms to Billions is a 2014 documentary film by British filmmakers Anthony and Nicola Caulfield that tells the story of the British video games industry from 1979 to the present day. The film focuses on how the creativity and vision of a relatively small number of individuals allowed the UK to play a key, pioneering role in the shaping of the billion dollar video games industry which today dominates the modern world's entertainment landscape.
