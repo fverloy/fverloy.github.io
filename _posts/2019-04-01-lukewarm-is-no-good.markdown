@@ -26,3 +26,9 @@ They Were There (also known as IBM Centennial Film: They Were There - People who
 This documentary tells the story of Compaq Computer and its three founders, who in 1982, took on Goliath IBM at the height of its PC dominance.
 
 [![Silicon Cowboys](http://img.youtube.com/vi/7wjJYqUkHd8/0.jpg)](https://youtu.be/7wjJYqUkHd8)
+
+**AlphaGo**
+
+ Seemingly simple but deceptively complex, the game of "Go" serves as the backdrop for this battle between artificial intelligence and man. The documentary also depicts the story of DeepMind (acquired by Google)
+
+[![AlphaGo](http://img.youtube.com/vi/78tq1C8spV_g/0.jpg)](https://youtu.be/8tq1C8spV_g)
