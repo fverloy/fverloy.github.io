@@ -86,7 +86,7 @@ The ideas that dominate the tech industry and our day to day lives were born at 
 
 Aardvark'd: 12 Weeks with Geeks is a 2005 documentary film about the development of Fog Creek Copilot, a remote assistance software tool. Conceptualization of the film began when Fog Creek Software CEO Joel Spolsky announced on his blog that he was seeking a filmmaker to document the development of the product, then called Project Aardvark.
 
-[![Aardvark](http://img.youtube.com/vi/J3dTxIjEeRw/0.jpg)](https://youtu.be/J3dTxIjEeRw)
+[![Aardvark](http://img.youtube.com/vi/J3dTxIjEeRw/0.jpg)](https://youtu.be/J3dTxIjEeRw)  
 
 **From Bedrooms to Billions**
 
