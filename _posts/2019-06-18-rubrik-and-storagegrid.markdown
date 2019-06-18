@@ -17,7 +17,7 @@ First things first, what do we mean when we talk about an Archive target at Rubr
 
 ![blog image]({{ "/assets/rubrikstoragegrid.png" | absolute_url }})
 
-NetApp StorageGRID supports both S3 and Swift as ways of interfacing with their platform, Rubrik can leverage either to connect to the Archive location and have it's intelligent policy engine tier data off to NetApp StorageGRID to optimize for cost and redundancy. 
+NetApp StorageGRID supports S3 as a way of interfacing with their platform, Rubrik will leverage this to connect to the Archive location and have it's intelligent policy engine tier data off to NetApp StorageGRID to optimize for cost and redundancy. 
 
 (Note: StorageGRID also supports NFS as an interface via what they call a NAS Bridge)
 
