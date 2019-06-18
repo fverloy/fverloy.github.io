@@ -17,5 +17,20 @@ First things first, what do we mean when we talk about an Archive target at Rubr
 
 ![blog image]({{ "/assets/rubrikstoragegrid.png" | absolute_url }})
 
+NetApp StorageGRID supports both S3 and Swift as ways of interfacing with their platform, Rubrik can leverage either to connect to the Archive location and have it's intelligent policy engine tier data off to NetApp StorageGRID to optimize for cost and redundancy. 
+
+(Note: StorageGRID also supports NFS as an interface via what they call a NAS Bridge)
+
 **NetApp StorageGRID**
 
+The StorageGRID solution is based on an acquisition NetApp did of Bycast in 2010, Bycast was founded in 1999. The solution is a Scale-Out Object Storage system, it is software-defined in that you can run it as Virtual Machines, as Docker Containers, or on NetApp Engineered Appliances. It presents the data in a single-namespace and can stretch that single-namespace across 16 (geographically dispersed) locations, potentially having certain locations served by VMs and other as Appliances, etc. 
+
+Architecturally the solution runs 2 Admin Nodes (when these are not available the Grid continues to function however), the nodes also provide GUI access (consuming the APIs of the Grid itself), capacity and performance is provided through the Storage Nodes, scale-out across GEOs can be asymmetric, meaning you don't need a exact similar amount of Nodes in every location. and everything is IP interconnected. 
+
+When an object is PUT into the Grid the system automatically makes 2 copies of the data and 3 copies of the metadata (in a distributed NoSQL Database) before acknowledging the write has occurred. Once this operation is done it's Policy Engine (called ILM or Information lifecycle management) determines where this data needs to go and how it needs to be protected (replicas vs erasure coding). The system however guarantees read after write consistency for that data across sites by redirecting (if needed) the metadata lookup to a location that already has it.
+
+The ILM Policy Engine can be used to set object granular policies, it allows operations like changing the redundancy of data over time (remove a copy from a certain site for example), tier to another location (to cloud storage using a NetApp StorageGRID Archive Node for example) etc. Since the Storage Nodes do not need to be homogeneous this also means you can tightly control performance this way. The policy targets and internal construct called a Pool, a group of Storage Nodes in the same physical location can be a member of the same pool, but a Storage Node can also belong to multiple pools, so if you have high performance storage nodes as part of a pool those can be targeted differently for some policies as well.
+
+**Rubrik and NetApp StorageGRID for Direct NAS Archiving**
+
+Besides providing automated data lifecycle management through Rubrik’s control plane while using StorageGRID as a scale-out object-based archive target we can also combine both using Rubrik' Direct NAS Archive capabilities. Rubrik has no interest in being a storage company, partners like NetApp have already solved this, so when we manage and protect large NAS environments we do not land the data on Rubrik, instead we ingest and index the data, wrap it with metadata, and directly pass it through to a storage layer, in this case NetApp StorageGRID. This gives you Rubrik as a data control plane (sic) and NetApp as a data plane in an ideal scenario for both management, cost optimization and redundancy. 
