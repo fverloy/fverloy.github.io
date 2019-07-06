@@ -8,5 +8,3 @@ author: Filip Verloy
 redirect_from:
   - /author/verloy/
 ---
-{{ content }}
-{% include advertisements.html %}
