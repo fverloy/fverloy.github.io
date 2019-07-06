@@ -26,12 +26,13 @@ github_username:  fverloy
 # Build settings
 markdown: kramdown
 # theme: jekyll-theme-cayman
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-redirect-from
 show_excerpts: false
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
