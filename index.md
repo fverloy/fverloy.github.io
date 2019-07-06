@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 {{ content }}
-{% include advertisements.html %}
+{% include includes/advertisements.html %}
 
 layout: home
 author: Filip Verloy
