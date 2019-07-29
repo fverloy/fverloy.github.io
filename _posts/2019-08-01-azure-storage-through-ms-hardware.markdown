@@ -19,4 +19,14 @@ Today the solution is available from Microsoft as a combination of a virtual or 
 
 **Avere Systems - Azure FXT Edge Filer**
 
-Microsoft acquired Avere Systems in 2018
+Microsoft acquired Avere Systems in 2018, the company was based in Pittsburgh, Pennsylvania and founded in 2008 by Ronald Bianchini, Michael Kazar, and Dan Nydick. They released their first FXT Series storage appliances in November 2009. The FCT Edge filer also focuses on providing cloud-integrated hybrid storage that is designed to work with your existing network-attached storage (NAS) system living on-premises. The Edge Filer (caching appliance, available in a performance or capacity model) sits on-premises, it provides a combination of software and hardware to deliver high throughput and low latency for hybrid storage infrastructure supporting high-performance computing (HPC) workloads.
+
+![blog image]({{ "/assets/model.png" | absolute_url }})
+
+Like the StorSimple appliance the FXT also has built-in tiering, but in this case it is provided by DRAM (up to 1.5TB) and NVMe SSD to support big data workloads. It presents itself as a single mountpoint, spanning heterogeneous storage, to your workloads using multuple protocols (including NFSv3, SMBv2, Azure Blob Storage, and Amazon S3). It is sold on a subscription basis. 
+
+**Azure Data Box family**
+
+The Data Box solutions are available for both off-line and on-line data transfer into Azure Storage. If you want to move large amounts of data to Azure and you are limited by time, network availability or costs you can look at the Data Box for off-line transfer. You can use tools like Robocopy to get your data onto either the Data Box Disk (8TB SSD, comes in packs of 5, e.g. 40TB), the Data Box, a ruggedised device, with 100 TB of capacity, or the Data Box Heavy, a ruggedised, self-contained device designed to lift 1 PB of data to the cloud. 
+
+For online operations you have the choice of the Data Box Edge, which, again is a on-premises physical appliance that transfers data to and from Azure. It analyses, processes and transforms your on-premises data before uploading it to the cloud using AI-enabled edge compute capabilities.
