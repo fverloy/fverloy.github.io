@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Azure storage through the lens of Microsoft Hardware"
+title:  "Azure Storage through the lens of Microsoft's own hardware"
 date:   2019-08-01 07:00:00 +0200
 categories: Blog, Microsoft, Azure
 permalink: /2019/08/01/azure-storage-through-ms-hardware/
@@ -15,3 +15,8 @@ Microsoft acquired StorSimple in 2012, situated in Santa Clare at the time, it w
 
 ![blog image]({{ "/assets/storsimple.png" | absolute_url }})
 
+Today the solution is available from Microsoft as a combination of a virtual or physical appliance, Azure Blob storage, and access and data transfer charges depending on use. Now the problem is that data is stored in StorSimple format, making it not readily consumable by other Azure services and applications. To overcome this Microsoft provides something called the StorSimple Data Manager, a gateway after your StorSimple gateway if you will, the Data Manager service provides APIs to extract the StorSimple format data and transform it into other formats such as Azure blobs and Azure Files. There are some limitations and security considerations to take into account, namely the StorSimple Data Manager currently does not work with volumes that are bitlocker encrypted, and some metadata of files (including ACLs) will not be retained in the transformed data, it also only works with NTFS volumes. In terms security considerations you need to take into account that the StorSimple Data Manager needs the service data encryption key to transform from StorSimple format to native format.
+
+**Avere Systems - Azure FXT Edge Filer**
+
+Microsoft acquired Avere Systems in 2018
