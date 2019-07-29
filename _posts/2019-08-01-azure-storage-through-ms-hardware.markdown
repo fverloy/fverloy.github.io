@@ -27,6 +27,13 @@ Like the StorSimple appliance the FXT also has built-in tiering, but in this cas
 
 **Azure Data Box family**
 
-The Data Box solutions are available for both off-line and on-line data transfer into Azure Storage. If you want to move large amounts of data to Azure and you are limited by time, network availability or costs you can look at the Data Box for off-line transfer. You can use tools like Robocopy to get your data onto either the Data Box Disk (8TB SSD, comes in packs of 5, e.g. 40TB), the Data Box, a ruggedised device, with 100 TB of capacity, or the Data Box Heavy, a ruggedised, self-contained device designed to lift 1 PB of data to the cloud. 
+The Data Box solutions are available for both off-line and on-line data transfer into Azure Storage. If you want to move large amounts of data to Azure and you are limited by time, network availability or costs you can look at the Data Box for off-line transfer. You can use tools like Robocopy to get your data onto either the Data Box Disk (8TB SSD, comes in packs of 5, e.g. 40TB), the Data Box, a ruggedised device, with 100 TB of capacity, or the Data Box Heavy, a ruggedised, self-contained device designed to lift 1 PB of data to the cloud. There is typically an data import fee and shipping fee after wich you start consuming Azure Storage as as service.
 
-For online operations you have the choice of the Data Box Edge, which, again is a on-premises physical appliance that transfers data to and from Azure. It analyses, processes and transforms your on-premises data before uploading it to the cloud using AI-enabled edge compute capabilities.
+![blog image]({{ "/assets/databox.png" | absolute_url }})
+
+For online operations you have the choice of the Data Box Edge, which, again is a on-premises physical appliance that transfers data to and from Azure. It analyses, processes and transforms your on-premises data before uploading it to the cloud using AI-enabled edge compute capabilities or a virtual appliance called the Data Box Gateway. In terms of cost this is again based on a subscription fee and in case of the Edge also a shipping fee of course.
+
+![blog image]({{ "/assets/diagram-databox.svg" | absolute_url }})
+
+So Microsoft provides a couple of options to either get data into Azure Storage or have Azure Storage function as a storage tier for certain applications running in a Hybrid scenario proving that you cannot cheat your way around the speed of light. 
+
