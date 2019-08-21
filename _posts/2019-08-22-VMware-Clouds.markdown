@@ -15,7 +15,10 @@ All 3 solutions are powered by VMware Cloud Foundation which is an integrated st
 
 **VMware Cloud on AWS**
 
-This solution has been cooking the longest out of all 3 and certainly seems to be more rounded out at the moment, VMware announced a stratigic partnership with AWS in 2016 and this resulted a.o. things in the initial availability of VMware Cloud on AWS in august of 2017.
+This solution has been cooking the longest out of all 3 and certainly seems to be more rounded out at the moment, VMware announced a stratigic partnership with AWS in 2016 and this resulted a.o. things in the initial availability of VMware Cloud on AWS in august of 2017. The service has been jointly developed by VMware and AWS with the goal of helping customers deploy and accelerate the migration of VMware vSphere-based workloads to the cloud while providing familiar operational tooling. It is also important to note that there are no ingress or egress charges to consume the native AWS services from the VMC on AWS environment.
+
+![blog image]({{ "/assets/VMC on AWS.JPEG" | absolute_url }})
+
 
 **Azure VMware Solution by CloudSimple**
 
