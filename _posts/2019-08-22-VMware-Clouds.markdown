@@ -19,7 +19,7 @@ This solution has been cooking the longest out of all 3 and certainly seems to b
 
 ![blog image]({{ "/assets/VMC-on-AWS.jpg" | absolute_url }})
 
-Since there is a lot of information on VMC on AWS publicly available already I humbly suggest grokking those sources instead of me proving yet another high-level overview of the solution. A good starting point imho is Brian Graf's (Sr. Technical Marketing Manager - VMware Cloud on AWS) blog http://www.brianjgraf.com/category/vmc/ 
+Since there is a lot of information on VMC on AWS publicly available already I humbly suggest grokking those sources instead of me proving yet another high-level overview of the solution. A good starting point imho is Brian Graf's (Sr. Technical Marketing Manager - VMware Cloud on AWS) [blog](http://www.brianjgraf.com/category/vmc/)
 
 **Azure VMware Solution by CloudSimple**
 
