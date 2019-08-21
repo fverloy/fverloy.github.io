@@ -15,9 +15,13 @@ All 3 solutions are powered by VMware Cloud Foundation which is an integrated st
 
 **VMware Cloud on AWS**
 
-VMware announced a stratigic partnership with AWS in 2016
+This solution has been cooking the longest out of all 3 and certainly seems to be more rounded out at the moment, VMware announced a stratigic partnership with AWS in 2016 and this resulted a.o. things in the initial availability of VMware Cloud on AWS in august of 2017.
 
-![blog image]({{ "/assets/storsimple.png" | absolute_url }})
+**Azure VMware Solution by CloudSimple**
+
+NOTE: there is also a upcoming (coming later this year according to Microsoft) Azure VMware Solution by Virtustream
+
+**Google Cloud VMware Solution by CloudSimple**
 
 
 
