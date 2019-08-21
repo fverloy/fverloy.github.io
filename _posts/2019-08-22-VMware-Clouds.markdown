@@ -19,12 +19,11 @@ This solution has been cooking the longest out of all 3 and certainly seems to b
 
 ![blog image]({{ "/assets/VMC-onAWS.jpg" | absolute_url }})
 
-
 **Azure VMware Solution by CloudSimple**
 
 NOTE: there is also a upcoming (coming later this year according to Microsoft) Azure VMware Solution by Virtustream
 
 **Google Cloud VMware Solution by CloudSimple**
 
-
+**Compare and contrast**
 
