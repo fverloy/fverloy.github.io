@@ -43,13 +43,15 @@ The nodes together provide the bare metal hardware for the deployment of the pri
 
 The initial deployment of the private cloud can take up to 2 hours. Now you still need access to your VCF instance running on Azure, to that end you can either use ExpressRoute or setup a point-to-site (i.e. per user) or site-to-site VPN connection which is created and managed via the CloudSimple portal inside your Azure portal.
 
-![blog image]({{ "/assets/Screenshot 2019-08-21 at 20.56.06.png" | absolute_url }})Screenshot 
+![blog image]({{ "/assets/Screenshot 2019-08-21 at 20.56.06.png" | absolute_url }}) 
 
 Now that you have connectivity between your on-premises environment and the CloudSimple private cloud on Azure you can manage your workloads using vCenter. You can launch the vSphere client directly from the CloudSimple portal within your Azure portal.
 
-![blog image]({{ "/assets/Screenshot 2019-08-21 at 21.01.36.png" | absolute_url }})Screenshot 
+![blog image]({{ "/assets/Screenshot 2019-08-21 at 21.01.36.png" | absolute_url }}) 
 
+You can still see the same virtual machines under management of vCenter directy in the Azure portal as well.
 
+![blog image]({{ "/assets/Screenshot 2019-08-21 at 21.04.04.png" | absolute_url }}) 
 
 NOTE: there is also a upcoming (coming later this year according to Microsoft) Azure VMware Solution by Virtustream
 
