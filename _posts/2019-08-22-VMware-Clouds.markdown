@@ -59,7 +59,7 @@ NOTE: there is also a upcoming (later this year according to Microsoft) Azure VM
 
 **Google Cloud VMware Solution by CloudSimple**
 
-The solution was announced at July 30 of 2019 but is not available yet, it is currently slated for availability on the Google Cloud Marketplace later this year. I am assuming the solution will be largely similar to the one CloudSimple is providing for Azure. Google Cloud said they  will provide the first line of support, working closely with CloudSimple to help ensure customers receive a streamlined product support experience. 
+The solution was announced on July 30th of 2019 but is not available yet, it is currently slated for availability on the Google Cloud Marketplace later this year. I am assuming the solution will be largely similar to the one CloudSimple is providing for Azure. Google Cloud said they  will provide the first line of support, working closely with CloudSimple to help ensure customers receive a streamlined product support experience. 
 
 This is not the first collaboration between Google Cloud and VMware and as the pundits will point out it is something that was largely expected after Thomas Kurian became CEO of Google Cloud lending some additional enterprise credibility to the hyperscaler that is conceivably lagging most in this area compared to AWS and Azure. Previously they announced Google Cloud integrations for VMware NSX Service Mesh and SD-WAN by VeloCloud to allow customers to easily deploy and gain visibility into their hybrid workloads.
 
