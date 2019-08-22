@@ -23,7 +23,7 @@ Since there is a lot of information on VMC on AWS publicly available already I h
 
 **Azure VMware Solution by CloudSimple**
 
-The Azure VMware Solution (AVS) is offered directly by Microsoft and is and powered by CloudSimple as a fully managed service, the service provides a VMware environment on Azure bare metal servers. The service is enabled by default on Enterprise Accounts and Cloud Service Provider subscriptions, if you have another Azure subscription you need to contact Microsoft Azure support, you can use your Azure enterprise agreement and Azure credits towards the CloudSimple service. CloudSimple is currently only available in East and West US regions. It is connected to your on-premises VMware environment via ExpressRoute which provides bandwidth up to 100 Gbps.
+The Azure VMware Solution (AVS) is offered directly by Microsoft and is and powered by CloudSimple as a fully managed service, the service provides a VMware environment on Azure bare metal servers. The service is enabled by default on Enterprise Accounts and Cloud Service Provider subscriptions, if you have another Azure subscription you need to contact Microsoft Azure support, you can use your Azure enterprise agreement and Azure credits towards the CloudSimple service. CloudSimple is currently only available in East and West US regions. It is connected to your on-premises VMware environment either via ExpressRoute which provides bandwidth up to 100 Gbps or via a edge VPN gateway.
 
 ![blog image]({{ "/assets/azure-vmware-solution-by-cloudsimple.png" | absolute_url }})
 
