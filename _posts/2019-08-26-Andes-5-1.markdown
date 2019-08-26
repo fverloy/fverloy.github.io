@@ -47,11 +47,31 @@ As we backup the tags as well, when restoring a VM that has vSphere Tags associa
 
 - Retention Locked SLA Domains
 
-In Andes 5.1 you now have the ability to lock the specified retention period on an SLA, the idea being that nobody then can go in and lower the initial retention period thereby providing additional protection against accidental or malicious deletions of objects under Rubrik management.
+In Andes 5.1 you now have the ability to lock the specified retention period on an SLA, the idea being that nobody then can go in and lower the initial retention period thereby providing additional protection against accidental or malicious deletions of objects under Rubrik management. 
 
 ![blog image]({{ "/assets/cdp7.png" | absolute_url }})
 
-When creating the SLA the system will warn you that this cannot be undone.
+When creating the SLA the system will warn you that you cannot shorten or delete the retention.
 
 ![blog image]({{ "/assets/cdp8.png" | absolute_url }})
+
+- SAML 2.0 support
+
+Customers can now implement single sign-on (SSO) using their existing SAML 2.0 compatible identity providers like ADFS, Okta, and OneLogin. 
+
+![blog image]({{ "/assets/cdp9.png" | absolute_url }})
+
+- Azure Archive Tier
+
+This brings the capability to tier snapshots uploaded to Azure through the use of Rubrik SLAs leveraging something called Smart Tiering. 
+
+![blog image]({{ "/assets/cdp10.png" | absolute_url }})
+
+The snapshot will first be uploaded to the default (i.e. Hot) storage Tier, as the snapshot ages it becomes eligible for tiering to the Cool or Archive Tier in Azure. The decision of when to tier is determined by the user configurable minimum access duration combined with Rubrik's 'smart' cost-based analysis, we do this to avoid you incurring additional costs if we determine that you typical restore behaviour would contradict the Azure Cool/Archive Tier SLAs.
+
+- Pure FlashBlade integration
+
+For NAS based backups we already had the ability to use any SMB or NFS source, and for certain NAS appliances like NetApp and EMC Isilon we have API based snapshot integration to deliver consistent point in time file capture and avoid open file issues. In Andes 5.1 we have extended this to Pure FlashBlade.
+
+![blog image]({{ "/assets/cdp11.png" | absolute_url }})
 
