@@ -27,6 +27,22 @@ Recovering the object remains the same workflow as well, just extended with the 
 
 ![blog image]({{ "/assets/cdp3.png" | absolute_url }})
 
-The solution has achieved VMware Ready status.
+The solution has achieved [VMware Ready status](https://www.vmware.com/be/partners/tech-alliance/vmware-ready.html).
 
-- Continuous Data Protection for VMware
+- VMware vSphere Tag Support
+
+We have had the capability to work with vSphere tags before through our PowerShell Module, but with Andes 5.1 we are bringing this support into the GUI and making it natively part of CDM. The idea is that in an environment where VMs can change personas, for example you start out with a test VM and later promote it to a production VM, you want CDM to automatically assing a corresponding SLA to that VM. In the past you could for example move a VM from one virtual folder to another and the VM would inherit the corresponding SLA but this expands that capability to vSphere Tags and Tag Catagories for even greater flexibility.
+
+In the example below I'm looking at the Tag assignments using the vSphere Client and you can see 4 objects have been assigned the 'RubrikCDP' tag.
+
+![blog image]({{ "/assets/cdp4.png" | absolute_url }})
+
+If we then look at the Rubrik CDM UI we can see the same 4 objects have been identified as containing the 'RubrikCDP' tag and can be assinged an SLA based upon this information. 
+
+![blog image]({{ "/assets/cdp5.png" | absolute_url }})
+
+As we backup the tags as well, when restoring a VM that has vSphere Tags associated to it you get the option to either restore the tag association or not. For example if you Live Mount a VM for test/dev you might not want to have an SLA assigned to that ephemiral VM which you can avoid by leaving the Tag off.
+
+![blog image]({{ "/assets/cdp6.png" | absolute_url }})
+
+- VMware vSphere Tag Support
