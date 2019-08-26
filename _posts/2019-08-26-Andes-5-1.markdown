@@ -7,7 +7,7 @@ permalink: /2019/08/26/Andes-5-1/
 ---
 ![blog image]({{ "/assets/andes.jpg" | absolute_url }})
 
-My sneaky colleagues announced the new Rubrik CDM release, codenamed Andes 5.1, while I was on PTO so I’m a couple of days late with this post but still wanted to provide an overview of the new features and function highlights and show you what is coming down the line. I spend a lot of my time day to day talking about roadmap and soliciting feedback from our customers, partners, and prospects on what we are building and planning, and as you might have noticed we have a pretty fast paced release cadence at Rubrik, especially considering we have 3 product lines (CDM, Polaris, and Mosiac) all moving in the same direction (ever upwards and onwards). So what was announced for this particular CDM release?
+My sneaky colleagues [announced](https://www.rubrik.com/press-release/rubrik-enters-data-governance-disaster-recovery-orchestration-and-continuous-data-protection-markets-with-andes-5-1-release/) the new Rubrik CDM release, codenamed Andes 5.1, while I was on PTO so I’m a couple of days late with this post but still wanted to provide an overview of the new features and function highlights and show you what is coming down the line. I spend a lot of my time day to day talking about roadmap and soliciting feedback from our customers, partners, and prospects on what we are building and planning, and as you might have noticed we have a pretty fast paced release cadence at Rubrik, especially considering we have 3 product lines (CDM, Polaris, and Mosiac) all moving in the same direction (ever upwards and onwards). So what was announced for this particular CDM release?
 
 **Andes 5.1 Highlights**
 
@@ -45,4 +45,13 @@ As we backup the tags as well, when restoring a VM that has vSphere Tags associa
 
 ![blog image]({{ "/assets/cdp6.png" | absolute_url }})
 
-- VMware vSphere Tag Support
+- Retention Locked SLA Domains
+
+In Andes 5.1 you now have the ability to lock the specified retention period on an SLA, the idea being that nobody then can go in and lower the initial retention period thereby providing additional protection against accidental or malicious deletions of objects under Rubrik management.
+
+![blog image]({{ "/assets/cdp7.png" | absolute_url }})
+
+When creating the SLA the system will warn you that this cannot be undone.
+
+![blog image]({{ "/assets/cdp8.png" | absolute_url }})
+
