@@ -75,3 +75,4 @@ For NAS based backups we already had the ability to use any SMB or NFS source, a
 
 ![blog image]({{ "/assets/cdp11.png" | absolute_url }})
 
+Besides these highlights there are a slew of other improvements as well, things like support for Vormetric Indexing, vCD template-catalog backup and restore, enhancement to our incremental conversion operations for CloudOn, etc. But in this post I wanted to focus on the big ticket items, happy to elaborate on any topic here, feel free to reach out over [twitter](https://twitter.com/filipv).
