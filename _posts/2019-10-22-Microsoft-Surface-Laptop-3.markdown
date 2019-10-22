@@ -32,7 +32,7 @@ The fans run at an acceptable noise level under load, installing the latest wind
 
 **Connectivity** 
 
-The Laptop comes with 1 USB Type-A port and a 3.5mm headphone jack, and a USB Type-C port (not Thunderbolt 3), the system also supports Intel Wi-Fi 6 (Gig+) and comes with the Surface connector.
+The Laptop comes with 1 USB Type-A port, a 3.5mm headphone jack, and a USB Type-C port (not Thunderbolt 3), the system also supports Intel Wi-Fi 6 (Gig+), the Surface connector is also still present.
 
 **Windows Hello**
 
