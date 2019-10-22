@@ -28,7 +28,7 @@ There are no openings (grills) on the surface of the laptop to allow sound out, 
 **Performance**
 
 One of the reasons I wanted to get my hands on a 10th gen (10nm-based Ice Lake) Intel Core laptop was to get the benefit of the new Intel Iris Plus (Gen11 Iris Plus graphics) GFX performance. It seems to even come out on top of the much touted AMD Vega 10 graphics in most situations. 
-The fans run at an acceptable noise level, installing the latest windows update prompted them to go full blast but not annoying at all. I'll test this by installing some games over the weekend but performance so far is very snappy. (sometimes on other laptops when you hear the windows notification sound it feels like it lags somehow or sounds distorted, not the case on this machine)
+The fans run at an acceptable noise level under load, installing the latest windows update prompted them to go full blast but not annoying at all. I'll test this by installing some games over the weekend but performance so far is very snappy. (sometimes on other laptops when you hear the windows notification sound it feels like it lags somehow or sounds distorted, not the case on this machine)
 
 **Connectivity** 
 
