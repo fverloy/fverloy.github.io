@@ -15,6 +15,8 @@ Specs wise it seems to tick all the right boxes, I went for 13.5 Inch, Quad-core
 
 I travel extensively for work so having a great built-in keyboard is very important to me, I've owned IBM/Lenovo ThinkPad's in the past just to be able to use the excellent keyboards, I must say the Surface Laptop 3 Keyboard feels great, the keys are a little concave which gently guides your fingers, key travel is a respectable 1.3 millimeters and feedback is wonderful. The Trackpad on Surface Laptop 3 13.5 Inch is 20% larger compared to the trackpad on Surface Laptop 2,glass-topped, and a joy to use. 
 
+![blog image]({{ "/assets/IMG_0984.JPG" | absolute_url }})
+
 **Screen**
 
 First of all the 3:2 aspect ratio seems so much more conducive to productivity work than a widescreen laptop, I don't really use my laptop to watch full screen videos (YouTube tutorials in default view yes, Netflix not so much) and I opted for the 13.5 inch over the 15 inch mainly for portability. You can definitly watch full screen content on this device you'll just get some large black bars on the screen reminding you to stop slacking and get back to work. The screen is beautiful overall, brightness is great, pretty glossy though so lots of reflections.
