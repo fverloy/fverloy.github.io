@@ -40,6 +40,6 @@ During setup you are asked to pose for Windows Hello, using it is super snappy, 
 
 **Windows 10 Home** 
 
-The Laptop arrived with Windows 10 Home version 1903 - build 18362.329 installed which has been available since the end of August if that is any indication as to when these machines where staged, before installing anything else running windows update installed build 18362.418. Not having the option to select Windows 10 Pro at the time of purchase is a bit of let down imho. 
+The Laptop arrived with Windows 10 Home version 1903 - build 18362.329 installed which has been available since the end of August if that is any indication as to when these machines where staged, before installing anything else I ran windows update to get to build 18362.418. Not having the option to select Windows 10 Pro at the time of purchase is a bit of let down imho. 
 
-I'm very impressed with this machine at first glance, I'm planning on using it as my daily driver going forward. Another nice surprise whas that the Surface Laptop 3 automatically picked up the Microsoft Complete extended warranty from the Surface Laptop 2 I returned in March. 
+I'm very impressed with this machine at first glance, I'm planning on using it as my daily driver going forward. Another nice surprise was that the Surface Laptop 3 automatically picked up the Microsoft Complete extended warranty from the Surface Laptop 2 I returned in March. 
