@@ -7,7 +7,7 @@ permalink: /2019/10/22/Microsoft-Surface-Laptop-3/
 ---
 ![blog image]({{ "/assets/surfacelaptop3.png" | absolute_url }})
 
-When Panos Panay showed the Surface Laptop 3 at their October 2 event in Manhatten I immediatly knew I had to get it. I briefly owned a Surface Laptop 2 but wasn't a fan of the Alcantara, so when I saw the 3 was available in all black without Alcantara I was sold. I ordered the Surface Laptop 3 on October 4th through the Dutch Microsoft store (and not the Belgian store, just to be able to get a Qwerty keyboard like a civilised person) and it arrived this morning as promised. 
+When Panos Panay showed the Surface Laptop 3 at their October 2 event in Manhattan I immediately knew I had to get it. I briefly owned a Surface Laptop 2 but wasn't a fan of the Alcantara, so when I saw the 3 was available in all black without Alcantara I was sold. I ordered the Surface Laptop 3 on October 4th through the Dutch Microsoft store (and not the Belgian store, just to be able to get a Qwerty keyboard like a civilised person) and it arrived this morning as promised. 
 
 Specs wise it seems to tick all the right boxes, I went for 13.5 Inch, Quad-core 10th gen Intel Core i7-1065G7-processor, 16GB of LPDDR4x RAM, and 512GB SSD. Microsoft claims 11.5 hours of battery life with normal use, I'll have to see how that pans out in the real world. The Surface Laptop 3 also supports Fast Charging so you should be able to power your battery up to 80% in about one hour. (Battery life testing was conducted by Microsoft in September 2019 using preproduction software and preproduction 15” Intel® Core™ i7, 512GB, 16 GB RAM device)
 
@@ -19,11 +19,11 @@ I travel extensively for work so having a great built-in keyboard is very import
 
 **Screen**
 
-First of all the 3:2 aspect ratio seems so much more conducive to productivity work than a widescreen laptop, I don't really use my laptop to watch full screen videos (YouTube tutorials in default view yes, Netflix not so much) and I opted for the 13.5 inch over the 15 inch mainly for portability. You can definitly watch full screen content on this device you'll just get some large black bars on the screen reminding you to stop slacking and get back to work. The screen is beautiful overall, brightness is great, pretty glossy though so lots of reflections.
+First of all the 3:2 aspect ratio seems so much more conducive to productivity work than a widescreen laptop, I don't really use my laptop to watch full screen videos (YouTube tutorials in default view yes, Netflix not so much) and I opted for the 13.5 inch over the 15 inch mainly for portability. You can definitely watch full screen content on this device you'll just get some large black bars on the screen reminding you to stop slacking and get back to work. The screen is beautiful overall, brightness is great, pretty glossy though so lots of reflections.
 
 **Audio**
 
-There are no openings (grills) on the surface of the laptop to allow sound out, instead the sound emanates from the keyboard itself through what Microsoft has dubbed “omni sonic speakers”. They get more than loud enough and sound pretty decent for laptop speakers, definitely one of the better speakers I've come accross in a laptop.
+There are no openings (grills) on the surface of the laptop to allow sound out, instead the sound emanates from the keyboard itself through what Microsoft has dubbed “omni sonic speakers”. They get more than loud enough and sound pretty decent for laptop speakers, definitely one of the better speakers I've come across in a laptop.
 
 **Performance**
 
@@ -32,7 +32,7 @@ The fans run at an acceptable noise level under load, installing the latest wind
 
 **Connectivity** 
 
-The Laptop comes with 1 USB Type-A port, a 3.5mm headphone jack, and a USB Type-C port (not Thunderbolt 3), the system also supports Intel Wi-Fi 6 (Gig+), the Surface connector is also still present.
+The Laptop comes with one USB Type-A port, and one USB Type-C port (but not Thunderbolt), a 3.5mm headphone jack, and the Surface connector is also still there. The system also supports Intel Wi-Fi 6 (Gig+). I tried connecting to my LG 32UL950 monitor using USB-C but that doesn't work (apparently the lG only supports Thunderbolt over USB-C, need to verif this), then I tried connecting with the Apple USB-C to HDMI dongle and that works, somewhat, I get 4K resolution but only at 30Hz, the Surface does not correctly detect the monitor, I have a VAVA USB-C Hub on the way to test with so let's see (hopefully). 
 
 **Windows Hello**
 
@@ -40,6 +40,6 @@ During setup you are asked to pose for Windows Hello, using it is super snappy, 
 
 **Windows 10 Home** 
 
-The Laptop arrived with Windows 10 Home version 1903 - build 18362.329 installed which has been available since end of august if that is any indication as to when these machines where staged, before installing anything else running windows update installed build 18362.418. Not having the option to select Windows 10 Pro at the time of purchase is a bit of let down imho. 
+The Laptop arrived with Windows 10 Home version 1903 - build 18362.329 installed which has been available since the end of August if that is any indication as to when these machines where staged, before installing anything else running windows update installed build 18362.418. Not having the option to select Windows 10 Pro at the time of purchase is a bit of let down imho. 
 
-I'm very impressed with this machine at first glance, I'm planning on using it as my daily driver going forward.
+I'm very impressed with this machine at first glance, I'm planning on using it as my daily driver going forward. Another nice surprise whas that the Surface Laptop 3 automatically picked up the Microsoft Complete extended warranty from the Surface Laptop 2 I returned in March. 
