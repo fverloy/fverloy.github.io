@@ -32,7 +32,7 @@ The fans run at an acceptable noise level under load, installing the latest wind
 
 **Connectivity** 
 
-The Laptop comes with one USB Type-A port, and one USB Type-C port (but not Thunderbolt), a 3.5mm headphone jack, and the Surface connector is also still there. The system also supports Intel Wi-Fi 6 (Gig+). I tried connecting to my LG 32UL950 monitor using USB-C but that doesn't work (apparently the lG only supports Thunderbolt over USB-C, need to verif this), then I tried connecting with the Apple USB-C to HDMI dongle and that works, somewhat, I get 4K resolution but only at 30Hz, the Surface does not correctly detect the monitor, I have a VAVA USB-C Hub on the way to test with so let's see (hopefully). 
+The Laptop comes with one USB Type-A port, and one USB Type-C port (but not Thunderbolt), a 3.5mm headphone jack, and the Surface connector is also still there. The system also supports Intel Wi-Fi 6 (Gig+). I tried connecting to my LG 32UL950 monitor using USB-C but that doesn't work (apparently the LG only supports Thunderbolt over USB-C, still need to verify this), then I tried connecting with the official Apple USB-C to HDMI dongle and that works, somewhat, I get 4K resolution but only at 30Hz, the Surface does not correctly detect the monitor, I have a VAVA USB-C Hub on the way to test with so let's see (hopefully). 
 
 **Windows Hello**
 
