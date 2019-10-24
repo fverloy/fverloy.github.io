@@ -19,7 +19,7 @@ I travel extensively for work so having a great built-in keyboard is very import
 
 **Screen**
 
-First of all the 3:2 aspect ratio seems so much more conducive to productivity work than a widescreen laptop, I don't really use my laptop to watch full screen videos (YouTube tutorials in default view yes, Netflix not so much) and I opted for the 13.5 inch over the 15 inch mainly for portability. You can definitely watch full screen content on this device you'll just get some large black bars on the screen reminding you to stop slacking and get back to work. The screen is beautiful overall, brightness is great, pretty glossy though so lots of reflections.
+First of all the 3:2 aspect ratio seems so much more conducive to productivity work than a widescreen laptop, I don't really use my laptop to watch full screen videos (YouTube tutorials in default view yes, Netflix not so much) and I opted for the 13.5 inch over the 15 inch mainly for portability. You can definitely watch full screen content on this device you'll just get some large black bars on the screen reminding you to stop slacking and get back to work. The screen is beautiful overall, brightness is great, pretty glossy though so lots of reflections. The screen is also a lot less wobbly then on Surface Laptop 1 and 2 which is a good thing, and it has a nice solid "ump" sound when closing the lid, very premium indeed.
 
 **Audio**
 
