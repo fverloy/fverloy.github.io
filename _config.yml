@@ -20,14 +20,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   not represent the views of my employer. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: filipv
-#github_username:  fverloy
-minima:
-  social_links:
-    twitter: filipv
-    github: fverloy
-    instagram: filip.v
-    linkedin: verloy
+twitter_username: filipv
+github_username:  fverloy
+instagram_username: filip.v
+linkedin_username: verloy 
 
 # Build settings
 markdown: kramdown
@@ -38,7 +34,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-sitemap
-show_excerpts: true
+show_excerpts: false
 
 
 # Exclude from processing.
