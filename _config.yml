@@ -28,7 +28,8 @@ linkedin_username: verloy
 # Build settings
 markdown: kramdown
 # theme: jekyll-theme-cayman
-theme: minima
+# theme: minima
+remote_theme: alshedivat/al-folio
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
