@@ -1,16 +1,19 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Always hungry, very foolish.
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hi there!
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+My name is Filip Verloy, you’ve reached my personal blog where I mainly write about technology related to my employer noname security and the rest of the IT industry.
 
-What else do you need?
+I’ve worked for VMware, Rubrik, Riverbed, Nuage Networks, Dell, Citrix, and several VARs in the past. I like to understand the fundamentals behind technology, like the late great Stephen Hawking said “the greatest enemy of knowledge is not ignorance, it is the illusion of knowledge”.
 
-### My story
+I enjoy public speaking and sharing knowledge (hence this blog) but most importantly being challenged and learning on a daily basis. If you see me at an event please come up and say hi, always looking to connect, and learn from different people.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I was recentely awarded Cisco Champion 2018, and have been a vExpert since 2014. I hold a plethora (= too many to keep current) of industry certifications (see Linkedin for more info).
+
+Although I mainly blog about technology that is related to my employer, it is in no way endorsed or approved by my employer and all opinions are solely my own.
+
+You can also find me on Twitter or Linkedin
