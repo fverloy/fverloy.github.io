@@ -6,7 +6,7 @@ subtitle: Always hungry, very foolish.
 
 Hi there!
 
-My name is Filip Verloy, you’ve reached my personal blog where I mainly write about technology related to my employer noname security and the rest of the IT industry.
+My name is Filip Verloy, you’ve reached my personal blog where I mainly write about technology related to my employer [noname security](https://nonamesecurity.com) and the rest of the IT industry.
 
 I’ve worked for VMware, Rubrik, Riverbed, Nuage Networks, Dell, Citrix, and several VARs in the past. I like to understand the fundamentals behind technology, like the late great Stephen Hawking said “the greatest enemy of knowledge is not ignorance, it is the illusion of knowledge”.
 
@@ -16,4 +16,4 @@ I was recentely awarded Cisco Champion 2018, and have been a vExpert since 2014.
 
 Although I mainly blog about technology that is related to my employer, it is in no way endorsed or approved by my employer and all opinions are solely my own.
 
-You can also find me on Twitter or Linkedin
+You can also find me on [Twitter](https://twitter.com/filipv) or [Linkedin](https://www.linkedin.com/in/verloy/)
