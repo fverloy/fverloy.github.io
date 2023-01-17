@@ -18,7 +18,7 @@ I completed the AWS Cloud Practitioner Essentials course, which gives you a grea
 
 One topic I felt wasn't covered too deeply in the edX course was ECS vs EKS vs Fargate, so I used the video below to provide me with more information.
 
-![Containers on AWS](http://img.youtube.com/vi/AYAh6YDXuho/0.jpg)(https://www.youtube.com/watch?v=AYAh6YDXuho)
+[![Containers on AWS](http://img.youtube.com/vi/AYAh6YDXuho/0.jpg)](https://www.youtube.com/watch?v=AYAh6YDXuho)
 
 Generally speaking, YouTube has a bunch of AWS Cloud Practitioner videos, but I tried to stick with more official sources this time around. It does help to hear the same topic covered from multiple different angles so augmenting the lessons with what you can find on YouTube for free isn't the worst idea I think.
 
@@ -44,7 +44,7 @@ Since I had access to O'Reilly anyway I also did the mock tests in the AWS Certi
 
 Now people learn best in different ways, and what works for me might not work for you. This also extends to the physical environment in which you study. I like to force myself to be in a situation without distractions. I have a relatively quiet home office, but it still provides some distractions. So I regularly go to the public library to focus purely on the task at hand. The background noise also helps with focus. I even use https://coffitivity.com/ at home when working to provide that background murmur.
 
-![Tweet](/assets/img/Screenshot-2023-01-17-at-08.18.17)(https://twitter.com/filipv/status/1564259433965838341?s=61&t=G8OfyyIUP2WPAuV4x14lTQ)
+[![Tweet](/assets/img/Screenshot-2023-01-17-at-08.18.17.png)](https://twitter.com/filipv/status/1564259433965838341?s=61&t=G8OfyyIUP2WPAuV4x14lTQ)
 
 
 You can take the exam remotely from the comfort of your own home but I opted to take it at a PearsonVue (Global Knowledge Mechelen in my case) exam center instead. Driving to the exam center put me in the right state of mind to sit the exam, and the center is really nice, cooled, and quite. Having other people around you taking exams also makes the whole thing more real imho.
