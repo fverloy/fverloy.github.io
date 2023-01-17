@@ -22,6 +22,8 @@ author: Filip Verloy
 
 navbar-links:
   About Me: "aboutme"
+  API Security Newsletter: "https://apisec.substack.com/"
+  Cloudology Podcast: "https://open.spotify.com/show/1qwcoIGFZqfWMMOvkrJe3d?si=eec57f9377c544aa"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -126,13 +128,13 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#878d96"
-navbar-text-col: "#00539a"
-navbar-border-col: "#00539a"
+navbar-col: "#3ddbd9"
+navbar-text-col: "#3ddbd9"
+navbar-border-col: "#404040"
 page-col: "#FFFFFF"
 text-col: "#404040"
-link-col: "#00539a"
-hover-col: "#00539a"
+link-col: "#3ddbd9"
+hover-col: "#d9fbfb"
 footer-col: "#878d96"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
