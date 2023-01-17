@@ -126,14 +126,14 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
+navbar-col: "#878d96"
 navbar-text-col: "#00539a"
 navbar-border-col: "#00539a"
 page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#00539a"
 hover-col: "#00539a"
-footer-col: "#EAEAEA"
+footer-col: "#878d96"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
