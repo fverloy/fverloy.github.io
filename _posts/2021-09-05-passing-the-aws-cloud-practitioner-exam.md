@@ -44,7 +44,7 @@ Since I had access to O'Reilly anyway I also did the mock tests in the AWS Certi
 
 Now people learn best in different ways, and what works for me might not work for you. This also extends to the physical environment in which you study. I like to force myself to be in a situation without distractions. I have a relatively quiet home office, but it still provides some distractions. So I regularly go to the public library to focus purely on the task at hand. The background noise also helps with focus. I even use https://coffitivity.com/ at home when working to provide that background murmur.
 
-[![Tweet](/assets/img/Screenshot-2023-01-17-at-08.18.17.png)](https://twitter.com/filipv/status/1564259433965838341?s=61&t=G8OfyyIUP2WPAuV4x14lTQ)
+[![Tweet](/assets/img/tweet.png)](https://twitter.com/filipv/status/1564259433965838341?s=61&t=G8OfyyIUP2WPAuV4x14lTQ)
 
 
 You can take the exam remotely from the comfort of your own home but I opted to take it at a PearsonVue (Global Knowledge Mechelen in my case) exam center instead. Driving to the exam center put me in the right state of mind to sit the exam, and the center is really nice, cooled, and quite. Having other people around you taking exams also makes the whole thing more real imho.
