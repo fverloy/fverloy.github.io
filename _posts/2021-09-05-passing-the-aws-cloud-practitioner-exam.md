@@ -2,7 +2,7 @@
 layout: post
 title: Passing the AWS Certified Cloud Practitioner Exam
 # subtitle: Excerpt from Soulshaping by Jeff Brown
-cover-img: /assets/img/path.jpg
+cover-img: /assets/img/photo-1600267185393-e158a98703de.jpeg
 thumbnail-img: /assets/img/photo-1600267185393-e158a98703de.jpeg
 share-img: /assets/img/photo-1600267185393-e158a98703de.jpeg
 tags: [aws, certification]
