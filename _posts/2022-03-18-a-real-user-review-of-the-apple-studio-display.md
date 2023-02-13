@@ -66,7 +66,7 @@ As expected everything "just works". (I know it is "just a monitor" so that shou
 
 The screen is "only" 60Hz meaning there is no ProMotion, there is also no HDR support, if you feel that is important to you just take that into account. The screen is also glossy (the version I bought) but it is not distracting at all, colors look great. The bezels are a bit bigger than the marketing shots made out to be but still look modern enough.
 
-[![5k video on Apple Studio Display](http://img.youtu.be/vi/oPrcCeKyl0s/0.jpg)](https://youtu.be/oPrcCeKyl0s)
+[![5k video on Apple Studio Display](http://img.youtube.com/vi/oPrcCeKyl0s/0.jpg)](https://youtu.be/oPrcCeKyl0s)
 
 Brightness goes up to 600 nits and TrueTone is enabled by default, it does have auto-brightness as well.
 
@@ -76,11 +76,11 @@ Brightness goes up to 600 nits and TrueTone is enabled by default, it does have 
 
 This is a recording of the LG 32UL950 built-in speakers:
 
-[![LG 32UL950 Built-in speakers](http://img.youtu.be/vi/s16aNQr3kTQ/0.jpg)](https://youtu.be/s16aNQr3kTQ)
+[![LG 32UL950 Built-in speakers](http://img.youtube.com/vi/s16aNQr3kTQ/0.jpg)](https://youtu.be/s16aNQr3kTQ)
 
 This is a recording of the Apple Studio Display built-in speakers:
 
-[![Sounds on Apple Studio Built-in speakers](http://img.youtu.be/vi/153s1JlAQqY/0.jpg)](https://youtu.be/153s1JlAQqY)
+[![Sounds on Apple Studio Built-in speakers](http://img.youtube.com/vi/153s1JlAQqY/0.jpg)](https://youtu.be/153s1JlAQqY)
 
 Overall impression of the sound is excellent, both in sound quality and loudness.
 
@@ -98,7 +98,7 @@ After connecting the display to my MBP I got a pop-up informing you about Centre
 
 Since Zoom is my most common app for meetings I tried it right away.
 
-[![Center stage test](http://img.youtu.be/vi/VqrELcgY1oE/0.jpg)](https://youtu.be/VqrELcgY1oE)
+[![Center stage test](http://img.youtube.com/vi/VqrELcgY1oE/0.jpg)](https://youtu.be/VqrELcgY1oE)
 
 As you can see this works perfectly fine out of the box, after changing positions it takes a few seconds to readjust and center my image.
 
