@@ -18,7 +18,7 @@ I completed the AWS Cloud Practitioner Essentials course, which gives you a grea
 
 One topic I felt wasn't covered too deeply in the edX course was ECS vs EKS vs Fargate, so I used the video below to provide me with more information.
 
-[![Containers on AWS](http://img.youtube.com/vi/AYAh6YDXuho/0.jpg)](https://www.youtube.com/watch?v=AYAh6YDXuho)
+[![Containers on AWS](http://img.youtube.com/vi/AYAh6YDXuho/0.jpg)](https://www.youtube.com/watch?v=AYAh6YDXuho){: .mx-auto.d-block :}
 
 Generally speaking, YouTube has a bunch of AWS Cloud Practitioner videos, but I tried to stick with more official sources this time around. It does help to hear the same topic covered from multiple different angles so augmenting the lessons with what you can find on YouTube for free isn't the worst idea I think.
 
