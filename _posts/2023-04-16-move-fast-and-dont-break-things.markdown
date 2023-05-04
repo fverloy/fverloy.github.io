@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Move Fast and Don’t Break Things.
-featured: true
+tags: [aws, certification]
 date: '2023-04-16 08:27:00'
 ---
 
