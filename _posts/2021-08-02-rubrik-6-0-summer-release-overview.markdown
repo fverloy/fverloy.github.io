@@ -56,7 +56,7 @@ Adaptive throttling for NAS measures the latency during backup, if we detect inc
 
 The UI has been updated to enhance the user experience when initiating dissimilar recoveries between source and destination Oracle environments. The updated UI will allow you to search file paths from within the UI, but we also still support uploading the ACO file as in the past.
 
-<img src="/assets/img/oac.png" class="kg-image" alt loading="lazy" width="1105" height="1399" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/oac.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/oac.png 1000w,/assets/img/oac.png 1105w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/oac.png">
 
 **Oracle Data Guard support**
 
