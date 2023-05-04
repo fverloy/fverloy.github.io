@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Move Fast and Don’t Break Things.
-tags: [aws, certification]
+tags: [stackguardian, iac]
 date: '2023-04-16 08:27:00'
 cover-img: /assets/img/1683181121381.jpeg
 thumbnail-img: /assets/img/1683181121381.jpeg
