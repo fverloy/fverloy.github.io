@@ -1,0 +1,76 @@
+---
+layout: post
+title: Rubrik CDM 5.1
+date: '2019-08-26 09:24:00'
+tags:
+- backup
+- rubrik
+---
+
+My sneaky colleagues [announced](https://www.rubrik.com/press-release/rubrik-enters-data-governance-disaster-recovery-orchestration-and-continuous-data-protection-markets-with-andes-5-1-release/) the new Rubrik CDM release, codenamed Andes 5.1, while I was on PTO so I’m a couple of days late with this post but still wanted to provide an overview of the new features and function highlights and show you what is coming down the line. I spend a lot of my time day to day talking about roadmap and soliciting feedback from our customers, partners, and prospects on what we are building and planning, and as you might have noticed we have a pretty fast paced release cadence at Rubrik, especially considering we have 3 product lines (CDM, Polaris, and Mosaic) all moving in the same direction (ever upwards and onwards). So what was announced for this particular CDM release?
+
+**Andes 5.1 Highlights**
+
+- Continuous Data Protection for VMware
+
+Up until the 5.1 release we have levareged VMware snapshots to provide application consistent backups of your virtualized applications and a near zero RTO using Rubrik’s Live Mount capabilities, we are extending upon that in the 5.1 release by integrating with VMware’s vSphere APIs for I/O Filtering (VAIO) Program. Rubrik has created a CDP filter driver that will be deployed on the ESXi hosts using VMware’s ESXi Agent Management (EAM) system. So now next to a near zero RTO you are also getting a near zero RPO for those high value VMs. From a admin workflow perspective it fits nicely into the existing SLA policy system as we just present a single toggle to enable or disable CDP, simplicity remains one of the corner stones of our solution, even more so now by combining backup and CDP in a single package.
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/cdp1.png" class="kg-image" alt loading="lazy" width="1426" height="1434" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/cdp1.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/cdp1.png 1000w, __GHOST_URL__ /content/images/2021/08/cdp1.png 1426w" sizes="(min-width: 720px) 720px"></figure>
+
+As the image above depicts you simple enable CDP and specify in hours how long you to capture CDP data for all objects beloging to this particular SLA and you are done.
+
+Using the vSphere Client you can verify if the filter driver is installed and if the VMs belonging to the CDP SLA passed VM compliance with the policy.
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/cdp2.png" class="kg-image" alt loading="lazy" width="2000" height="721" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/cdp2.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/cdp2.png 1000w, __GHOST_URL__ /content/images/size/w1600/2021/08/cdp2.png 1600w, __GHOST_URL__ /content/images/size/w2400/2021/08/cdp2.png 2400w" sizes="(min-width: 720px) 720px"></figure>
+
+Recovering the object remains the same workflow as well, just extended with the possibility to perform a recovery using the CDP data. On the left side of the screen you can see that for this particular CM CDP is enabled and the recovery card view shows you the regular snapshot based backups you can recovery from, and in addition you can now also see a slider bar allowing you to specificy up to the second point-in-time data to recover. There is a also an option to just recover the latest data we have captured for that particular VM.
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/cdp3.png" class="kg-image" alt loading="lazy" width="2000" height="1070" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/cdp3.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/cdp3.png 1000w, __GHOST_URL__ /content/images/size/w1600/2021/08/cdp3.png 1600w, __GHOST_URL__ /content/images/2021/08/cdp3.png 2358w" sizes="(min-width: 720px) 720px"></figure>
+
+The solution has achieved [VMware Ready status](https://www.vmware.com/be/partners/tech-alliance/vmware-ready.html).
+
+- VMware vSphere Tag Support
+
+We have had the capability to work with vSphere tags before through our PowerShell Module, but with Andes 5.1 we are bringing this support into the GUI and making it natively part of CDM. The idea is that in an environment where VMs can change personas, for example you start out with a test VM and later promote it to a production VM, you want CDM to automatically assing a corresponding SLA to that VM. In the past you could for example move a VM from one virtual folder to another and the VM would inherit the corresponding SLA but this expands that capability to vSphere Tags and Tag Catagories for even greater flexibility.
+
+In the example below I’m looking at the Tag assignments using the vSphere Client and you can see 4 objects have been assigned the ‘RubrikCDP’ tag.
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/cdp4.png" class="kg-image" alt loading="lazy" width="1140" height="812" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/cdp4.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/cdp4.png 1000w, __GHOST_URL__ /content/images/2021/08/cdp4.png 1140w" sizes="(min-width: 720px) 720px"></figure>
+
+If we then look at the Rubrik CDM UI we can see the same 4 objects have been identified as containing the ‘RubrikCDP’ tag and can be assinged an SLA based upon this information.
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/cdp5.png" class="kg-image" alt loading="lazy" width="864" height="952" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/cdp5.png 600w, __GHOST_URL__ /content/images/2021/08/cdp5.png 864w" sizes="(min-width: 720px) 720px"></figure>
+
+As we backup the tags as well, when restoring a VM that has vSphere Tags associated to it you get the option to either restore the tag association or not. For example if you Live Mount a VM for test/dev you might not want to have an SLA assigned to that ephemiral VM which you can avoid by leaving the Tag off.
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/cdp6.png" class="kg-image" alt loading="lazy" width="1024" height="1602" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/cdp6.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/cdp6.png 1000w, __GHOST_URL__ /content/images/2021/08/cdp6.png 1024w" sizes="(min-width: 720px) 720px"></figure>
+- Retention Locked SLA Domains
+
+In Andes 5.1 you now have the ability to lock the specified retention period on an SLA, the idea being that nobody then can go in and lower the initial retention period thereby providing additional protection against accidental or malicious deletions of objects under Rubrik management.
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/cdp7.png" class="kg-image" alt loading="lazy" width="1438" height="1084" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/cdp7.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/cdp7.png 1000w, __GHOST_URL__ /content/images/2021/08/cdp7.png 1438w" sizes="(min-width: 720px) 720px"></figure>
+
+When creating the SLA the system will warn you that you cannot shorten or delete the retention.
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/cdp8.png" class="kg-image" alt loading="lazy" width="1026" height="504" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/cdp8.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/cdp8.png 1000w, __GHOST_URL__ /content/images/2021/08/cdp8.png 1026w" sizes="(min-width: 720px) 720px"></figure>
+- SAML 2.0 support
+
+Customers can now implement single sign-on (SSO) using their existing SAML 2.0 compatible identity providers like ADFS, Okta, and OneLogin.
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/cdp9.png" class="kg-image" alt loading="lazy" width="1444" height="1408" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/cdp9.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/cdp9.png 1000w, __GHOST_URL__ /content/images/2021/08/cdp9.png 1444w" sizes="(min-width: 720px) 720px"></figure>
+- Azure Archive Tier
+
+This brings the capability to tier snapshots uploaded to Azure through the use of Rubrik SLAs leveraging something called Smart Tiering.
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/cdp10.png" class="kg-image" alt loading="lazy" width="2000" height="980" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/cdp10.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/cdp10.png 1000w, __GHOST_URL__ /content/images/size/w1600/2021/08/cdp10.png 1600w, __GHOST_URL__ /content/images/2021/08/cdp10.png 2054w" sizes="(min-width: 720px) 720px"></figure>
+
+The snapshot will first be uploaded to the default (i.e. Hot) storage Tier, as the snapshot ages it becomes eligible for tiering to the Cool or Archive Tier in Azure. The decision of when to tier is determined by the user configurable minimum access duration combined with Rubrik’s ‘smart’ cost-based analysis, we do this to avoid you incurring additional costs if we determine that you typical restore behaviour would contradict the Azure Cool/Archive Tier SLAs.
+
+- Pure FlashBlade integration
+
+For NAS based backups we already had the ability to use any SMB or NFS source, and for certain NAS appliances like NetApp and EMC Isilon we have API based snapshot integration to deliver consistent point in time file capture and avoid open file issues. In Andes 5.1 we have extended this to Pure FlashBlade.
+
+<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/cdp11.png" class="kg-image" alt loading="lazy" width="1436" height="1504" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/cdp11.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/cdp11.png 1000w, __GHOST_URL__ /content/images/2021/08/cdp11.png 1436w" sizes="(min-width: 720px) 720px"></figure>
+
+Besides these highlights there are a slew of other improvements as well, things like support for Vormetric Indexing, vCD template-catalog backup and restore, enhancement to our incremental conversion operations for CloudOn, etc. And we have not event touched upon the new Polaris Apps and Mosaic, but in this post I specifically wanted to focus on the CDM big ticket items, happy to elaborate on any topic here, feel free to reach out over [twitter](https://twitter.com/filipv).
+
