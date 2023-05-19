@@ -20,7 +20,7 @@ Let’s say we have 3 HDDs in a RAID 5 configuration, data is spread over 2 driv
 
 Let’s say I have 2 bits of data that I write to the system, disk 1 has the first bit, disk 2 the second bit, and disk 3 holds the parity bit (the XOR calculation). Now I can lose any of the 2 bits (disks) and the system is able to reconstruct the missing bit as demonstrated by the XOR truth table below;
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/xor.png" class="kg-image" alt loading="lazy" width="117" height="172"></figure>
+<img src="/assets/img/xor.png">
 
 Let’s say I write bit 1 and bit 0 to the system, 1 is stored on disk A and 0 is stored on disk B, if I lose disk A [1], I still have disk B [0] and the parity disk [1]. According to the table B [0] + parity [1] = 1 thus I can still reconstruct my data.
 

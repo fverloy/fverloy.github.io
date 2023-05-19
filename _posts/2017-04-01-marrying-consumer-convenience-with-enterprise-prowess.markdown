@@ -8,7 +8,7 @@ tags:
 
 If you look at the consumer applications we interface with on a daily basis, things like Facebook, Google, Twitter,… these all tend to be very easy to use and understand, typically little to no explanation is needed on how to use them, you simply sign-up and you get going.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/if_joke.jpg" class="kg-image" alt loading="lazy" width="1108" height="1090" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/if_joke.jpg 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/if_joke.jpg 1000w, __GHOST_URL__ /content/images/2021/08/if_joke.jpg 1108w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/if_joke.jpg">
 
 But behind the covers of these very straightforward interactions lies a pretty complex world of intricate components, a lot of moving parts that make the application tick. For a little insight into the back-end architecture of Facebook for example, check out these videos;
 
@@ -24,7 +24,7 @@ What if most of the heavy lifting is taken care of by the system itself, interna
 
 That is what the Rubrik Cloud Data Management solution is trying to achieve, under the hood it is a very, very capable piece of equipment but most of the complexity that comes with these enterprise capabilities has been automated away, and the little interaction that is left to the end-user is very straight forward, and dare I say enjoyable?
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/laptop-desktop1x.png" class="kg-image" alt loading="lazy" width="840" height="492" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/laptop-desktop1x.png 600w, __GHOST_URL__ /content/images/2021/08/laptop-desktop1x.png 840w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/laptop-desktop1x.png">
 
 Matching enterprise data management capabilities with the simplicity of a consumer application is a lofty goal, but one worthy to pursue in my humble opinion. After all…  
 \> _Simplicity is the Ultimate Sophistication &nbsp;_
