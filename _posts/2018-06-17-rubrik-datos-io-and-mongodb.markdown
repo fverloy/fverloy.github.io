@@ -48,7 +48,7 @@ The solution is called RecoverX which is a scale-out data protection software th
 
 The workflow of backing up your MongoDB data is based on a policy in which you select the datasource (MongoDB or others), select the specific MongoDB cluster and version store (secondary storage location), which specific database(s) you want to protect and a schedule that defines RPO/RTO values.
 
-<img src="/assets/img/ecoverx1.png">
+<img src="/assets/img/recoverx1.png">
 
 Once the policy is added the first full backup is triggered, this happens without quiescing the database.
 
