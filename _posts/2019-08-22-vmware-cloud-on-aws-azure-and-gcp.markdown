@@ -21,7 +21,7 @@ All 3 solutions are powered by VMware Cloud Foundation which is an integrated st
 
 This solution has been cooking the longest out of all 3 and certainly seems to be more rounded out at the moment, VMware announced a strategic partnership with AWS in 2016 and this resulted a.o. things in the initial availability of VMware Cloud on AWS in august of 2017. The service has been jointly developed by VMware and AWS with the goal of helping customers deploy and accelerate the migration of VMware vSphere-based workloads to the cloud while providing familiar operational tooling. It is also important to note that there are no ingress or egress charges to consume the native AWS services from the VMC on AWS environment.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/VMC-on-AWS.jpg" class="kg-image" alt loading="lazy" width="2000" height="837" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/VMC-on-AWS.jpg 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/VMC-on-AWS.jpg 1000w, __GHOST_URL__ /content/images/size/w1600/2021/08/VMC-on-AWS.jpg 1600w, __GHOST_URL__ /content/images/2021/08/VMC-on-AWS.jpg 2370w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/VMC-on-AWS.jpg">
 
 Since there is a lot of information on VMC on AWS publicly available already I humbly suggest grokking those sources instead of me proving yet another high-level overview of the solution. A good starting point imho is Brian Graf’s (Sr. Technical Marketing Manager - VMware Cloud on AWS) [blog](http://www.brianjgraf.com/category/vmc/)
 
@@ -29,35 +29,35 @@ Since there is a lot of information on VMC on AWS publicly available already I h
 
 The Azure VMware Solution (AVS) is offered directly by Microsoft and is and powered by CloudSimple as a fully managed service, the service provides a VMware environment on Azure bare metal servers. The service is enabled by default on Enterprise Accounts and Cloud Service Provider subscriptions, if you have another Azure subscription you need to contact Microsoft Azure support, you can use your Azure enterprise agreement and Azure credits towards the CloudSimple service. CloudSimple is currently only available in East and West US regions. It is connected to your on-premises VMware environment either via ExpressRoute which provides bandwidth up to 100 Gbps or via a edge VPN gateway.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/azure-vmware-solution-by-cloudsimple.png" class="kg-image" alt loading="lazy" width="1254" height="568" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/azure-vmware-solution-by-cloudsimple.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/azure-vmware-solution-by-cloudsimple.png 1000w, __GHOST_URL__ /content/images/2021/08/azure-vmware-solution-by-cloudsimple.png 1254w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/azure-vmware-solution-by-cloudsimple.png">
 
 You can select the region for the CloudSimple service from the Azure portal.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/Screenshot-2019-08-21-at-20.16.26.png" class="kg-image" alt loading="lazy" width="1590" height="780" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/Screenshot-2019-08-21-at-20.16.26.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/Screenshot-2019-08-21-at-20.16.26.png 1000w, __GHOST_URL__ /content/images/2021/08/Screenshot-2019-08-21-at-20.16.26.png 1590w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/Screenshot-2019-08-21-at-20.16.26.png">
 
 To run the actual VMware software stack CloudSimple needs a minimum of 3 CloudSimple nodes to form a cluster, and you can have a max of 16 nodes in 1 cluster with a max of 4 clusters in a private cloud setup, they currently offer 2 different node types the CS36 and the CS28.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/Screenshot-2019-08-21-at-20.39.32.png" class="kg-image" alt loading="lazy" width="1672" height="542" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/Screenshot-2019-08-21-at-20.39.32.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/Screenshot-2019-08-21-at-20.39.32.png 1000w, __GHOST_URL__ /content/images/size/w1600/2021/08/Screenshot-2019-08-21-at-20.39.32.png 1600w, __GHOST_URL__ /content/images/2021/08/Screenshot-2019-08-21-at-20.39.32.png 1672w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/Screenshot-2019-08-21-at-20.39.32.png">
 
 The nodes are added via the Azure portal.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/Screenshot-2019-08-21-at-20.45.13.png" class="kg-image" alt loading="lazy" width="1756" height="1060" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/Screenshot-2019-08-21-at-20.45.13.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/Screenshot-2019-08-21-at-20.45.13.png 1000w, __GHOST_URL__ /content/images/size/w1600/2021/08/Screenshot-2019-08-21-at-20.45.13.png 1600w, __GHOST_URL__ /content/images/2021/08/Screenshot-2019-08-21-at-20.45.13.png 1756w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/Screenshot-2019-08-21-at-20.45.13.png">
 
 The nodes together provide the bare metal hardware for the deployment of the private cloud (VCF consisting of vCenter, ESXi, NSX-T and vSAN), this is operated and maintained (i.e. VCF lifecycle management) for you as a service.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/Screenshot-2019-08-21-at-20.50.39.png" class="kg-image" alt loading="lazy" width="1500" height="734" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/Screenshot-2019-08-21-at-20.50.39.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/Screenshot-2019-08-21-at-20.50.39.png 1000w, __GHOST_URL__ /content/images/2021/08/Screenshot-2019-08-21-at-20.50.39.png 1500w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/Screenshot-2019-08-21-at-20.50.39.png">
 
 The initial deployment of the private cloud can take up to 2 hours. Now you still need access to your VCF instance running on Azure, to that end you can either use ExpressRoute or setup a point-to-site (i.e. per user) or site-to-site VPN connection which is created and managed via the CloudSimple portal inside your Azure portal.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/Screenshot-2019-08-21-at-20.56.06.png" class="kg-image" alt loading="lazy" width="2000" height="460" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/Screenshot-2019-08-21-at-20.56.06.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/Screenshot-2019-08-21-at-20.56.06.png 1000w, __GHOST_URL__ /content/images/size/w1600/2021/08/Screenshot-2019-08-21-at-20.56.06.png 1600w, __GHOST_URL__ /content/images/size/w2400/2021/08/Screenshot-2019-08-21-at-20.56.06.png 2400w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/Screenshot-2019-08-21-at-20.56.06.png">
 
 Now that you have connectivity between your on-premises environment and the CloudSimple private cloud on Azure you can manage your workloads using vCenter. You can launch the vSphere client directly from the CloudSimple portal within your Azure portal.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/Screenshot-2019-08-21-at-21.01.36.png" class="kg-image" alt loading="lazy" width="2000" height="929" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/Screenshot-2019-08-21-at-21.01.36.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/Screenshot-2019-08-21-at-21.01.36.png 1000w, __GHOST_URL__ /content/images/size/w1600/2021/08/Screenshot-2019-08-21-at-21.01.36.png 1600w, __GHOST_URL__ /content/images/2021/08/Screenshot-2019-08-21-at-21.01.36.png 2380w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/Screenshot-2019-08-21-at-21.01.36.png">
 
 You can still see the same virtual machines under management of vCenter directly in the Azure portal as well.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/Screenshot-2019-08-21-at-21.04.04.png" class="kg-image" alt loading="lazy" width="2000" height="1032" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/Screenshot-2019-08-21-at-21.04.04.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/Screenshot-2019-08-21-at-21.04.04.png 1000w, __GHOST_URL__ /content/images/size/w1600/2021/08/Screenshot-2019-08-21-at-21.04.04.png 1600w, __GHOST_URL__ /content/images/size/w2400/2021/08/Screenshot-2019-08-21-at-21.04.04.png 2400w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/Screenshot-2019-08-21-at-21.04.04.png">
 
 NOTE: there is also a upcoming (later this year according to Microsoft) Azure VMware Solution by Virtustream
 
