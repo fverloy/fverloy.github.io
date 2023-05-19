@@ -17,7 +17,7 @@ The way VMware describes it’s portfolio for CNA on their own website is;
 
 Since VMware is trying hard to reach beyond it’s traditional enterprise base, including forays into multiple open-source type projects, I wanted to try and provide a somewhat comprehensive overview of everything it’s doing in those spaces and it’s potential use cases. Generally speaking VMware’s cloud native portfolio includes VMware vSphere Integrated Containers, for running containerised workloads with existing infrastructure. But please don’t interpret this as a silver bullet to “lift and shift” all your legacy applications to a more modern environment, start by asking why you can’t re-architecture your existing apps, and only then ask yourself if you will truly benefit from moving to this new approach, maybe for easier maintenance or improved scalability, but I’m willing to bet that mostly this wont be the best approach for your old and crusty stuff. For applications that naturally fit a containerised approach the story if different of-course. Secondly VMware Photon Platform is targeted to building new cloud-native infrastructure solutions from the ground up.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src=" __GHOST_URL__ /content/images/2021/08/vmware-components.png" class="kg-image" alt loading="lazy" width="1108" height="611" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/vmware-components.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/vmware-components.png 1000w, __GHOST_URL__ /content/images/2021/08/vmware-components.png 1108w" sizes="(min-width: 720px) 720px"><figcaption>Very simplified view of interconnected components</figcaption></figure>
+<img src="/assets/img/vmware-components.png">
 
 **vSphere Integrated Containers**
 
@@ -25,7 +25,7 @@ VIC is meant for people who want to stick with the more traditional vSphere infr
 
 vSphere, as opposed to Linux, acts as the container host, containers are deployed as VMs (not in VMs), every container is fully isolated from the host and from the other containers.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/vmware-vic-marketecture.png" class="kg-image" alt loading="lazy" width="1108" height="530" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/vmware-vic-marketecture.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/vmware-vic-marketecture.png 1000w, __GHOST_URL__ /content/images/2021/08/vmware-vic-marketecture.png 1108w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/vmware-vic-marketecture.png">
 
 With VIC the idea is that you can still leverage the existing management toolsets in your vSphere based environment, since these tools typically have an understanding about the virtual abstraction as a VM, the idea is that you run a Container as a VM (C-VM in the picture above). The goal is to run both traditional and containerised applications side-by-side on a common infrastructure, this, if you will, is it’s main use case, take what you know and extent it so you can support container based workloads in a way that is transparent for the developer in theory. It’s meant to avoid having to build a completely separate environment.
 
@@ -35,7 +35,7 @@ VMware Photon Platform is a container-optimised cloud platform, at first it seem
 
 Kubernetes as a Service: Developers can deploy, resize, and destroy Kubernetes clusters to develop, test, and automate containerised applications. Platform as a Service: Photon Platform integrates with Pivotal Cloud Foundry to build and scale applications. Continuous integration and delivery: Try to improve the CI/CD pipeline with uniformity and reusability, especially in environments with high container churn. API-managed on-premises cloud: IT can deploy resources and automate their management through a RESTful API. Security: The VMware Lightwave security service can protect applications, Kubernetes clusters, and Photon Platform components.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/photon_platform.png" class="kg-image" alt loading="lazy" width="1108" height="422" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/photon_platform.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/photon_platform.png 1000w, __GHOST_URL__ /content/images/2021/08/photon_platform.png 1108w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/photon_platform.png">
 
 Note that the Photon Controller is no longer a part of the Photon Platform, VMware has made the decision to stop driving this project and instead lean on the open source community to continue this effort. It was originally envisioned to replace vCenter as the control plane for these new type of workloads since vCenter’s monolithic design was never expected to serve these types of applications. More recently of-course the community has moved to other control plane architectures and container orchestration systems.
 

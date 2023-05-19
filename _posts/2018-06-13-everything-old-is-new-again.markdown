@@ -36,7 +36,7 @@ I would recon that most of these systems are treated as their own little (or ver
 
 As we do for all backups we also use our SLA based approach, incremental-forever backups, archival to the Public Cloud, etc. Similar to the Linux and Windows support, we are offering a connector (RBS/Rubrik Backup Service) with low resource and operational overhead. The connector supports granular folder/file level backups via the filesets concept that integrates with SLA policies. Filesets are a logical construct based on Includes and Excludes. These are often around a direct path to a file or folder but can use wildcards for greater flexibility around what is included or excluded.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/filesets.png" class="kg-image" alt loading="lazy" width="466" height="531"></figure>
+<img src="/assets/img/filesets.png">
 
 Filesets can be customized to meet specific needs including the ability to call Pre/ Post Scripts to a.o. provide application-consistent backups. Welcome to the future! 😉
 

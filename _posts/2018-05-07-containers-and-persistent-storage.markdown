@@ -21,11 +21,11 @@ When you execute docker run, the container process that runs is isolated in that
 
 The docker container is created from a readonly template called docker image. The “mysql” part in the command relates to this image, i.e. containerized application, that you want to run by pulling it from the registry. The data you create inside a container is stored on a thin writable layer, called the container layer, that sits on top of the stack of read-only layers, called the image layers, present in the base docker image. When the container is deleted the writable layer is also deleted so your data does not persist , in docker the docker storage driver is responsible for enabling and managing both the read-only image layers and the writable layer, both read and write speeds are generally considered slow.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/container-layers.jpg" class="kg-image" alt loading="lazy" width="675" height="469" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/container-layers.jpg 600w, __GHOST_URL__ /content/images/2021/08/container-layers.jpg 675w"></figure>
+<img src="/assets/img/container-layers.jpg">
 
 Assuming you want persistent data for your containers there are several methods to go about this. You can add a storage directory to a container’s virtual filesystem and map that directory to a directory on the host server. The data you create inside that directory on the container will be saved on the host, allowing it to persist after the container shuts down. This directory can also be shared between containers. In docker this is made possible by using volumes, you can also use bind mounts but these are dependent on the directory structure of the host machine whereas volumes are completely managed by Docker itself. Keep in mind though that these volumes don’t move with container workloads as they are local to the host. Alternatively you can use volume drives (Docker Engine volume plugins) to store data on remote systems instead of the Docker host itself. If you are only interested in storing data in the container writeable layer (i.e. on the docker host itself) you can use Docker storage drivers which then determine which filesystem is supported.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/containers2.png" class="kg-image" alt loading="lazy" width="946" height="550" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/containers2.png 600w, __GHOST_URL__ /content/images/2021/08/containers2.png 946w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/containers2.png">
 
 Typically you would create a volume using the storage driver of your choice in the following manner;
 
