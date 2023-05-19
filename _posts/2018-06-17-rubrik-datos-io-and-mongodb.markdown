@@ -40,7 +40,7 @@ As mentioned before MongoDB uses a single master architecture, preferring consis
 
 Rubrik Datos IO is meant to facilitate application-consistent backup, point-in-time recovery, and deduplication for sharded and unsharded MongoDB clusters and geo-distributed MongoDB deployments.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/mongodb-image.png" class="kg-image" alt loading="lazy" width="2000" height="759" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/mongodb-image.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/mongodb-image.png 1000w, __GHOST_URL__ /content/images/size/w1600/2021/08/mongodb-image.png 1600w, __GHOST_URL__ /content/images/2021/08/mongodb-image.png 2216w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/mongodb-image.png">
 
 The solution is called RecoverX which is a scale-out data protection software that acts as the control plane to move backup data between your production MongoDB environment and a secondary storage location. It performs continuous backups using the Oplog’s, it streams data in parallel from multiple MongoDB nodes. It also semantically deduplicates files across the MongoDB cluster in order to only store only one instance of the data if you are backing up to different directories but is simultaneously tracked in a metadata map for recovery.
 
@@ -48,13 +48,13 @@ The solution is called RecoverX which is a scale-out data protection software th
 
 The workflow of backing up your MongoDB data is based on a policy in which you select the datasource (MongoDB or others), select the specific MongoDB cluster and version store (secondary storage location), which specific database(s) you want to protect and a schedule that defines RPO/RTO values.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/recoverx1.png" class="kg-image" alt loading="lazy" width="1706" height="954" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/recoverx1.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/recoverx1.png 1000w, __GHOST_URL__ /content/images/size/w1600/2021/08/recoverx1.png 1600w, __GHOST_URL__ /content/images/2021/08/recoverx1.png 1706w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/ecoverx1.png">
 
 Once the policy is added the first full backup is triggered, this happens without quiescing the database.
 
 Recovering data works via the Time Travel tab which allows you to select the directories to recover and see it’s available timestamps. Orchestrated recovery then allows you to select the MongoDB destination cluster, database, and collection to restore to.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/recoverx2.png" class="kg-image" alt loading="lazy" width="1710" height="958" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/recoverx2.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/recoverx2.png 1000w, __GHOST_URL__ /content/images/size/w1600/2021/08/recoverx2.png 1600w, __GHOST_URL__ /content/images/2021/08/recoverx2.png 1710w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/recoverx2.png">
 
 Collections can be recovered to the same MongoDB database or a different instance for test and dev.
 

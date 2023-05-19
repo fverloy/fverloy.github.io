@@ -16,7 +16,7 @@ You can find the joint data sheet [here](https://www.netapp.com/us/media/sb-3990
 
 First things first, what do we mean when we talk about an Archive target at Rubrik? Rubrik delivers a software fabric that can run in and across multiple different locations, could be on-premises on our own hardware or OEM hardware, in the branch as a virtual appliance, in the public cloud,… When we backup data this gets stored on our filesystem called Atlas. The retention on Atlas is determined by SLA policies, these also determine after which period data gets offloaded to another storage target, this target is considered an Archive location from Rubrik’s point of view. The location in this case is NetApp StorageGRID.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/rubrikstoragegrid.png" class="kg-image" alt loading="lazy" width="1956" height="1198" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/rubrikstoragegrid.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/rubrikstoragegrid.png 1000w, __GHOST_URL__ /content/images/size/w1600/2021/08/rubrikstoragegrid.png 1600w, __GHOST_URL__ /content/images/2021/08/rubrikstoragegrid.png 1956w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/rubrikstoragegrid.png">
 
 NetApp StorageGRID supports S3 as a way of interfacing with their platform, Rubrik will leverage this to connect to the Archive location and have it’s intelligent policy engine tier data off to NetApp StorageGRID to optimize for cost and redundancy.
 
