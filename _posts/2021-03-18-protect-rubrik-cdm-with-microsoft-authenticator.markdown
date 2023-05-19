@@ -22,7 +22,7 @@ The configuration wizard shows some third party applications we recommend, inclu
 
 Next use the Microsoft Authenticator app to scan the QR code to setup the relationship, select “add account –\> personal account”, then click on “Scan QR code” and point your phone camera to the Rubrik GUI.
 
-<img src="/assets/img/IMG_1342.PNG">
+<img src="/assets/img/IMG_1342.png">
 
 Type in the OTP code displayed in your Microsoft Authenticator app into the OTP field on the Rubrik UI.
 
@@ -34,7 +34,7 @@ Next time you log into RCDM you will be prompted for your OTP code.
 
 Open your Microsoft Authenticator app to retrieve the code and type it in and you are all set.
 
-<img src="/assets/img/IMG_1344.PNG">
+<img src="/assets/img/IMG_1344.png">
 
 You have now achieved another step towards your passwordless journey!
 
