@@ -22,17 +22,17 @@ Atlas, which sits at the core of the Rubrik architecture, is a distributed files
 
 The system is self healing in the way that Forge publishes the disk and node health status and Atlas can react to that, again assuming triple mirror, if a node or entire brik (appliance) fails Atlas will create a new copy of the data on another node to make sure the requested failure tolerance is met. Additionally Atlas also runs a background task to check the CRC of each chunk of data to ensure what you have written to Rubrik is available in time of recovery. See the article How To Kill A Supercomputer: Dirty Power, Cosmic Rays, and Bad Solder on why that could be important.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/atlas2.png" class="kg-image" alt loading="lazy" width="1108" height="421" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/atlas2.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/atlas2.png 1000w, __GHOST_URL__ /content/images/2021/08/atlas2.png 1108w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/atlas2.png">
 
 The Atlas filesystem was designed with the data management application in mind, essentially the application takes backups and places them on Atlas, building snapshots chains (Rubrik performs an initial full backup and incremental forever after that). The benefit is that we can instantly materialize any point in time snapshot without the need to re-hydrate data.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/atlas3.png" class="kg-image" alt loading="lazy" width="1108" height="610" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/atlas3.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/atlas3.png 1000w, __GHOST_URL__ /content/images/2021/08/atlas3.png 1108w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/atlas3.png">
 
 In the example above you have the first full backup at t0, and then 4 incremental backups after that. Let’s assume you want to instantly recover data at point t3, this will simply be a metadata operation, pointers to the last time blocks making up t3 where mutated, there is no data movement involved.
 
 Taking it a step further let’s now assume you want to use t3 as the basis and start writing new data to it from that point on. Any new data that you write to it (redirect-on-write) now goes to a log file, no content from the original snapshot is changed as this needs to be an immutable copy (compliancy). The use case here could be copy data management where you want to present a copy of a dataset to internal dev/test teams.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/atlas4.png" class="kg-image" alt loading="lazy" width="1009" height="414" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/atlas4.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/atlas4.png 1000w, __GHOST_URL__ /content/images/2021/08/atlas4.png 1009w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/atlas4.png">
 
 Atlas also dynamically provides performance for certain operations in the cluster, for example a backup ingest job will get a higher priority than a background maintenance task. Because each node also has a local SSD drive Atlas can use this to place critical files on a higher performance tier and is also capable of tiering all data and placing hot blocks on SSDs. It also understands that each node has 3 HDDs and will these to stripe the data of a file across all 3 on a single node to take advantage of the aggregate disk bandwidth resulting in a performance improvement on large sequential reads and writes, by utilizing read-ahead and write buffering respectively.
 
