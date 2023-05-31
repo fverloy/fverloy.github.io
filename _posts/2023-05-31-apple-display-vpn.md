@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Apple Display VPN Issue.
+title: Apple Studio Display VPN Issue.
 tags: [Apple, VPN]
 date: '2023-05-31 11:45:00'
 cover-img: /assets/img/asd.jpeg
