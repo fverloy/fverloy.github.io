@@ -24,25 +24,27 @@ You basically have 4 options for single host Docker networking; Bridge mode, Hos
 
 The Docker deamon creates “docker0” a virtual ethernet bridge that forwards packets between all interfaces attached to it. All containers on the host are attached to this internal bridge which assings one interface as the containers’ “eth0” interface and another interface in the host’s namespace (think VRF). The container get’s a private IP address assignment. To prevent ARP collisions on the local network, the Docker daemon generates a random MAC address from the allocated IP address. In the example below Docker assigns the private IP 172.17.0.1 to the container.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/docker11.png" class="kg-image" alt loading="lazy" width="1042" height="293" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/docker11.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/docker11.png 1000w, __GHOST_URL__ /content/images/2021/08/docker11.png 1042w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/docker11.png">
 
 **Host mode**
 
 In this mode the container shares the networking namespace of the host, directly exposing it to the outside world. This means you need to use port mapping to reach services inside the container, in Bridge mode, Docker can automatically assign ports and thus make them routable. In the example below the Docker host has the IP 10.0.0.4 and as you can see the container shares this IP address.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/docker2.png" class="kg-image" alt loading="lazy" width="963" height="205" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/docker2.png 600w, __GHOST_URL__ /content/images/2021/08/docker2.png 963w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/docker2.png">
 
 **Container mode**
 
 This mode forces Docker to reuse the networking namespace of another container. This is used if you want to provide custom networking from said container, this is for example what Kubernetes uses to provide networking for multiple containers. In the example below the container to which we are going to connect the subsequent containers into has the IP 172.17.0.2 and as you can see the container being launched has the same IP address.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/docker3.png" class="kg-image" alt loading="lazy" width="1003" height="127" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/docker3.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/docker3.png 1000w, __GHOST_URL__ /content/images/2021/08/docker3.png 1003w" sizes="(min-width: 720px) 720px"></figure><figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/docker4.png" class="kg-image" alt loading="lazy" width="633" height="316" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/docker4.png 600w, __GHOST_URL__ /content/images/2021/08/docker4.png 633w"></figure>
+<img src="/assets/img/docker3.png">
+
+<img src="/assets/img/docker4.png">
 
 **No networking**
 
 This mode does not configure networking, useful for containers that don’t require network access, but it can also be used to setup custom networking. This is the mode Nuage Networks leverages pre-Docker 1.9 (more info here). In the example below you can see that our new container did not get any IP address assigned.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/docker5.png" class="kg-image" alt loading="lazy" width="947" height="152" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/docker5.png 600w, __GHOST_URL__ /content/images/2021/08/docker5.png 947w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/docker5.png">
 
 By default Docker has inter-container communication enabled (–icc=true) meaning that containers on a host are free to communicate without restrictions which could be a security concern. Communication to the outside world is controlled via iptables and ip\_forwarding.
 
@@ -60,7 +62,7 @@ One of the benefits of Libnetwork is that it uses a driver / plugin model to sup
 
 Libnetwork also introduces the Container Network Model (CNM) to provide interoperation between networks and containers.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/lnw.png" class="kg-image" alt loading="lazy" width="632" height="248" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/lnw.png 600w, __GHOST_URL__ /content/images/2021/08/lnw.png 632w"></figure>
+<img src="/assets/img/lnw.png">
 
 The CNM defines a network sandbox, and endpoint and a network. The Network Sandbox is an isolated environment where the Networking configuration for a Docker Container lives. The Endpoint is a network interface that can be used for communication over a specific network. Endpoints join exactly one network and multiple endpoints can exist within a single Network Sandbox. And the Network is a uniquely identifiable group of endpoints that are able to communicate with each other. You could create a “Frontend” and “Backend” network and they would be completely isolated.
 
