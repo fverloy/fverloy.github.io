@@ -9,6 +9,7 @@ tags:
 cover-img: /assets/img/k8s.jpeg
 thumbnail-img: /assets/img/k8s.jpeg
 share-img: /assets/img/k8s.jpeg
+permalink: /kubernetes-data-management-with-rubrik/
 ---
 
 Rubrik just held its yearly user conference [Forward](https://forward.rubrik.com/) during which we announced our [Kubernetes](https://kubernetes.io/) data management solution. In true Rubrik fashion we wanted to make this very easy to setup and use.
