@@ -6,6 +6,7 @@ tags:
 - mongodb
 - nosql
 - rubrik
+permalink: /rubrik-datos-io-and-mongodb/
 ---
 
 In februari of 2018 Rubrik announced the acquisition of Datos IO, a startup with a focus on data management for an underserved part of the market namely (a.o.) NoSQL databases like Cassandra and MongoDB. Before jumping into more specifics about what Rubrik Datos IO is enabling for NoSQL databases, let’s first talk about the concept of these types of databases using MongoDB as an example.

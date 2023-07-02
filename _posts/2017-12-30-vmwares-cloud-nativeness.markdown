@@ -5,6 +5,7 @@ date: '2017-12-30 23:00:00'
 tags:
 - vmware
 - cloudnative
+permalink: /vmwares-cloud-nativeness/
 ---
 
 At first glance it feels like VMware’s efforts related to cloud native applications are meant to cater to the traditional admins, people who are mainly running virtual machines today but want, or need, to support other types of workloads as well. People who secretly don’t “get” this new container hotness\* and really want to manage their environment with the tools and knowledge that got them where they are today and are very comfortable with. Or to put it another way, VMware is ultimately trying to cater to both the infrastructure/operations person needing to support these new types of workloads and the developer building them.

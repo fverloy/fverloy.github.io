@@ -5,6 +5,7 @@ date: '2016-02-12 23:00:00'
 tags:
 - intel
 - storage
+permalink: /intel-and-micron-3d-xpoint/
 ---
 
  **Introduction**

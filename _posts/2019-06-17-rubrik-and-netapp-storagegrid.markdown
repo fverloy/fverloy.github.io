@@ -6,6 +6,7 @@ tags:
 - backup
 - rubrik
 - netapp
+permalink: /rubrik-and-netapp-storagegrid/
 ---
 
 Rubrik and NetApp recently announced support for NetApp StorageGRID as an Archive target. Some things, like bacon and eggs, are just better together which is what I wanted to focus on in this blogpost. Additionally I wanted to provide some background and a deeper look at the NetApp StorageGRID solution.

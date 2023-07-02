@@ -5,6 +5,7 @@ date: '2013-10-18 22:00:00'
 tags:
 - vmware
 - storage
+permalink: /vmwares-storage-portfolio/
 ---
 
 I recently joined VMware as an SE, one of the reasons that motivated and influenced my decision to join is a thirst for technology, at VMware you get to work on such a broad and interesting technology stack that anyone is bound to find one or more things that are deeply interesting.

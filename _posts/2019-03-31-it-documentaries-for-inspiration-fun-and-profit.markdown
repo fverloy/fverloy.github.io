@@ -5,6 +5,7 @@ date: '2019-03-31 22:00:00'
 tags:
 - documentary
 - history
+permalink: /it-documentaries-for-inspiration-fun-and-profit/
 ---
 
 I often find myself watching and rewatching documentaries related to my field(s) of interest, mainly the IT industry, and (computer) science in general. I find that doing so provides a certain inspiration to start tinkering with something new, or often times just to keep pushing. I’ve compiled a list of documentaries below that I hope you’ll find useful, either for your own inspiration or just because they are enjoyable and informational. If you feel that things are missing on this list, and I hope you do, please DM me on Twitter and I’ll come back and update it.

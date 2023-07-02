@@ -6,6 +6,7 @@ tags:
 - vmware
 - windows
 - microsoft
+permalink: /windows-11-using-vmware-fusion-12/
 ---
 
 I needed a Windows 11 VM to do some testing and since I currently don't have any Windows hardware anymore I decided to use VMware Fusion on my (intel) mac instead. Follow the steps below to avoid the dreaded "this machine is not compatible with Windows 11" message because a (v)TPM is missing by default.

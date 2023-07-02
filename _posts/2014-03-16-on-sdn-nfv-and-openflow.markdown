@@ -4,6 +4,7 @@ title: On SDN, NFV, and OpenFlow
 date: '2014-03-16 23:00:00'
 tags:
 - sdn
+permalink: /on-sdn-nfv-and-openflow/
 ---
 
  **Introduction**

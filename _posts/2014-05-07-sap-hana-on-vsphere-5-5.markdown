@@ -4,6 +4,7 @@ title: SAP HANA on vSphere 5.5
 date: '2014-05-07 22:00:00'
 tags:
 - vmware
+permalink: /sap-hana-on-vsphere-5-5/
 ---
 
 As announced during EMC World 2014 SAP now supports running production SAP HANA on vSphere 5.5 further delivering on VMware’s “Apps love vSphere” premise unveiled at last year’s VMworld conference.

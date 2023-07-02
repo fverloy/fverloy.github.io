@@ -5,6 +5,7 @@ date: '2017-06-13 22:00:00'
 tags:
 - aws
 - rubrik
+permalink: /rubrik-alta-feature-spotlight-aws/
 ---
 
 With the announcement of Rubrik CDM version 4, codenamed Alta, we have added tons of new features to the platform, but since most of the release announcements are focussed on providing an overview of _all_ the goodies, I wanted to focus more deeply on one specific topic namely our integration with AWS.

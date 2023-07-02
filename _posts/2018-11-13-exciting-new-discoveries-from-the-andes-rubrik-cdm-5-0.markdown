@@ -5,6 +5,7 @@ date: '2018-11-13 23:00:00'
 tags:
 - rubrik
 - backup
+permalink: /exciting-new-discoveries-from-the-andes-rubrik-cdm-5-0/
 ---
 
 The Andes or Andean Mountains are the longest continental mountain range in the world, forming a continuous highland along the western edge of South America. The Andes extend from north to south through seven South American countries: Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile and Argentina.

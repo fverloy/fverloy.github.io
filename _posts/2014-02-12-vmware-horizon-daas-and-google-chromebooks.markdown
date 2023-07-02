@@ -5,6 +5,7 @@ date: '2014-02-12 23:00:00'
 tags:
 - google
 - vmware
+permalink: /vmware-horizon-daas-and-google-chromebooks/
 ---
 
 Yesterday at VMware’s Partner Exchange (PEX), VMware announced that it is joining forces with Google to modernize corporate desktops for the Mobile Cloud Era by providing businesses with secure, cloud access to Windows applications, data and Desktops on Google Chromebooks.

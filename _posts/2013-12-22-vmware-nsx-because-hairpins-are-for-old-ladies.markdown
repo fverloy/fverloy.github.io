@@ -5,6 +5,7 @@ date: '2013-12-22 23:00:00'
 tags:
 - sdn
 - vmware
+permalink: /vmware-nsx-because-hairpins-are-for-old-ladies/
 ---
 
 Server virtualization has increased the amount of server to server network traffic, commonly described as east-west traffic. Let’s assume that you have 2 VM’s living on the same host and both VM’s are in different layer 3 networks, in a traditional network traffic flow would be:

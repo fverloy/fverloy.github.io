@@ -5,6 +5,7 @@ date: '2014-08-24 22:00:00'
 tags:
 - openstack
 - vmware
+permalink: /vmware-integrated-openstack-vio/
 ---
 
 VMware just announced the VMware Integrated OpenStack (VIO) solution at VMworld.

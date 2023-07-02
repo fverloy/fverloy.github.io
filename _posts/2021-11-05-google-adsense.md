@@ -6,6 +6,7 @@ cover-img: /assets/img/photo-1536173257297-533e34457207.jpeg
 thumbnail-img: /assets/img/photo-1536173257297-533e34457207.jpeg
 share-img: /assets/img/photo-1536173257297-533e34457207.jpeg
 tags: [cloudflare, google, adsense, serverless]
+permalink: /google-adsense/
 ---
 First of all, yes ads suck. I recently started using Google AdSense on my blog to recoup the costs of Ghost.io. I switched to Ghost from GitHub Pages which is completely free and a great way to host a static blog. I wanted some more flexibility however and also wanted a newsletter subscription service so I found Ghost.io. I'm currently on their Starter Plan which does not allow you to upload an ads.txt file from Google AdSense.
 

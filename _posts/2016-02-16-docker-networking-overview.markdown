@@ -6,6 +6,7 @@ tags:
 - containers
 - sdn
 - docker
+permalink: /docker-networking-overview/
 ---
 
  **Introduction**

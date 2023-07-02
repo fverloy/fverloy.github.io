@@ -6,6 +6,7 @@ date: '2023-05-31 11:45:00'
 cover-img: /assets/img/asd.jpeg
 thumbnail-img: /assets/img/asd.jpeg
 share-img: /assets/img/asd.jpeg
+permalink: /apple-display-vpn/
 ---
 
 The Apple Studio Display is a bit of a strange device, it is basically a large iPad powered by an A13 Bionic chip. It also messes up your VPN services.

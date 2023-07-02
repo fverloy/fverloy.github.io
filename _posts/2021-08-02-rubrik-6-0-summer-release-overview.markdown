@@ -10,6 +10,7 @@ tags:
 cover-img: /assets/img/ksenia-makagonova-A-tHpo6p9f8-unsplash.jpg
 thumbnail-img: /assets/img/ksenia-makagonova-A-tHpo6p9f8-unsplash.jpg
 share-img: /assets/img/ksenia-makagonova-A-tHpo6p9f8-unsplash.jpg
+permalink: /rubrik-6-0-summer-release-overview/
 ---
 
 Rubrik made the 6.0 Summer Release generally available a few days ago, in this blog post I wanted to provide an overview of some of the new features.

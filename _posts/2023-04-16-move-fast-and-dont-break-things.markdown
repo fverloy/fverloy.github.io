@@ -6,7 +6,7 @@ date: '2023-04-16 08:27:00'
 cover-img: /assets/img/1683181121381.jpeg
 thumbnail-img: /assets/img/1683181121381.jpeg
 share-img: /assets/img/1683181121381.jpeg
-
+permalink: /move-fast-and-dont-break-things/
 ---
 
 Facebook founder Mark Zuckerberg's now-famous motto: “Move fast and break things”, meaning approaching work and innovation with an emphasis on speed and experimentation, feels somewhat counterintuitive to most enterprises’ day-to-day reality.

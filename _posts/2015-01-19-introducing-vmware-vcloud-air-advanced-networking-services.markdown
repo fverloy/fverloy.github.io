@@ -6,6 +6,7 @@ tags:
 - vmware
 - cloud
 - networking
+permalink: /introducing-vmware-vcloud-air-advanced-networking-services/
 ---
 
 VMware just announced some additions to it’s public cloud service, vCloud Air, one of the additions is advanced networking services powered by VMware NSX. Today the networking capabilities of vCloud Air are based on vCNS features, moving forward these will be provided by NSX.

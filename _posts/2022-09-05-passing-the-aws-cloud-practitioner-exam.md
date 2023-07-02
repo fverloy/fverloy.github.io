@@ -6,6 +6,7 @@ cover-img: /assets/img/photo-1600267185393-e158a98703de.jpeg
 thumbnail-img: /assets/img/photo-1600267185393-e158a98703de.jpeg
 share-img: /assets/img/photo-1600267185393-e158a98703de.jpeg
 tags: [aws, certification]
+permalink: /passing-the-aws-cloud-practitioner-exam/
 ---
 
 There are many free resources available to help you pass the exam. Below are the ones I used to pass mine.

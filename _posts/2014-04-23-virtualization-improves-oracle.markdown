@@ -5,6 +5,7 @@ date: '2014-04-23 22:00:00'
 tags:
 - vmware
 - oracle
+permalink: /virtualization-improves-oracle/
 ---
 
 By virtualizing the Oracle Database on vSphere we get significant scalability, availability, and performance benefits. But equally important it does not change the DBA responsibilities or required skill set, so although natural, this DBA turf protection is mostly unnecessary.

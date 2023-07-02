@@ -5,6 +5,7 @@ date: '2016-01-09 23:00:00'
 tags:
 - networking
 - sdn
+permalink: /sdn-with-underlay-overlay-visibility-via-vsap/
 ---
 
 When using virtualization of any kind you introduce a layer of abstraction that people in operations need to deal with, i.e. if you run a couple of virtual machines on a physical server you need to be able to understand the impact that changes (or failures) in one layer have on the other. The same is true for network virtualization, we need to be able to understand the impact that say, a failure of a physical router port, has on the overlay virtual network.

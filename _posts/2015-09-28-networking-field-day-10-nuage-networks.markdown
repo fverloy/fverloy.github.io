@@ -4,6 +4,7 @@ title: Networking Field Day 10 – Nuage Networks
 date: '2015-09-28 22:00:00'
 tags:
 - sdn
+permalink: /networking-field-day-10-nuage-networks/
 ---
 
  **Introduction**

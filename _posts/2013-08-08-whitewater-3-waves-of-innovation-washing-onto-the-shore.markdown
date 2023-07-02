@@ -5,6 +5,7 @@ date: '2013-08-08 22:00:00'
 tags:
 - riverbed
 - storage
+permalink: /whitewater-3-waves-of-innovation-washing-onto-the-shore/
 ---
 
 Riverbed recently released the latest edition of it’s cloud storage gateway, both upgrading the software and providing new hardware options.

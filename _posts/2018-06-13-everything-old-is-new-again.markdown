@@ -6,6 +6,7 @@ tags:
 - sunmicrosystems
 - rubrik
 - backup
+permalink: /everything-old-is-new-again/
 ---
 
 My first job in IT, many moons ago, was at a company called MOTEC, it was a subcontractor of Telenet, one of the biggest ISPs in Belgium. We were responsible for building the cable based telephony systems that their customers used to make phone calls over the tv distribution network.

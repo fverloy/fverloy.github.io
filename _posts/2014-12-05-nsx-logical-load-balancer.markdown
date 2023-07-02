@@ -5,6 +5,7 @@ date: '2014-12-05 23:00:00'
 tags:
 - vmware
 - sdn
+permalink: /nsx-logical-load-balancer/
 ---
 
 VMware NSX is a network virtualisation and security platform that enables inclusion of 3rd party integration for specific functionality, like advanced firewalling, load-balancing, anti-virus, etc. Having said that VMware NSX also provides a lot of services out of the box that depending on the customer use-case can cover a lot of requirements.

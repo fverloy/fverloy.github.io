@@ -4,6 +4,7 @@ title: Introduction to Apache Mesos and Mesosphere DCOS
 date: '2014-05-11 22:00:00'
 tags:
 - mesos
+permalink: /introduction-to-apache-mesos-and-mesosphere-dcos/
 ---
 
  **A little history…**

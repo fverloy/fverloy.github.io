@@ -5,6 +5,7 @@ date: '2016-04-16 22:00:00'
 tags:
 - networking
 - sdn
+permalink: /fortinet-integration-with-nuage-networks-sdn/
 ---
 
  **Introduction**

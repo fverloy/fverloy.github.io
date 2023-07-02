@@ -5,6 +5,7 @@ date: '2018-05-07 22:00:00'
 tags:
 - containers
 - storage
+permalink: /containers-and-persistent-storage/
 ---
 
 Containers are a method of operating system virtualization that allow you to run an application and its dependencies in resource-isolated processes. Containers allow you to easily package an application’s code, configurations, and dependencies into easy to use building blocks that deliver environmental consistency, operational efficiency, developer productivity, and version control. Containers are immutable, meaning they help you deploy applications in a reliable and consistent way independent of the the deployment environment.

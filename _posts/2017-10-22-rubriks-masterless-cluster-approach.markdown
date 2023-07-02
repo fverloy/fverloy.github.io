@@ -5,6 +5,7 @@ date: '2017-10-22 22:00:00'
 tags:
 - rubrik
 - backup
+permalink: /rubriks-masterless-cluster-approach/
 ---
 
 I’ve written a blog post about Atlas, our distributed filesystem before, where I tried to differentiate between pre-packaged solutions, ultimately using existing legacy architectures with inherited build-in single points of failures, and a truly distributed system where each node in the cluster can perform all of the tasks that are required for successful operation of said cluster.

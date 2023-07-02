@@ -6,6 +6,7 @@ tags:
 - docker
 - networking
 - sdn
+permalink: /unifying-docker-container-and-vm-networking/
 ---
 
  **Introduction**

@@ -6,6 +6,7 @@ tags:
 - vmware
 - sdn
 - vexpert
+permalink: /belgian-vmug-session-on-nsx-2/
 ---
 
 I will be presenting a session on VMware NSX at the 21st Belgian VMUG meeting on the 21st of November in Antwerp. You can register for it here.

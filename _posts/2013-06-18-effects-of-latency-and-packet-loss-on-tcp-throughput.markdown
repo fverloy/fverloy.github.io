@@ -17,19 +17,19 @@ One of the characteristics of TCP is that it uses a technique called TCP slow st
 
 The diagram below shows TCP slow start in action.
 
-<img src="assets/img/slow-start-1.jpg">
+<img src="/assets/img/slow-start-1.jpg">
 
 The way it works (simplified, and dependent on the slow start implementation) is that the sender starts out by sending one segment (pkt0 in the diagram) and then waits for the receiver to acknowledge that segment (ACK1) before doubling the number of segments. In other words, initially the sender does not know what the initial value of the congestion window (cwnd) should be so he sets it to 1 (initial window). Each time the sender receives a positive acknowledgement it doubles the number of segments (increases the value of cwnd) it sends out increasing the amount of data transfered at once. The sender controls the congestion window which is the total number of segments sent at one time.
 
 Now lets assume you have a WAN link in the middle, which is the bottleneck in terms of throughput, left to it’s own accord the “clocking” ACKs will settle down (steady-state) the sending rate. (see diagram below).
 
-<img src="/assets/img/steadystate.png>
+<img src="/assets/img/steadystate.png">
 
 The total amount of data outstanding (sent segments that did not get an acknowledgment back) needs to fit into the windows size (typically 64K without windows scaling) which is controlled by the receiver. Assuming each data segment is 1460 bytes this means that you can have a maximum of 44 segments unacknowledged at the maximum windows size (again not taking into account windows scaling).
 
 Now when a packet is lost (usually due to congestion in a wired network), congestion control dictates that the sending rate is lowered to 50% of the last value. In other words let’s say at the time of packet loss the cwnd was 8, it will revert to 4 and slow-start will kick in again. Slow start will now not double the segments of the last value (i.e. from 4 to 8) but it will increase the congestion window by 1 segment trying to detect the optimal throughput again leading to a low overall throughput in a high packet loss environment (see diagram below).
 
-<img src="assets/img/bwthroughput.png"
+<img src="/assets/img/bwthroughput.png">
 
 Now let’s look at some actual numbers when introducing packet loss and latency.
 

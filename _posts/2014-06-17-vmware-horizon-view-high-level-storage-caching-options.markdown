@@ -5,6 +5,7 @@ date: '2014-06-17 22:00:00'
 tags:
 - vmware
 - storage
+permalink: /vmware-horizon-view-high-level-storage-caching-options/
 ---
 
  **What are we trying to solve?**

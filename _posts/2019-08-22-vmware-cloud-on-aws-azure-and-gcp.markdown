@@ -9,6 +9,7 @@ tags:
 - azure
 - gcp
 - aws
+permalink: /vmware-cloud-on-aws-azure-and-gcp/
 ---
 
 With the recent announcement of the Google Cloud VMware Solution you now have the possibility to run a VMware stack on each of the 3 major hyperscalers, AWS, Azure, and GCP. In this post I wanted to compare and contrast the 3 solutions, but before we do that let’s discuss why you would want to use either 3 of them if you are an enterprise customer today.

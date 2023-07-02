@@ -4,6 +4,7 @@ title: Erasure Coding – a primer
 date: '2016-07-13 22:00:00'
 tags:
 - storage
+permalink: /erasure-coding-a-primer/
 ---
 
 A surefire [sic] way to get to look for another job in IT is to lose important data. Typically if a user in any organisation stores data he or she expects that data to be safe and always retrievable (and as we all know data loss in storage systems is unavoidable). Data also keeps growing, a corollary to Parkinson’s law is that data expands to fill the space available for storage, just like clutter around your house.

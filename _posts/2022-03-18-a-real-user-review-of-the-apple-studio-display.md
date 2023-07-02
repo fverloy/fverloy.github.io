@@ -6,6 +6,7 @@ cover-img: /assets/img/IMG_0462.jpeg
 thumbnail-img: /assets/img/IMG_0462.jpeg
 share-img: /assets/img/IMG_0462.jpeg
 tags: [apple, review]
+permalink: /a-real-user-review-of-the-apple-studio-display/
 ---
 
 I was waiting for this announcement for a while, I've owned The LG UltraFine 5K Display before, and was using an LG 32UL950 just before switching to the Apple Studio Display. I've also long coveted the Apple Pro Display XDR but couldn't bring myself to spend that kind of cash for essentially doing PowerPoint and email most of my day.

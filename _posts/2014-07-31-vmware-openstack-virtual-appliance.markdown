@@ -5,6 +5,7 @@ date: '2014-07-31 22:00:00'
 tags:
 - openstack
 - vmware
+permalink: /vmware-openstack-virtual-appliance/
 ---
 
 VMware provides an OpenStack Virtual Appliance, VOVA for short, to help VMware admins get some hands-on experience with using OpenStack in a VMware environment. It is however purely a proof of concept appliance and is not supported in any way by VMware. To find out more about the OpenStack effort at VMware in general please visit https://communities.vmware.com/community/vmtn/openstack

@@ -4,6 +4,7 @@ title: Zero Trust Network Architecture and Micro-Segmentation
 date: '2014-06-30 22:00:00'
 tags:
 - networking
+permalink: /zero-trust-network-architecture-and-micro-segmentation/
 ---
 
  **A killer application**

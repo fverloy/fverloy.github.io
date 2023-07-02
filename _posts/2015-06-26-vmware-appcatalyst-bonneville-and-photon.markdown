@@ -5,6 +5,7 @@ date: '2015-06-26 22:00:00'
 tags:
 - vmware
 - cloudnative
+permalink: /vmware-appcatalyst-bonneville-and-photon/
 ---
 
 VMware has lot’s and lot’s of customers, running lot’s and lot’s of workloads, both dev and test workloads and production workloads, you know like, super duper important stuff that cannot, under any circumstance break.

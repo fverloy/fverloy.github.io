@@ -4,6 +4,7 @@ title: Atlas distributed filesystem, think outside the box.
 date: '2016-11-21 14:38:00'
 tags:
 - rubrik
+permalink: /atlas-distributed-filesystem-think-outside-the-box/
 ---
 
 Rubrik recently presented at [Tech Field Day 12](http://techfieldday.com/companies/rubrik/) and one of the sessions focused on our distributed filesystem called Atlas. As one of the SE’s at Rubrik I’m in the field every day (proudly) representing my company but also competing with other, more traditional backup and recovery vendors. What is apparent more and more is that these traditional vendors are also going down the appliance route to sell their solution into the market, and as such I sometimes get the pushback from potential customers saying they can also get an appliance based offer from their current supplier, or not really immediately grasping why this model can be beneficial to them. A couple of things I wanted to clarify first, when I say “also down the appliance route” I need make clear that this is purely a way to offer the solution to market for us, there is nothing special about the appliance as such, all of the intelligence in Rubrik’s case lies in the software, we even started to offer a software only version in the form of a virtual appliance for ROBO use cases recently.

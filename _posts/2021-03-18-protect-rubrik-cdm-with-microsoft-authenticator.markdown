@@ -6,6 +6,7 @@ tags:
 - ransomware
 - rubrik
 - backup
+permalink: /protect-rubrik-cdm-with-microsoft-authenticator/
 ---
 
 Rubrik released version 5.3.1 of the RCDM code a couple of days ago and one of the new feautures is the ability to protect all of your Rubrik login accounts with two-step verification by using the industry standard [time-based OTP](https://en.wikipedia.org/wiki/Time-based_One-Time_Password)(one-time password) codes.

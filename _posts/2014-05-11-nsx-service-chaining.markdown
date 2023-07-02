@@ -5,6 +5,7 @@ date: '2014-05-11 22:00:00'
 tags:
 - vmware
 - sdn
+permalink: /nsx-service-chaining/
 ---
 
 When NSX was introduced to the public at large during VMworld 2013, there was a logo slide including all the initial NSX partners that had a working demo together with NSX. Now in order to have both solutions work together in a meaningful way we often resort to service insertions or service chaining.

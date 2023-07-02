@@ -5,6 +5,7 @@ date: '2017-09-05 22:00:00'
 tags:
 - microsoft
 - rubrik
+permalink: /rubrik-and-microsoft-rest-assured/
 ---
 
 Rubrik has been working with Microsoft’s solutions in various ways since version 2.3 with the initial support of Microsoft Azure as an archive location for long-term retention data. You can even argue the relationship started earlier than that with support for application consistent backups for Microsoft applications through our own VSS provider and requester (for Windows OS’s on Virtual Machines) since the beginning.
