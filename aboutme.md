@@ -2,6 +2,7 @@
 layout: page
 title: About me
 subtitle: Always hungry, very foolish.
+permalink: /about/
 ---
 
 Hi there!
