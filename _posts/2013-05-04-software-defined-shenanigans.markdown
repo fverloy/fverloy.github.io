@@ -4,6 +4,7 @@ title: Software Defined Shenanigans
 date: '2013-05-04 22:00:00'
 tags:
 - sdn
+permalink: /software-defined-shenanigans/
 ---
 
 Software defined anything (SDx) is the new black.

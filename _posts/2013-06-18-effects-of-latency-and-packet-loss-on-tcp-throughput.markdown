@@ -4,6 +4,7 @@ title: Effects of latency and packet loss on TCP throughput
 date: '2013-06-18 22:00:00'
 tags:
 - networking
+permalink: /effects-of-latency-and-packet-loss-on-tcp-throughput/
 ---
 
 As an SE at a WAN optimization vendor I’m often faced with the following comment when meeting a new customer: “We don’t need WAN optimization because my ISP is offering me a great deal when I upgrade my bandwidth between A and B”.
@@ -16,19 +17,19 @@ One of the characteristics of TCP is that it uses a technique called TCP slow st
 
 The diagram below shows TCP slow start in action.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/slow-start-1.jpg" class="kg-image" alt loading="lazy" width="720" height="540" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/slow-start-1.jpg 600w, __GHOST_URL__ /content/images/2021/08/slow-start-1.jpg 720w" sizes="(min-width: 720px) 720px"></figure>
+<img src="assets/img/slow-start-1.jpg">
 
 The way it works (simplified, and dependent on the slow start implementation) is that the sender starts out by sending one segment (pkt0 in the diagram) and then waits for the receiver to acknowledge that segment (ACK1) before doubling the number of segments. In other words, initially the sender does not know what the initial value of the congestion window (cwnd) should be so he sets it to 1 (initial window). Each time the sender receives a positive acknowledgement it doubles the number of segments (increases the value of cwnd) it sends out increasing the amount of data transfered at once. The sender controls the congestion window which is the total number of segments sent at one time.
 
 Now lets assume you have a WAN link in the middle, which is the bottleneck in terms of throughput, left to it’s own accord the “clocking” ACKs will settle down (steady-state) the sending rate. (see diagram below).
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/steadystate.png" class="kg-image" alt loading="lazy" width="856" height="456" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/steadystate.png 600w, __GHOST_URL__ /content/images/2021/08/steadystate.png 856w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/steadystate.png>
 
 The total amount of data outstanding (sent segments that did not get an acknowledgment back) needs to fit into the windows size (typically 64K without windows scaling) which is controlled by the receiver. Assuming each data segment is 1460 bytes this means that you can have a maximum of 44 segments unacknowledged at the maximum windows size (again not taking into account windows scaling).
 
 Now when a packet is lost (usually due to congestion in a wired network), congestion control dictates that the sending rate is lowered to 50% of the last value. In other words let’s say at the time of packet loss the cwnd was 8, it will revert to 4 and slow-start will kick in again. Slow start will now not double the segments of the last value (i.e. from 4 to 8) but it will increase the congestion window by 1 segment trying to detect the optimal throughput again leading to a low overall throughput in a high packet loss environment (see diagram below).
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/bwthroughput.png" class="kg-image" alt loading="lazy" width="1013" height="241" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/bwthroughput.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/bwthroughput.png 1000w, __GHOST_URL__ /content/images/2021/08/bwthroughput.png 1013w" sizes="(min-width: 720px) 720px"></figure>
+<img src="assets/img/bwthroughput.png"
 
 Now let’s look at some actual numbers when introducing packet loss and latency.
 
@@ -36,15 +37,15 @@ The picture below shows the impact of maximum windows size lenght with a 30ms ro
 
 On the right side you see the same bandwidth only now the latency has been increased to 256ms roundtrip, the overal throughput drops dramatically even though the bandwidth has not decreased.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/latency.png" class="kg-image" alt loading="lazy" width="945" height="285" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/latency.png 600w, __GHOST_URL__ /content/images/2021/08/latency.png 945w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/latency.png">
 
 The picture below introduces packet loss, on the left side you have 0% loss and no latency so we get almost full bandwidth utilisation. Next we introduce 3% packet loss and you can see congestion control and slow start struggling to fill the link again even though there is no latency impact. If we then introduce 30ms of roundtrip latency the throughput is impacted by congestion control, slow start and the maximum windows size leading to low link utilization. Lastly on the right we have a satellite simulation with packet loss and high latency completely killing the throughput.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/tcp-loss.png" class="kg-image" alt loading="lazy" width="913" height="340" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/tcp-loss.png 600w, __GHOST_URL__ /content/images/2021/08/tcp-loss.png 913w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/tcp-loss.png">
 
 Now as I mentioned before that TCP is biased towards reliability you can see it struggling under certain situations, if we take a look at a protocol that is not bothered by reliability like UDP the picture (see below) completely changes.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/udp.png" class="kg-image" alt loading="lazy" width="925" height="348" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/udp.png 600w, __GHOST_URL__ /content/images/2021/08/udp.png 925w" sizes="(min-width: 720px) 720px"></figure>
+<img src="/assets/img/udp.png">
 
 Note: this post was meant as an introductory explanation of the effects of packet loss and latency on TCP and is in no way comprehensive, I will cover a lot more details in subsequent posts.
 

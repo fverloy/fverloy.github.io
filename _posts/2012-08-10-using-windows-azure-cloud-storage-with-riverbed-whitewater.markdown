@@ -6,6 +6,7 @@ tags:
 - azure
 - riverbed
 - backup
+permalink: /using-windows-azure-cloud-storage-with-riverbed-whitewater/
 ---
 
 Riverbed Whitewater allows you to connect your on-premise backup and archive environment to a public cloud storage provider like Microsoft’s Windows Azure.

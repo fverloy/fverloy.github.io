@@ -6,6 +6,7 @@ tags:
 - riverbed
 - storage
 - backup
+permalink: /riverbed-whitewater-and-caringo-castor/
 ---
 
 One of the coolest, in my humble opinion of course, solutions I was able to work with when I was at Dell, was the CAStor Object Storage system from Caringo, OEM’ed as the Dell DX6000.

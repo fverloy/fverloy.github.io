@@ -5,6 +5,7 @@ date: '2012-08-01 22:00:00'
 tags:
 - storage
 - networking
+permalink: /file-and-block-storage-over-a-wan/
 ---
 
 In this post I wanted to explore how you can accelerate file storage (using CIFS as an example) over a wide area network and why it traditionally does not work for block storage (using iSCSI as an example). First let’s look into some of the (greatly simplified) common differences between the types of storage.

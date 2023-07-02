@@ -6,6 +6,7 @@ tags:
 - riverbed
 - storage
 - networking
+permalink: /boot-from-san-how-about-boot-from-wan/
 ---
 
 If you ask an IT administrator to draw his/her ideal IT architecture you’ll probably get a picture of a big consolidated datacenter with all remote branches connecting to it without any locally installed servers/storage.

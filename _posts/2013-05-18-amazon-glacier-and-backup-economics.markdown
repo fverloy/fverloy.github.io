@@ -5,6 +5,7 @@ date: '2013-05-18 22:00:00'
 tags:
 - aws
 - storage
+permalink: /amazon-glacier-and-backup-economics/
 ---
 
 In the summer of last year Amazon announced Amazon Glacier, an extremely low cost storage service designed for data archiving and backup.

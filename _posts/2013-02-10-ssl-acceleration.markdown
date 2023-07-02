@@ -5,6 +5,7 @@ date: '2013-02-10 23:00:00'
 tags:
 - riverbed
 - networking
+permalink: /ssl-acceleration/
 ---
 
 One of the prerequisites for WAN optimization is that the traffic we are attempting to de-duplicate across the WAN is not encrypted, we need “clear-text” data in order to find data patterns so de-duplication is most optimum.

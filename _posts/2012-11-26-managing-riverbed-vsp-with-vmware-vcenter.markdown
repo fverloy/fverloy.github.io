@@ -5,6 +5,7 @@ date: '2012-11-26 23:00:00'
 tags:
 - riverbed
 - vmware
+permalink: /using-windows-azure-cloud-storage-with-riverbed-whitewater/
 ---
 
 Riverbed has recently released version 2 of the EX platform software, this includes RiOS 8 and Virtual Services Platform v2. VSPv2 runs VMware ESXi 5 as it’s hypervisor layer and as such can be managed by VMware vCenter.

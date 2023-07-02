@@ -5,6 +5,7 @@ date: '2013-03-28 23:00:00'
 tags:
 - riverbed
 - networking
+permalink: /your-salesforce-com-only-faster/
 ---
 
 As mentioned in my previous post Riverbed has a joint SaaS optimization solution with Akamai called Steelhead Cloud Accelerator. In this blog post I will show you how to use this technology to accelerate your salesforce (people and the application).
