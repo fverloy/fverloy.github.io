@@ -21,7 +21,7 @@ author: Filip Verloy
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "about"
   Resources:
     - API Security Newsletter: "https://apisec.substack.com/"
     - Cloudology Podcast: "https://open.spotify.com/show/1qwcoIGFZqfWMMOvkrJe3d?si=eec57f9377c544aa"
