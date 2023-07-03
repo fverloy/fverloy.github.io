@@ -54,4 +54,6 @@ For example, if we perform a search operation in the Twitter web client, we see 
 
 Now if you want to create a tweet, the endpoint used is a GraphQL one, which is represented by a single URL for all functionality (how do you create inline firewall rules for this?). The different functionalities provided by that single GraphQL API are represented by queries that can be standardized, named, or unnamed.
 
+## The need for a dedicated API security platform
+
 So it is about pulling together all relevant context over time and understanding how all these API calls are associated with a single consumer, and what that consumer's behavior tells us about their intentions (good vs bad). To connect those dots, you need superhuman (i.e. AI/ML) capabilities. 
