@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Why do you need API Security?
-date: '2012-08-01 22:00:00'
+date: '2023-07-03 08:00:00'
 tags:
-- storage
-- networking
+- API
+- Security
+permalink: /why-do-you-need-api-security/
 ---
 In 2011, Marc Andreessen wrote his seminal piece in the Wall Street Journal on "Why Software Is Eating The World", arguing that every company would become a software company. Today he is similarly singing AI's praises, and published his article ["Why AI Will Save the World"]("https://a16z.com/2023/06/06/ai-will-save-the-world/"), notably on his "own" website this time. But we are not here to talk AI, but to focus on APIs. To add to Mr. Andreessen's point on software, we feel that "APIs fuel the software that’s eating the world”.
 
