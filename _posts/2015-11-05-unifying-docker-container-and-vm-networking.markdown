@@ -13,7 +13,7 @@ permalink: /unifying-docker-container-and-vm-networking/
 
 Most environments are not homogeneous, typically you have multiple types of workloads and I believe this will only increase in the near future with the rise of containers, PaaS, VM’s, bare metal,… In this brief overview I wanted to demonstrate how you can connect Virtual Machines and Containers on the same overlay network in an automated manner via our SDN solution. This way every time you spin up a new workload it will automatically get its network and security policy applied and behaves like any other endpoint on the network.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/dockervmnw1.png" class="kg-image" alt loading="lazy" width="1024" height="346" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/dockervmnw1.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/dockervmnw1.png 1000w, __GHOST_URL__ /content/images/2021/08/dockervmnw1.png 1024w" sizes="(min-width: 720px) 720px"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/img/dockervmnw1.png" class="kg-image" alt loading="lazy" width="1024" height="346" srcset="/assets/img/dockervmnw1.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/dockervmnw1.png 1000w, __GHOST_URL__ /content/images/2021/08/dockervmnw1.png 1024w" sizes="(min-width: 720px) 720px"></figure>
 
 **Docker networking**
 
@@ -31,19 +31,19 @@ In the case of Nuage Networks we will attach every container to a tenant (overla
 
 I’ve created a L2 network (called DockerSN below) in Nuage (synced to OpenStack) where I’m connecting both my containers and VM workloads. The subnet has a range of 192.168.200.0/24.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/dockervmnw2.png" class="kg-image" alt loading="lazy" width="1024" height="226" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/dockervmnw2.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/dockervmnw2.png 1000w, __GHOST_URL__ /content/images/2021/08/dockervmnw2.png 1024w" sizes="(min-width: 720px) 720px"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/img/dockervmnw2.png" class="kg-image" alt loading="lazy" width="1024" height="226" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/dockervmnw2.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/dockervmnw2.png 1000w, __GHOST_URL__ /content/images/2021/08/dockervmnw2.png 1024w" sizes="(min-width: 720px) 720px"></figure>
 
 So when I spin up a new container on my Docker host and connect it to the Nuage VRS I’ll automatically get the policies from that construct applied.
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/dockervmnw3.png" class="kg-image" alt loading="lazy" width="1024" height="423" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/dockervmnw3.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/dockervmnw3.png 1000w, __GHOST_URL__ /content/images/2021/08/dockervmnw3.png 1024w" sizes="(min-width: 720px) 720px"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/img/dockervmnw3.png" class="kg-image" alt loading="lazy" width="1024" height="423" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/dockervmnw3.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/dockervmnw3.png 1000w, __GHOST_URL__ /content/images/2021/08/dockervmnw3.png 1024w" sizes="(min-width: 720px) 720px"></figure>
 
 So as you can see above, my new container (gloomy\_jang) has gotten the IP address 192.168.200.190, if we go back to our Virtualized Services Architect interface we can see 2 containers (one I created earlier) and a VM attached to the same subnet (could also be to a separate subnet ofc).
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/dockervmnw4.png" class="kg-image" alt loading="lazy" width="300" height="173"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/img/dockervmnw4.png" class="kg-image" alt loading="lazy" width="300" height="173"></figure>
 
 We can drill down on the newly created container and get all the network and security policy details
 
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/08/dockervmnw5.png" class="kg-image" alt loading="lazy" width="1024" height="293" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/dockervmnw5.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/dockervmnw5.png 1000w, __GHOST_URL__ /content/images/2021/08/dockervmnw5.png 1024w" sizes="(min-width: 720px) 720px"></figure>
+<figure class="kg-card kg-image-card"><img src="/assets/img/dockervmnw5.png" class="kg-image" alt loading="lazy" width="1024" height="293" srcset=" __GHOST_URL__ /content/images/size/w600/2021/08/dockervmnw5.png 600w, __GHOST_URL__ /content/images/size/w1000/2021/08/dockervmnw5.png 1000w, __GHOST_URL__ /content/images/2021/08/dockervmnw5.png 1024w" sizes="(min-width: 720px) 720px"></figure>
 
 We now have connectivity between our container workloads and VM (192.168.200.2).
 
