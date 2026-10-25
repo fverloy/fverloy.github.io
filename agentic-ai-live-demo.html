@@ -247,84 +247,6 @@ body.intro #introViz{display:flex}
   .rung p{display:none} .rung{padding:10px} .rung b{font-size:15px}
   .shift{grid-template-columns:1fr}
 }
-/* intro: building blocks, what is an LLM, anatomy of a transformer */
-.iv{width:100%;max-width:600px;display:flex;flex-direction:column;gap:14px;padding:8px 10px}
-.comp .crow{background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:14px 16px;opacity:0;transform:translateY(12px);transition:all .5s}
-.comp .crow.show{opacity:1;transform:none}
-.clab{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink-teal);margin-bottom:10px}
-.cflow{display:flex;align-items:center;gap:8px}
-.cb{flex:1;background:var(--cream);border-radius:10px;padding:10px 8px;text-align:center;font-size:14px;font-weight:600;line-height:1.2}
-.cb small{display:block;font-weight:400;font-size:11px;color:var(--gray);font-family:"DM Mono",monospace;margin-top:2px}
-.cb .sp{display:block;font-weight:400;font-size:11px;color:#5B3FC4;margin-top:4px}
-.cb.llm{background:var(--purple-t);color:#3d2d7a}
-.cb.agent{background:var(--teal);flex:1.2}
-.cb.agent small{color:var(--dark)}
-.car{color:var(--teal-shade);font-size:18px}
-.cstack{flex:1;display:flex;flex-direction:column;gap:6px}
-.cstack .cb{padding:7px 8px}
-.cdot{align-self:flex-end;margin-right:14%;font-family:"DM Mono",monospace;font-size:10.5px;color:var(--purple);border-left:2px dotted var(--purple);padding:6px 0 6px 8px;opacity:0;transition:opacity .5s}
-.cdot.show{opacity:1}
-.cfoot{font-size:12px;color:var(--gray);font-style:italic;opacity:0;transition:opacity .5s}
-.cfoot.show{opacity:1}
-.quote{background:var(--dark);color:#E8F4F2;border-radius:16px;padding:28px 30px}
-.quote p{font-size:20px;line-height:1.45}
-.quote b{color:var(--cyan)}
-.qk{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--cyan);margin-bottom:12px}
-.qs{margin-top:14px;font-size:13px;color:#9FC9C5;font-style:italic}
-.pr{display:grid;grid-template-columns:96px 1fr 44px;gap:10px;align-items:center;padding:5px 6px;border-radius:8px;font-size:15px;transition:background .3s}
-.pr.blk{opacity:0;transform:none}
-.pr.show{opacity:1}
-.pbar{height:12px;background:var(--line);border-radius:6px;overflow:hidden}
-.pbar i{display:block;height:100%;width:0;background:var(--teal-shade);transition:width .8s ease}
-.pr.pick.chosen{background:var(--teal-t);box-shadow:inset 3px 0 0 var(--teal)}
-.pr.pick.chosen .pbar i{background:var(--teal)}
-.srcl{font-size:11.5px;color:var(--gray);margin-top:10px}
-.tf .tfk{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink-teal)}
-.tfpipe{display:flex;align-items:stretch;gap:4px}
-.tfs{flex:1;background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:10px 8px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:3px;opacity:.5;transition:all .4s}
-.tfs b{font-size:13px;line-height:1.15}
-.tfs small{font-family:"DM Mono",monospace;font-size:10px;color:var(--gray)}
-.tfs.done{opacity:.85;background:var(--teal-t);border-color:#A9BDBB}
-.tfs.on{opacity:1;background:var(--teal);border-color:var(--teal-shade);box-shadow:0 0 16px rgba(0,210,192,.45)}
-.tfs.on small{color:var(--dark)}
-.tfn{width:22px;height:22px;border-radius:50%;background:var(--dark);color:#fff;font-family:"DM Mono",monospace;font-size:11px;display:flex;align-items:center;justify-content:center}
-.tfa{align-self:center;color:var(--teal-shade);font-size:16px}
-.tfbody{background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:18px;min-height:250px;display:flex;flex-direction:column;justify-content:center;gap:12px}
-.tvwrap{font-family:"DM Mono",monospace;font-size:20px;display:flex;flex-wrap:wrap;gap:0;line-height:1.9}
-.tv{padding:2px 1px;border-radius:3px;white-space:pre;opacity:0;transition:opacity .3s}
-.tv.show{opacity:1}
-.tv i{font-style:normal;color:var(--gray)}
-.tvc{font-size:12px;color:var(--gray)}
-.tvnote{font-size:13px;line-height:1.4;color:#2a4a4c}
-svg.emb{width:100%;height:auto}
-svg.emb .ax{stroke:var(--mid);stroke-width:1.2}
-svg.emb .vec{stroke:var(--teal-shade);stroke-width:1.8}
-svg.emb circle{fill:var(--teal)}
-svg.emb text{font-family:"DM Mono",monospace;font-size:13px;fill:var(--dark)}
-svg.emb .clu{fill:none;stroke:var(--purple);stroke-dasharray:4 4;opacity:.6}
-svg.emb .ept{opacity:0;transition:opacity .5s}
-svg.emb .ept.show{opacity:1}
-.attn{display:flex;align-items:flex-end;gap:4px;height:200px}
-.aw{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%}
-.aw .ab{flex:1;width:70%;display:flex;align-items:flex-end;background:var(--cream);border-radius:4px}
-.aw .ab i{display:block;width:100%;height:0;background:var(--teal-shade);border-radius:4px;transition:height .7s ease}
-.aw.top .ab i{background:var(--teal)}
-.aw span{font-family:"DM Mono",monospace;font-size:10.5px;writing-mode:vertical-rl;transform:rotate(180deg);height:56px;text-align:left}
-.aw.q span{color:#5B3FC4;font-weight:600}
-.aw.q .ab{outline:2px solid var(--purple);outline-offset:1px}
-.loop{display:flex;align-items:center;gap:8px}
-.lpb{flex:1;background:var(--cream);border-radius:10px;padding:16px 8px;text-align:center;font-weight:600;font-size:14px}
-.lpb.hot{background:var(--teal)}
-.lpback{text-align:center;font-family:"DM Mono",monospace;font-size:13px;color:var(--ink-teal);border:1.5px dashed var(--teal-shade);border-radius:10px;padding:10px}
-.agx{display:grid;grid-template-columns:1fr auto 1fr auto 1.3fr;gap:10px;align-items:center}
-.agop{font-size:28px;color:var(--teal-shade);font-weight:700}
-.agk{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:var(--ink-teal);margin-bottom:8px}
-.agf{display:flex;flex-direction:column;gap:5px;font-size:13px;text-align:center}
-.agf span{background:#fff;border-radius:7px;padding:5px 6px}
-.agf span.hot{background:var(--purple-t);color:#3d2d7a;font-family:"DM Mono",monospace;font-size:11.5px}
-.agx .card p{font-size:13px;line-height:1.35;margin-top:10px}
-.agx .card.ag{background:var(--teal-t)}
-@media (max-width:1000px){ .agx{grid-template-columns:1fr} .agop{text-align:center} .quote p{font-size:16px} }
 </style>
 </head>
 <body>
@@ -459,7 +381,7 @@ function meterAdd(k,n){ MV[k]+=n; if(MV.calls<1) MV.calls=1; drawMeter(MV); }
 function updateMeter(){
   const first = STEPS.findIndex(x=>x.bill);
   $("#meter").classList.toggle("off", cur<first || !!STEPS[cur].viz || !!STEPS[cur].all);
-  $("#m-scope").textContent = "Billing  ·  " + (STEPS[meterStart()].scope||(STEPS.find(x=>x.scope)||{}).scope||"");
+  $("#m-scope").textContent = "Billing  ·  " + (STEPS[meterStart()].scope||"");
   if(STEPS[cur].billLive){ cancelAnimationFrame(mAnim); MV = meterTarget(cur-1); drawMeter(MV); return; }
   const t = meterTarget(), from = {...MV};
   const grows = t.calls > from.calls, delay = grows ? (STEPS[cur].billAt||600) : 0;
@@ -532,46 +454,14 @@ function json(o){
 function bars(){ later(()=>document.querySelectorAll(".bar i").forEach(b=>b.style.width=b.dataset.w+"%"),80); }
 function chatHTML(items){ return '<div class="chat">'+items.map(([w,t])=>`<div><div class="who" style="text-align:${w==="user"?"left":"right"}">${w==="user"?"Sara (customer)":"Support agent"}</div><div class="bubble ${w}" style="${w==="agent"?"margin-left:auto":""}">${t}</div></div>`).join("")+'</div>'; }
 
-// Anatomy of a transformer: shared left-hand visual, one stage highlighted at a time
-const TF_STAGES=[["Tokenize","text → token IDs"],["Embedding","IDs → vectors"],["Attention + feed forward","× many blocks"],["Probabilities","pick the next token"]];
-const ATTN_WORDS=["The","chicken","did","not","cross","the","street","because","it","was","too","tired"];
-const ATTN={tired:[.14,.30,.03,.04,.05,.03,.08,.06,.17,.04,.03,.03], wide:[.06,.08,.03,.04,.06,.08,.32,.05,.16,.04,.03,.05]};
-function tfViz(st){
-  const pipe=`<div class="tfpipe">${TF_STAGES.map((s,i)=>`<div class="tfs${i===st?" on":i<st?" done":""}"><span class="tfn">${i+1}</span><b>${s[0]}</b><small>${s[1]}</small></div>${i<3?'<span class="tfa">→</span>':""}`).join("")}</div>`;
-  let body="";
-  if(st===0){ const T=["Rub","rik"," is"," the"," best"," place"," to"," work"," because","..."], C=["#E4DCFF","#D5F2D5","#FBE6C8","#F7CFCF","#CFE7F5"];
-    body=`<div class="tfbody"><div class="tvwrap">${T.map((t,i)=>`<span class="tv" id="tv${i}" style="background:${C[i%5]}">${esc(t).replace(/^ /,"<i>·</i>")}</span>`).join("")}</div>
-      <div class="tvc mono">tokens: <span id="tvn">0</span> &nbsp;·&nbsp; characters: 43</div>
-      <div class="tvnote">The tokenizer sits <b>outside</b> the neural network and uses a vocabulary file.</div></div>`; }
-  if(st===1){ const P=[["cat",90,95,"e0"],["dog",62,120,"e1"],["banana",305,120,"e2"],["pineapple",270,60,"e3"]];
-    body=`<div class="tfbody"><svg class="emb" viewBox="0 0 400 300"><line x1="20" y1="270" x2="390" y2="270" class="ax"/><line x1="200" y1="290" x2="200" y2="15" class="ax"/>
-      ${P.map(p=>`<g class="ept" id="${p[3]}"><line x1="200" y1="270" x2="${p[1]}" y2="${p[2]}" class="vec"/><circle cx="${p[1]}" cy="${p[2]}" r="7"/><text x="${p[1]}" y="${p[2]-14}" text-anchor="middle">${p[0]}</text></g>`).join("")}
-      <ellipse cx="286" cy="90" rx="62" ry="52" class="clu"/><ellipse cx="76" cy="108" rx="52" ry="40" class="clu"/></svg>
-      <div class="tvnote">Two of hundreds or thousands of dimensions. Similar meaning, nearby vectors.</div></div>`; }
-  if(st===2){ body=`<div class="tfbody"><div class="attn" id="attnv">${ATTN_WORDS.map((w,i)=>`<div class="aw${i===8?" q":""}"><div class="ab"><i id="ab_${i}"></i></div><span>${w}</span></div>`).join("")}</div>
-      <div class="tvc mono">how much “it” attends to each word</div></div>`; }
-  if(st===3){ body=`<div class="tfbody"><div class="loop"><div class="lpb">Transformer pass</div><span class="tfa">→</span><div class="lpb hot">next token</div><span class="tfa">→</span><div class="lpb">append to text</div></div>
-      <div class="lpback">↺ &nbsp;repeat for every token out</div></div>`; }
-  return `<div class="iv tf"><div class="tfk">Anatomy of a transformer</div>${pipe}${body}</div>`;
-}
-function attn(mode){
-  const W=ATTN[mode]; if(!$("#attnv")) return;
-  W.forEach((w,i)=>{ const e=$("#ab_"+i); if(e) e.style.height=Math.round(w/0.32*100)+"%"; });
-  document.querySelectorAll(".attn .aw").forEach((e,i)=>e.classList.toggle("top", W[i]===Math.max(...W)));
-  if($("#aw")) $("#aw").textContent=mode;
-  if($("#aref")) $("#aref").innerHTML = mode==="tired" ? "“it” refers to the <b>chicken</b>." : "“it” refers to the <b>street</b>.";
-  if($("#ab0")){ $("#ab0").className="btn "+(mode==="tired"?"ok":"no"); $("#ab1").className="btn "+(mode==="wide"?"ok":"no"); }
-  const last=document.querySelectorAll(".attn .aw span")[11]; if(last) last.textContent=mode;
-}
-
 const USER_MSG = "Hi, order #4821 arrived with a cracked screen. Can I get a refund?";
 const FINAL_MSG = "I'm sorry your monitor arrived damaged, Sara. I've issued a full refund of €340 to your original payment method (3 to 5 business days), and a courier will collect the monitor on Thursday between 9:00 and 12:00. I'll send updates by email.";
 
 const STEPS = [
  { k:"Context  |  Why now", t:"AI has moved from answering to acting", short:"why agents matter now",
-   n:"In two or three years, AI inside companies went from a chat window that <b>answers questions</b>, to copilots that <b>draft and suggest</b>, to <b>agents</b> that plan and carry out work across real systems on their own. Each step gave the AI more <b>access</b> and took the human further out of each individual action.",
-   notes:"Dates are approximate: ChatGPT launched in November 2022; Microsoft 365 Copilot became generally available in November 2023 (GitHub Copilot came earlier, 2021 to 2022); agent products took off in 2025. Open with something everyone has lived: they have all used a chat assistant, most have used a copilot. Let the three columns appear on the left and read the bottom line of each: who acts. With an assistant, you do. With a copilot, you still click. With an agent, the AI does. Do not explain how agents work yet; that is the rest of the session. The point here is the shift in who holds the pen. Read the three cards: access, speed, spread. Land the dark box: the questions security teams ask change once the AI can act. Then transition: what are the building blocks of an agent, and what is the model at its center actually doing?",
-   viz(){ const R=[["2022 →","Assistant","Answers questions in a chat window. Copy, paste, decide.","You",45],["2023 →","Copilot","Drafts and suggests inside your tools: email, code, CRM.","You, one click",68],["2025 →","Agent","Plans, calls APIs, moves data and money across systems.","The AI",100]];
+   n:"In two or three years, AI inside companies went from a chat window that <b>answers questions</b>, to copilots that <b>draft and suggest</b>, to <b>autonomous agents</b> that plan and carry out work across real systems on their own. Each step gave the AI more <b>access</b> and took the human further out of each individual action.",
+   notes:"Open with something everyone has lived: they have all used a chatbot, most have used a copilot. Let the three columns appear on the left and read the bottom line of each: who acts. With a chatbot, you do. With a copilot, you still click. With an autonomous agent, the AI does. Do not explain how agents work yet; that is the rest of the session. The point here is the shift in who holds the pen. Read the three cards: access, speed, spread. Land the dark box: the questions security teams ask change once the AI can act. Then transition: so what is an agent, at its core? Strip it down to the smallest piece.",
+   viz(){ const R=[["2023","Chatbot","Answers questions in a chat window. Copy, paste, decide.","You",45],["2024","Copilot","Drafts and suggests inside your tools: email, code, CRM.","You, one click",68],["2025 →","Autonomous agent","Plans, calls APIs, moves data and money across systems.","The AI",100]];
      return `<div class="ladder"><div class="lrow">${R.map((r,i)=>`<div class="rung${i===2?" agent":""}" id="rg${i}" style="height:${r[4]}%"><span class="rk">${r[0]}</span><b>${r[1]}</b><p>${r[2]}</p><div class="rw"><span class="rwl">who acts</span>${r[3]}</div></div>`).join("")}</div><div class="laxis" id="lax">more autonomy, more access</div></div>`; },
    run(){ [0,1,2].forEach(i=>later(()=>$("#rg"+i).classList.add("show"),300+i*700)); later(()=>$("#lax").classList.add("show"),300+3*700);
      [0,1,2].forEach(i=>later(()=>$("#sh"+i).classList.add("show"),2600+i*400)); later(()=>$("#pq").classList.add("show"),2600+3*400+200);
@@ -581,101 +471,8 @@ const STEPS = [
        <div class="card blk" id="sh2"><b>Everywhere</b>Built by product teams, bought inside SaaS tools, assembled in low-code platforms.</div></div>
        <div class="punch blk" id="pq">The question is no longer only <b>what the AI says</b>. It is <b>what it can do</b>, <b>with whose rights</b>, and <b>who checks</b>.</div></div>`; } },
 
- { k:"Context  |  The building blocks", t:"An LLM learns from internet-scale data; an agent puts it to work", short:"the building blocks of an AI agent",
-   n:"Two pictures to keep in mind. A <b>large language model</b> is what you get when <b>machine learning</b> is run over <b>internet-scale data</b>: a model that writes text. An <b>AI agent</b> wraps that same model in software, the <b>harness</b>, and adds a <b>system prompt</b>, <b>tools</b> to act with and <b>memory</b> to remember.",
-   notes:"Mirror the workshop's components slide. Top row: how an LLM comes to be. Bottom row: what an agent adds around the same LLM; the dotted line shows it is the same model in both rows. Footnote from the deck: AI agent and agentic AI are technically different patterns. An AI agent is usually one system pursuing a goal with tools; agentic AI describes setups where several agents plan, coordinate and share memory. In practice people use the terms loosely, and so will we. Then: before we build the agent, what is the LLM actually doing?",
-   viz(){ return `<div class="iv comp">
-      <div class="crow" id="cr0"><div class="clab">A large language model</div>
-        <div class="cflow"><div class="cb">Internet-scale data</div><span class="car">→</span><div class="cb">Machine learning<small>training</small></div><span class="car">→</span><div class="cb llm" id="llm1">LLM</div></div></div>
-      <div class="cdot" id="cdot">same model</div>
-      <div class="crow" id="cr1"><div class="clab">An AI agent</div>
-        <div class="cflow"><div class="cb">User</div><span class="car">→</span><div class="cb agent">Agent<small>the harness</small><span class="sp">+ system prompt</span></div><span class="car">→</span>
-        <div class="cstack"><div class="cb llm">LLM</div><div class="cb">Tools</div><div class="cb">Memory</div></div></div></div>
-      <div class="cfoot" id="cfoot">AI agent and agentic AI are technically different patterns</div></div>`; },
-   run(){ later(()=>$("#cr0").classList.add("show"),300); later(()=>$("#cdot").classList.add("show"),1300); later(()=>$("#cr1").classList.add("show"),1800); later(()=>$("#cfoot").classList.add("show"),2800);
-     [0,1,2].forEach(i=>later(()=>$("#bb"+i).classList.add("show"),3200+i*400));
-     return `<div class="fade"><div class="shift">
-       <div class="card blk" id="bb0"><b>LLM</b>Learned patterns from billions of pages. On its own it only writes text; it cannot look anything up or act.</div>
-       <div class="card blk" id="bb1"><b>Agent (harness)</b>Software with a goal. It holds the system prompt, calls the LLM, and acts on what comes back.</div>
-       <div class="card blk" id="bb2"><b>Tools and memory</b>Tools let it read and change real systems. Memory lets it carry facts from one step, or one session, to the next.</div></div>
-       <div class="card" style="margin-top:12px;font-size:14px;line-height:1.45;color:#2a4a4c"><b>AI agent vs agentic AI.</b> Strictly, an <b>AI agent</b> is one system that pursues a goal with tools. <b>Agentic AI</b> describes systems where several agents plan, coordinate and share memory. Day to day the terms are used loosely.</div></div>`; } },
-
- { k:"Context  |  What is an LLM?", t:"An LLM produces a reasonable continuation of the text so far", short:"what an LLM actually does",
-   n:"Stephen Wolfram's description is still the clearest: a large language model is always trying to produce a <b>reasonable continuation</b> of whatever text it has so far, where reasonable means <b>what one might expect someone to write</b> after seeing billions of web pages. Concretely, it produces a <b>ranked list of possible next tokens with probabilities</b>, picks one, and repeats.",
-   notes:"Quote from Stephen Wolfram, 'What Is ChatGPT Doing … and Why Does It Work?' (February 2023, also a book). The probabilities on the right are illustrative, not measured from a real model. Make the point that the model does not always pick the top word: a setting called temperature controls how often lower-ranked words are chosen, and Wolfram notes that around 0.8 works well for essays. That is why the same prompt gives different answers. Footnote from the workshop deck: not every AI model works by next-token prediction. World models such as JEPA, championed by Yann LeCun, predict in an abstract representation space instead of predicting the next word or pixel. Thinking Machines (Mira Murati) previewed 'interaction models' in May 2026 that take in and produce audio, video and text continuously, in real time, rather than turn by turn. Both are research directions; today's agents run on next-token LLMs. Next: open the box and see how the transformer produces that list.",
-   viz(){ return `<div class="iv"><div class="quote"><div class="qk">Stephen Wolfram, 2023</div>
-      <p>“What ChatGPT is always fundamentally trying to do is to produce a <b>reasonable continuation</b> of whatever text it’s got so far, where by ‘reasonable’ we mean ‘what one might expect someone to write after seeing what people have written on billions of webpages, etc.’”</p>
-      <div class="qs">What Is ChatGPT Doing … and Why Does It Work?</div></div></div>`; },
-   run(){ const C=[[" the",21],[" of",18],[" it",12],[" they",9],[" you",7]];
-     C.forEach((c,i)=>later(()=>{ $("#pc"+i).classList.add("show"); $("#pb"+i).style.width=(c[1]*4)+"%"; },500+i*250));
-     later(()=>$("#pnote").style.opacity=1,500+C.length*250+400);
-     return `<div class="fade"><div class="card"><h4>Text so far</h4><div style="font-size:20px;font-weight:600">Rubrik is the best place to work because<span class="cursor" style="background:var(--teal)"></span></div></div>
-       <div class="card" style="margin-top:12px"><h4>Ranked next tokens  ·  illustrative</h4>
-       ${C.map((c,i)=>`<div class="pr blk" id="pc${i}"><span class="mono">${c[0].replace(" ","·")}</span><span class="pbar"><i id="pb${i}"></i></span><span class="mono">${c[1]}%</span></div>`).join("")}</div>
-       <div id="pnote" style="opacity:0;transition:opacity .5s;margin-top:12px" class="row"><div class="card" style="font-size:14px;line-height:1.4"><b style="display:block;font-size:16px;margin-bottom:4px">Not always the top word</b>A <b>temperature</b> setting decides how often lower-ranked tokens are picked. That is why the same prompt can give different answers.</div>
-       <div class="card" style="font-size:14px;line-height:1.4;background:var(--purple-t)"><b style="display:block;font-size:16px;margin-bottom:4px">Not the only approach</b>World models such as <b>JEPA</b> (Yann LeCun) and real-time <b>interaction models</b> (Thinking Machines) are research directions beyond next-token prediction.</div></div></div>`; } },
-
- { k:"Anatomy of a transformer  |  1 of 4", tf:0, t:"Tokenize: text becomes a sequence of token IDs", short:"how a transformer reads text, starting with tokens",
-   n:"The model behind every LLM is a <b>transformer</b>, and it works in four stages. First, a <b>tokenizer</b> splits the text into <b>tokens</b>. The tokenizer is a <b>standalone component</b> that sits outside the neural network and uses a fixed <b>vocabulary file</b>. Common words are one token; rarer words are split into pieces.",
-   notes:"Same sentence as in the workshop: OpenAI's tokenizer page shows 'Rubrik is the best place to work because...' as 10 tokens and 43 characters. 'Rubrik' is not common enough to be one token, so it becomes 'Rub' + 'rik'. Each token is really an ID number in the vocabulary; the network never sees letters. Vocabularies are built with byte-pair encoding and hold roughly 200,000 entries for recent OpenAI models. Rule of thumb for English: one token is about four characters, or three quarters of a word. Tokens are also the unit you are billed in, which is why the meter later counts them.",
-   viz(){ return tfViz(0); },
-   run(){ const T=["Rub","rik"," is"," the"," best"," place"," to"," work"," because","..."];
-     T.forEach((t,i)=>later(()=>{ $("#tv"+i).classList.add("show"); $("#tvn").textContent=i+1; },600+i*260));
-     later(()=>$("#tkf").style.opacity=1,600+T.length*260+300);
-     return `<div class="fade"><div class="card"><h4>Input text</h4><div class="mono" style="font-size:17px">Rubrik is the best place to work because...</div></div>
-       <div class="row" id="tkf" style="margin-top:12px;opacity:0;transition:opacity .5s">
-        <div class="card"><div class="g mono" style="font-size:12px;color:var(--gray)">TOKENS</div><div class="big">10</div></div>
-        <div class="card"><div class="g mono" style="font-size:12px;color:var(--gray)">CHARACTERS</div><div class="big">43</div></div>
-        <div class="card" style="font-size:14px;line-height:1.4"><b style="display:block;font-size:16px;margin-bottom:4px">Rubrik = Rub + rik</b>A rare word is split into known pieces from the vocabulary.</div></div>
-       <div class="card" style="margin-top:12px;font-size:14px;line-height:1.45"><b>Outside the network.</b> The tokenizer is separate software with a vocabulary file. Each token becomes an <b>ID number</b>: the neural network only ever sees numbers. Rule of thumb: 1 token ≈ 4 characters of English.</div>
-       <div class="srcl">Source: OpenAI tokenizer, as shown in the Accelerate Tomorrow workshop</div></div>`; } },
-
- { k:"Anatomy of a transformer  |  2 of 4", tf:1, t:"Embedding: each token becomes a vector of numbers", short:"tokens turned into vectors",
-   n:"Each token ID is looked up in an <b>embedding table</b> and becomes a <b>vector</b>: a long list of numbers that places the token in a <b>high-dimensional space</b>. Tokens used in similar ways land close together, so <b>banana</b> sits near <b>pineapple</b> and far from <b>cat</b>. Information about each token's <b>position</b> is added, so word order is not lost.",
-   notes:"The plot on the left squeezes hundreds or thousands of dimensions into two, so it is only a picture of the idea. The embedding table is learned during training, like the rest of the network. Sizes: the original 2017 Transformer used 512 dimensions; GPT-3 uses 12,288. The workshop slide points at OpenAI's embeddings API: that is a separate embedding model that turns whole passages into a single vector (text-embedding-3-small returns 1,536 dimensions). It is the same idea, and it is what powers RAG search later in the demo: the agent finds the refund policy because its vector is close to the question's vector.",
-   viz(){ return tfViz(1); },
-   run(){ ["e0","e1","e2","e3"].forEach((e,i)=>later(()=>$("#"+e).classList.add("show"),500+i*450));
-     later(()=>$("#vecs").style.opacity=1,500+4*450+200);
-     return `<div class="fade"><div class="card"><h4>One token, one vector  ·  first 6 of many dimensions, illustrative</h4><pre class="code" id="vecs" style="opacity:0;transition:opacity .5s;font-size:13px"><span class="k">"·banana"</span>    → [ <span class="n">0.61</span>, <span class="n">-0.12</span>, <span class="n">0.33</span>, <span class="n">0.08</span>, <span class="n">-0.47</span>, <span class="n">0.25</span>, … ]
-<span class="k">"·pineapple"</span> → [ <span class="n">0.58</span>, <span class="n">-0.09</span>, <span class="n">0.41</span>, <span class="n">0.02</span>, <span class="n">-0.39</span>, <span class="n">0.30</span>, … ]
-<span class="k">"·cat"</span>       → [ <span class="n">-0.44</span>, <span class="n">0.52</span>, <span class="n">-0.07</span>, <span class="n">0.36</span>, <span class="n">0.11</span>, <span class="n">-0.28</span>, … ]</pre></div>
-       <div class="row" style="margin-top:12px">
-        <div class="card" style="font-size:14px;line-height:1.4"><b style="display:block;font-size:16px;margin-bottom:4px">Meaning as distance</b>Similar meaning, nearby vectors. The model learns these positions during training.</div>
-        <div class="card" style="font-size:14px;line-height:1.4"><b style="display:block;font-size:16px;margin-bottom:4px">Many dimensions</b>512 in the original Transformer, 12,288 in GPT-3.</div>
-        <div class="card" style="font-size:14px;line-height:1.4;background:var(--teal-t)"><b style="display:block;font-size:16px;margin-bottom:4px">Same idea in RAG</b>Embedding APIs turn whole documents into vectors so an agent can search by meaning.</div></div></div>`; } },
-
- { k:"Anatomy of a transformer  |  3 of 4", tf:2, t:"Attention: every token weighs every other token", short:"attention at work",
-   n:"Now the core of the transformer. In each <b>attention block</b>, every token looks at every other token and decides <b>how much each one matters</b> for its meaning. In <i>“The chicken did not cross the street because it was too tired”</i>, the word <b>it</b> attends mostly to <b>chicken</b>. A <b>feed-forward</b> network then refines each token's vector. Models stack dozens of these blocks.",
-   notes:"The transformer comes from the 2017 Google paper 'Attention Is All You Need' (Vaswani et al.). Click the two buttons: change 'tired' to 'wide' and 'it' now attends to 'street', because streets are wide and chickens get tired. Attention resolves meaning from context; that is the breakthrough. The weights shown are illustrative, in the spirit of the workshop chart, not read out of a real model. Real models run many attention 'heads' in parallel in every block, and stack many blocks: GPT-3 has 96. Each block is attention plus a feed-forward layer. This is also why long prompts cost more: attention compares every token with every other token.",
-   viz(){ return tfViz(2); },
-   run(){ later(()=>attn("tired"),400);
-     return `<div class="fade"><div class="card"><h4>Change one word</h4><div style="font-size:18px;line-height:1.5">The chicken did not cross the street because <b>it</b> was too <span class="pill" id="aw">tired</span>.</div>
-       <div class="btns"><button class="btn ok" id="ab0" onclick="attn('tired')">… too tired</button><button class="btn no" id="ab1" onclick="attn('wide')">… too wide</button></div>
-       <div style="font-size:15px;margin-top:12px" id="aref">“it” refers to the <b>chicken</b>.</div></div>
-       <div class="row" style="margin-top:12px">
-        <div class="card" style="font-size:14px;line-height:1.4"><b style="display:block;font-size:16px;margin-bottom:4px">Attention</b>Assigns importance to tokens based on their relevance to each other.</div>
-        <div class="card" style="font-size:14px;line-height:1.4"><b style="display:block;font-size:16px;margin-bottom:4px">Feed forward</b>Processes each token's updated vector on its own. Together: one block.</div>
-        <div class="card" style="font-size:14px;line-height:1.4"><b style="display:block;font-size:16px;margin-bottom:4px">Stacked</b>Dozens of blocks, each with many attention heads. GPT-3 has 96 blocks.</div></div>
-       <div class="srcl">Vaswani et al., “Attention Is All You Need”, 2017. Weights illustrative.</div></div>`; } },
-
- { k:"Anatomy of a transformer  |  4 of 4", tf:3, t:"Probabilities: score every token, pick one, repeat", short:"the next token being chosen",
-   n:"After the last block, the model gives <b>every token in its vocabulary</b> a score, and these become <b>probabilities</b> that add up to 100%. One token is <b>picked</b>, <b>appended</b> to the text, and the whole pass runs again from the top. One full pass per token: that is what <b>tokens out</b> means.",
-   notes:"Press through the animation: three passes, one token each. In pass 1 the second-ranked token is picked on purpose, to show sampling with temperature. All probabilities are illustrative. Point out the loop: the new token is appended to the sequence and the network runs again over the whole sequence. In practice the work for earlier tokens is kept in a cache (the KV cache), so each extra pass is cheaper than the first. Bridge to the demo: everything an agent does, planning, calling tools, answering, is produced this way, one token at a time. Now zoom out: this whole transformer is the single box at the center of the agent.",
-   viz(){ return tfViz(3); },
-   run(){ const P=[[[[" the",21],[" of",18],[" it",12],[" they",9],[" you",7]],1],[[[" the",62],[" its",14],[" their",8],[" our",5],[" how",3]],0],[[[" people",41],[" culture",22],[" mission",9],[" team",8],[" work",5]],0]];
-     let built="Rubrik is the best place to work because";
-     P.forEach(([cands,pick],k)=>{ const t0=400+k*2600;
-       later(()=>{ $("#ppass").textContent="Pass "+(k+1)+" of 3"; $("#pcands").innerHTML=cands.map((c,i)=>`<div class="pr show${i===pick?" pick":""}" id="pq${i}"><span class="mono">${c[0].replace(" ","·")}</span><span class="pbar"><i style="width:0"></i></span><span class="mono">${c[1]}%</span></div>`).join("");
-         later(()=>document.querySelectorAll("#pcands .pbar i").forEach((b,i)=>b.style.width=(cands[i][1]*(k===1?1.4:4))+"%"),60); },t0);
-       later(()=>{ document.querySelector("#pcands .pick").classList.add("chosen"); },t0+1300);
-       later(()=>{ built+=cands[pick][0]; $("#ptext").innerHTML=esc(built).replace(/because(.*)$/,'because<b style="color:var(--ink-teal)">$1</b>')+'<span class="cursor" style="background:var(--teal)"></span>'; },t0+1900); });
-     later(()=>$("#pend").style.opacity=1,400+3*2600);
-     return `<div class="fade"><div class="card"><h4>Text so far</h4><div style="font-size:19px;font-weight:600;min-height:28px" id="ptext">Rubrik is the best place to work because<span class="cursor" style="background:var(--teal)"></span></div></div>
-       <div class="card" style="margin-top:12px"><h4><span id="ppass">Pass 1 of 3</span>  ·  top candidates of ~200,000  ·  illustrative</h4><div id="pcands"></div></div>
-       <div class="card" id="pend" style="margin-top:12px;opacity:0;transition:opacity .5s;background:var(--dark);color:#E8F4F2;font-size:15px;line-height:1.45">Three passes, three tokens out. Plans, tool calls and answers are all written this way, <b style="color:var(--cyan)">one token at a time</b>. Next: zoom out to the agent.</div></div>`; } },
-
  { k:"The core",t:"At the center is a model: tokens in, tokens out", short:"the model at the center", rv:["model"], bill:{in:18,ca:0,out:16}, billLive:true, scope:"example call",
-   n:"Zoom back out: that whole transformer is the one box in this diagram. Strip an agent down and what is left is this <b>model</b>. It takes a sequence of <b>tokens</b> in and produces tokens out, one at a time, each one predicted from everything before it. Every other part of this demo exists to decide <b>which tokens go in</b> and <b>what to do with the tokens that come out</b>. Tokens are also what you pay for: providers bill input and output tokens separately, and output costs more. The meter in the footer counts this call.",
+   n:"Strip an agent down and what is left is a <b>model</b>. It takes a sequence of <b>tokens</b> in and produces tokens out, one at a time, each one predicted from everything before it. Every other part of this demo exists to decide <b>which tokens go in</b> and <b>what to do with the tokens that come out</b>. Tokens are also what you pay for: providers bill input and output tokens separately, and output costs more. The meter in the footer counts this call.",
    notes:"Start with the smallest possible picture. The diagram shows one box on purpose; it grows as the story needs more parts. The token split on the right is illustrative: real tokenizers differ per model, but the idea holds. Land two facts: the model keeps no memory between calls, and it cannot act. Both explain why the rest of the architecture exists. Plant the pricing idea here: the footer meter counts every token as it appears. 18 in and 16 out costs a fraction of a cent; the point is the unit, not the amount.",
    run(){ setNodes(["model"]); chips([]); edges([]);
      IN_TOK.forEach((t,i)=>later(()=>{ $("#tksIn").insertAdjacentHTML("beforeend",tk(t)); $("#tin").textContent=i+1; meterAdd("in",1); if(i%4===0) packet("io-in",false,0,false,600); }, 300+i*70));
@@ -704,18 +501,6 @@ const STEPS = [
         <tr><td>stop_reason: end_turn</td><td>Finished: the text block is the answer</td></tr>
         <tr><td>stop_reason: tool_use</td><td>Waiting for someone to run the tool and send back the result</td></tr></table></div>`; } },
 
- { k:"The core  |  Getting to agentic", t:"Reasoning plus tool calling makes a model agentic", short:"how reasoning and tools make it agentic",
-   n:"Two training advances turned a text predictor into something that can act. <b>Reasoning</b>: models trained with reinforcement learning on correct <b>solutions</b>, not on individual steps, learned to think step by step. <b>Tool calling</b>: models learned to write requests for actions and information. Combine them and train on <b>results</b> rather than individual actions, and <b>longer-horizon agency</b> emerges: plan, call a tool, read the result, plan again.",
-   notes:"This follows the workshop's 'Getting to agentic AI' slide. OpenAI's o1 (2024) was the first widely used reasoning model: reinforcement learning was used to refine its chain of thought. The key phrase is what gets rewarded: the final answer or the final result, not each step, and the step-by-step behaviour emerges from that. Reasoning makes a model slower and more expensive per answer, because thinking tokens are billed as output. The model still only writes tokens: thinking blocks and tool_use blocks. Something else has to run the tools. That something is the harness: next.",
-   run(){ setNodes(["model"]); chips([]); edges([]);
-     [0,1,2].forEach(i=>later(()=>$("#ag"+i).classList.add("show"),400+i*900));
-     return `<div class="fade"><div class="agx">
-       <div class="card blk" id="ag0"><div class="agk">Reasoning</div><div class="agf"><span>Input</span><span class="hot">Reasoning</span><span>Output</span></div><p>Trained with RL on <b>solutions</b>, not steps. Reasoning emerges.</p></div>
-       <div class="agop">+</div>
-       <div class="card blk" id="ag1"><div class="agk">Tool calling</div><div class="agf"><span>Input</span><span class="hot">web_search()</span><span>Output</span></div><p>Take actions and fetch information.</p></div>
-       <div class="agop">=</div>
-       <div class="card blk ag" id="ag2"><div class="agk">Agentic tool calling</div><div class="agf"><span>Input</span><span class="hot">reasoning, planning<br>web_search() · file_search() · run_command()</span><span>Output</span></div><p>Trained with RL on <b>results</b>, not actions. Long-term agency emerges.</p></div></div></div>`; } },
-
  { k:"The harness", t:"Code around the model reads the blocks and acts on them", short:"the code wrapped around the model", rv:["agent"],
    n:"Because the model only writes tokens, something has to read them. That code is the <b>harness</b>, and its core is the <b>agent loop</b>: send tokens in, read the blocks that come out, and if there is a <b>tool_use</b>, run the tool and send the result back in as more tokens. Repeat until the model answers with text only. <b>The model decides; the harness acts.</b>",
    notes:"This is the whole trick behind agents: a loop of ordinary code around a model. Point at the comment on the model line: each turn sends the entire conversation again, so input tokens grow with every turn. That is why prompt caching matters for cost. Walk the cycle as it highlights: the matching line of code lights up with each stage. The first turn ends in a tool call and loops; the second ends in text and returns. Point at the diagram: the dashed box is the harness, and it now sits around the model. Next: the real request we will follow, and a legend of every block in the diagram.",
@@ -729,7 +514,7 @@ const STEPS = [
        <div class="passlbl" id="pass"></div><pre class="code"><span class="ln" id="L0"><span class="c"># the agent loop, simplified</span></span><span class="ln" id="L1">messages = [system_prompt, user_message]</span><span class="ln" id="L2"><span class="k">while</span> turns &lt; max_turns:</span><span class="ln" id="L3">    output = model(messages)            <span class="c"># the whole history goes in, every turn</span></span><span class="ln" id="L4">    messages.append(output)</span><span class="ln" id="L5">    <span class="k">if</span> no tool_use <span class="k">in</span> output:</span><span class="ln" id="L6">        <span class="k">return</span> output.text               <span class="c"># done: answer the user</span></span><span class="ln" id="L7">    <span class="k">for</span> call <span class="k">in</span> output.tool_use:</span><span class="ln" id="L8">        result = run_tool(call)           <span class="c"># the harness acts, not the model</span></span><span class="ln" id="L9">        messages.append(tool_result(result))</span></pre></div>`; } },
 
  { k:"Context  |  The use case", all:true, t:"The use case: Sara's cracked monitor", short:"the use case and its building blocks",
-   n:"Sara starts a new job next week and will work from home, so she orders a <b>27-inch monitor</b> from an online electronics shop: <b>€340</b>, order <b>#4821</b>. It arrives on Wednesday in a dented box. When she unpacks it at the weekend, the screen is <b>cracked</b>, so she opens the shop's web chat to ask for a refund, and the shop's <b>AI support agent</b> answers.",
+   n:"Sara starts a new job next week and will work from home, so she orders a <b>27-inch monitor</b> from an online electronics shop: <b>€340</b>, order <b>#4821</b>. It arrives four days later in a dented box, the screen <b>cracked</b>. That evening she opens the shop's web chat to ask for a refund, and the shop's <b>AI support agent</b> answers.",
    notes:"Tell the story first, in your own words: new job, home office, monitor arrives broken. Everyone has lived some version of this. Then point at the key facts: the €200 rule is the one to remember, because it brings a human into the story later. Then walk the legend: each block lights up in the diagram as its line appears; hover a line to light its block again. Stay at the level of 'what is this block', not 'what happens': the next slides follow the request through each block in turn. Keep the identity block neutral: we come back to it at step 2.",
    run(){ const L=[["user","Customer","Sara. She wants her money back for a monitor that arrived broken."],
        ["id","Identity & auth","The credentials the agent uses to log in to the shop's systems."],
@@ -782,9 +567,9 @@ const STEPS = [
      return `<div class="card fade"><h4>Input rules  ·  6 checks  ·  4 ms</h4><table class="dec">${rows.map((r,i)=>`<tr><td>${r[0]}</td><td id="ig${i}"><span class="g">…</span></td><td style="font-size:14px;color:var(--gray)">${r[2]}</td></tr>`).join("")}</table></div>
       <div id="igres" class="card" style="margin-top:12px;background:var(--teal-t);opacity:0;transition:opacity .4s"><b>Result:</b> allowed. Topic rule routes to the refunds workflow.</div>`; } },
 
- { k:"Step 4  |  Context engineering", hook:"SessionStart · UserPromptSubmit", rv:["ctx"], t:"The agent assembles its briefing", short:"the context window being assembled",
+ { k:"Step 4  |  Context engineering", hook:"SessionStart", rv:["ctx"], t:"The agent assembles its briefing", short:"the context window being assembled",
    n:"The context engine fills the model's window with only what this task needs: the system prompt and <b>AGENTS.md</b> rules, the <b>refunds skill</b> (loaded on demand), <b>memory</b> about Sara, and the relevant policy pulled in by <b>RAG</b>. Together they become the model's <b>tokens in</b> for this turn.",
-   notes:"Walk through the bar as it fills. Highlight progressive disclosure: the refunds skill was only loaded because the topic rule routed to refunds; the other 40 skills stay as one-line descriptions. RAG pulled one policy chunk, filtered to documents this agent may read. Total is under 10 percent of the window, which keeps the model sharp and the cost down. Hook mapping in Claude Code terms: SessionStart can load memory once per session; per-turn context such as RAG results can be added by a UserPromptSubmit hook as additionalContext.",
+   notes:"Walk through the bar as it fills. Highlight progressive disclosure: the refunds skill was only loaded because the topic rule routed to refunds; the other 40 skills stay as one-line descriptions. RAG pulled one policy chunk, filtered to documents this agent may read. Total is under 10 percent of the window, which keeps the model sharp and the cost down.",
    run(){ setNodes(["ctx"],["user","id","guard","agent"]); edges(["agent-ctx"]); packet("agent-ctx",false,100);
      const segs=[["md","System prompt + AGENTS.md","#09383B","#fff",14,"<b>AGENTS.md</b>: be concise; never promise delivery dates; refunds over €200 need approval"],
       ["skill","Skill: refunds","#008783","#fff",16,"<b>Refunds skill</b>: step-by-step refund procedure, loaded only because intent = refund"],
@@ -801,7 +586,7 @@ const STEPS = [
 
  { k:"Step 5  |  The model thinks", bill:{in:4110,ca:1800,out:180}, billAt:2800, t:"The model reads 5,910 tokens and plans its next move", short:"the model reason about what to do",
    n:"The harness sends the assembled context to a <b>reasoning model</b>: 5,910 <b>tokens in</b>. The first block that comes out is <b>thinking</b>: what it knows, what it is missing, and which tool to call first. The response ends with a <b>tool_use</b> block, and the model stops. This is the first billed call of Sara's conversation: watch the <b>meter</b> in the footer.",
-   notes:"Tie back to the opening: same model, same mechanics, just more tokens in. The thinking block is what makes reasoning models better at multi-step work. Note it decides it needs facts before acting: it does not just trust the customer's description. It also anticipates the approval rule, because AGENTS.md was part of its tokens in. The meter reset at Step 1 and moves now, on the first model call of the conversation. 1,800 tokens are already cached: the system prompt and AGENTS.md are identical for every customer, so they are served from the provider's prompt cache, here at a tenth of the input price. That only works if the same prefix was sent recently (cache lifetimes are typically minutes), and some providers charge extra to write the cache. Discounts vary by provider. Thinking tokens count as output.",
+   notes:"Tie back to the opening: same model, same mechanics, just more tokens in. The thinking block is what makes reasoning models better at multi-step work. Note it decides it needs facts before acting: it does not just trust the customer's description. It also anticipates the approval rule, because AGENTS.md was part of its tokens in. The meter reset at Step 1 and moves now, on the first model call of the conversation. 1,800 tokens are already cached: the system prompt and AGENTS.md are identical for every customer, so the provider serves them from cache at a tenth of the price. Thinking tokens count as output.",
    run(){ setNodes(["model"],["user","id","guard","agent","ctx"]); chips(["md","skill","mem","rag"]); edges(["ctx-model"]); packet("ctx-model",false,100);
      later(()=>{ $("#ob1").classList.add("on"); typeInto($("#think"), "The customer reports a cracked screen on order #4821.\nPolicy: damage in transit → full refund within 30 days.\nI need to verify: order exists, belongs to Sara, delivery date, item value.\nIf the value is over €200, AGENTS.md says the refund needs human approval.\nFirst step: call orders.get for #4821.", 16, ()=>{ $("#ob2").classList.add("on"); $("#tu").style.opacity=1; edges(["ctx-model","agent-model"]); packet("agent-model",true,0); }); }, 500);
      return `<div class="fade"><div class="states" style="margin-bottom:12px"><span class="state on">tokens in: 5,910 (1,800 cached)</span><span class="arrowR">→</span><span class="state" id="ob1">block 1: thinking</span><span class="arrowR">→</span><span class="state" id="ob2">block 2: tool_use</span></div>
@@ -819,14 +604,14 @@ const STEPS = [
        <div id="res" style="opacity:0;transition:opacity .5s"><div class="card" style="margin-bottom:8px;padding:10px 14px"><h4 style="margin:0">tool_result  ·  goes back in as tokens</h4></div><pre class="code">${json({order_id:"4821",customer:"sara.m",item:"27-inch monitor",value_eur:340,delivered:"2026-10-14",carrier_note:"package dented"})}</pre></div></div>`; } },
 
  { k:"Step 7  |  The agent loop", bill:{in:300,ca:5910,out:140}, billAt:1200, t:"Observe, think again, act again", short:"the loop go round again",
-   n:"That was one turn of the <b>agent loop</b>. The tool_result is appended to the conversation and sent in again, so the model now sees the order facts as tokens. Its next output holds two <b>tool_use</b> blocks: a <b>refund of €340</b> and a <b>return pickup</b> with the logistics partner. The second call sends 6,210 tokens in, but the 5,910 from the first call are now cached, so they bill at the cached rate.",
-   notes:"Count the turns out loud. Turn 1 fetched facts; turn 2 proposes the refund and the pickup in one response: models can request several tools at once (parallel tool calls). In a real run this can be many turns. The loop is bounded by max turns and budget, enforced by the harness, not the model.",
+   n:"That was one turn of the <b>agent loop</b>. The tool_result is appended to the conversation and sent in again, so the model now sees the order facts as tokens. Its next output proposes a <b>refund of €340</b>. The second call sends 6,210 tokens in, but 5,910 were cached on the first call, so they bill at a tenth of the price.",
+   notes:"Count the turns out loud. Turn 1 fetched facts; turn 2 proposes the refund. In a real run this can be many turns. The loop is bounded by max turns and budget, enforced by the harness, not the model.",
    run(){ setNodes(["agent","model"],["user","id","guard","ctx","orders"]); edges(["agent-model"]); packet("agent-model",false,100); packet("agent-model",true,1200);
      return `<div class="fade"><div class="states" style="margin-bottom:14px">
-       <span class="state on">Turn 1: think</span><span class="arrowR">→</span><span class="state on">act: orders.get</span><span class="arrowR">→</span><span class="state on">observe</span><span class="arrowR">→</span><span class="state on" id="t2">Turn 2: think</span><span class="arrowR">→</span><span class="state" id="t2a">act: refunds.create + pickup</span></div>
+       <span class="state on">Turn 1: think</span><span class="arrowR">→</span><span class="state on">act: orders.get</span><span class="arrowR">→</span><span class="state on">observe</span><span class="arrowR">→</span><span class="state on" id="t2">Turn 2: think</span><span class="arrowR">→</span><span class="state" id="t2a">act: refunds.create</span></div>
        <div class="think" id="think2"></div>
        <div class="card" style="margin-top:12px"><h4>Loop limits enforced by the harness</h4><span class="pill">turn 2 of max 12</span> &nbsp; <span class="pill">€0.020 of €0.50 budget</span> &nbsp; <span class="pill">4.1 s of 60 s</span></div></div>`; },
-   after(){ later(()=>typeInto($("#think2"),"Order verified: delivered 4 days ago, €340, damage noted by carrier.\nEligible for full refund. Propose refunds.create(order 4821, €340, reason: transit damage)\nand book a return pickup with the logistics partner.",16,()=>$("#t2a").classList.add("on")),300); } },
+   after(){ later(()=>typeInto($("#think2"),"Order verified: delivered 4 days ago, €340, damage noted by carrier.\nEligible for full refund. Propose refunds.create(order 4821, €340, reason: transit damage).",16,()=>$("#t2a").classList.add("on")),300); } },
 
  { k:"Step 8  |  Action guardrail", hook:"PreToolUse", t:"The guardrail stops a high-value action for approval", short:"the guardrail check the action",
    n:"Before the harness executes <b>refunds.create</b>, the action guardrail checks policy. €340 is above the €200 auto-approve limit, so the action is <b>paused</b> and routed to a human. Note: the shared key itself carries <b>refunds:*</b> with no limit. <b>Only this policy rule</b> stands in the way.",
@@ -855,8 +640,8 @@ const STEPS = [
      $("#approveBtn").onclick=go; STEPS[cur].approve=go; } },
 
  { k:"Step 10  |  Agent to agent (A2A)", rv:["a2a"], t:"The agent delegates the return pickup to a partner's agent", short:"agent-to-agent delegation",
-   n:"Pickups are handled by a logistics partner with its own agent. The pickup was the second tool_use from turn 2; once the refund is approved, the harness carries it out over <b>A2A</b>. Our agent reads the partner's <b>Agent Card</b>, sends a <b>task</b>, and follows its status until an <b>artifact</b> (the booked slot) comes back. Neither agent sees the other's tools or data.",
-   notes:"No extra model call is needed here: the model asked for the pickup in turn 2, and the harness held it until the refund was approved. Contrast with MCP: we are not calling a tool, we are handing a task to another autonomous agent that decides how to do it. The status sequence is the A2A task lifecycle. The remote agent could ask for more input (input-required); here it completes.",
+   n:"Pickups are handled by a logistics partner with its own agent. Our agent reads the partner's <b>Agent Card</b>, sends a <b>task</b>, and follows its status until an <b>artifact</b> (the booked slot) comes back. Neither agent sees the other's tools or data.",
+   notes:"Contrast with MCP: we are not calling a tool, we are handing a task to another autonomous agent that decides how to do it. The status sequence is the A2A task lifecycle. The remote agent could ask for more input (input-required); here it completes.",
    run(){ setNodes(["a2a"],["user","id","ctx","orders","agent","model","guard","human","refunds"]); edges(["agent-a2a"]); packet("agent-a2a",false,100); packet("agent-a2a",true,3600);
      ["s1","s2","s3","s4"].forEach((s,i)=>later(()=>$("#"+s).classList.add("on"),500+i*900));
      later(()=>$("#art").style.opacity=1,3800);
@@ -867,7 +652,7 @@ const STEPS = [
 
  { k:"Step 11  |  The answer", hook:"Stop", bill:{in:340,ca:6210,out:85}, billAt:900, t:"The model replies, and the output is checked before it is sent", short:"the final answer",
    n:"With every action done, the third and last model call returns a single <b>text</b> block: the reply. An <b>output guardrail</b> scans it before it leaves: no other customers' data, no internal notes, no promises policy forbids. Then Sara sees the answer.",
-   notes:"Timing of the check: this shop runs its own harness, so it can hold the reply until the output check passes. In Claude Code the Stop hook runs once the reply is written; it can send the model back to revise, but cannot block text already shown. Note the reply only states facts that came from tool results, and honors AGENTS.md: no promised delivery date, email updates as Sara prefers (from memory).",
+   notes:"Note the reply only states facts that came from tool results, and honors AGENTS.md: no promised delivery date, email updates as Sara prefers (from memory).",
    run(){ setNodes(["model","guard"],["id","ctx","orders","agent","human","refunds","a2a"]); edges(["agent-model","agent-guard","agent-user"]); packet("agent-model",true,100); packet("agent-guard",false,900); packet("agent-user",false,1800);
      later(()=>{ setNodes(["user"],["id","ctx","orders","agent","human","refunds","a2a","model","guard"]); $("#reply").style.display="block"; },1900);
      return `<div class="fade"><div class="card" style="margin-bottom:12px"><table class="dec">
@@ -886,7 +671,7 @@ const STEPS = [
 
  { k:"Step 13  |  Traces", rv:["trace"], t:"Every step was recorded in one trace", short:"the trace of the whole run",
    n:"Everything you just watched was captured as a <b>trace</b>: a tree of spans with timings, tokens and cost. This is how teams debug, audit and answer \"what exactly did the agent do?\"",
-   notes:"Read a few spans: the approval wait dominates wall-clock time, which is expected. Total model cost is 2.5 cents. Walk the billing table: call 1 is the most expensive because almost nothing was cached yet; calls 2 and 3 resend more tokens but most are cached. Output tokens are the fewest but the most expensive per token. Multiply by refunds per month to get a run rate. Prices are illustrative; real ones vary by provider, and some charge extra to write the cache. These spans follow the OpenTelemetry GenAI semantic conventions (still marked as in development) so they land in standard observability tools. Note the auth span in red: the trace knows the agent did this, but downstream systems only saw the shared service account. Timings and costs are illustrative.",
+   notes:"Read a few spans: the approval wait dominates wall-clock time, which is expected. Total model cost is 2.5 cents. Walk the billing table: call 1 is the most expensive because almost nothing was cached yet; calls 2 and 3 resend more tokens but most are cached. Output tokens are the fewest but the most expensive per token. Multiply by refunds per month to get a run rate. Prices are illustrative; real ones vary by provider, and some charge extra to write the cache. These spans follow OpenTelemetry GenAI conventions so they land in standard observability tools. Note the auth span in red: the trace knows the agent did this, but downstream systems only saw the shared service account. Timings and costs are illustrative.",
    run(){ setNodes(["trace"],["user","id","guard","ctx","orders","agent","human","refunds","a2a","model"]); chips(["md","skill","mem","rag"]); edges(["model-trace"]); packet("model-trace",false,100);
      const sp=[["agent.run  refund #4821",0,100,"#09383B","96.4 s","l0"],["auth  shared API key",0,1,"#DA4750","0.0 s","l1"],["guardrail.input  rules",1,1,"#936EFF","0.004 s","l1"],["context.build",2,2,"#00D2C0","0.4 s","l1"],["llm.call  plan",4,3,"#008783","2.6 s","l1"],["tool.call  orders.get",7,1,"#00D2C0","0.3 s","l1"],["llm.call  propose refund",8,2,"#008783","1.8 s","l1"],["guardrail.action  policy",10,1,"#936EFF","0.02 s","l1"],["human.approval  wait",11,74,"#B8B3B3","78.0 s","l1"],["tool.call  refunds.create",85,2,"#00D2C0","0.6 s","l1"],["a2a.task  pickup",87,8,"#45F5E6","8.1 s","l1"],["llm.call  reply + output check",95,4,"#008783","3.9 s","l1"],["memory.write",99,1,"#00D2C0","0.1 s","l1"]];
      later(()=>sp.forEach((s,i)=>later(()=>{const e=$("#sp"+i); e.style.width=Math.max(s[2],0.6)+"%";}, i*120)),200);
@@ -940,7 +725,7 @@ const STEPS = [
       <div class="card"><b>Traces + evals</b>Every step recorded, graded, added to the suite.</div></div></div>`; } }
  ,{ k:"Next: SAGE  |  Lifecycle hooks", t:"Four points in the loop where policy can act", short:"where policy can act",
    n:"Every guardrail and approval in this demo runs at a <b>lifecycle hook</b>: a fixed point in the loop where your code can <b>block</b>, <b>allow</b> or <b>add context</b>. Four hooks carry content: the <b>prompt</b>, the <b>tool call</b>, the <b>tool response</b> and the <b>agent response</b>. That is where <b>SAGE</b> evaluates policy.",
-   notes:"This slide closes the agent walkthrough and opens the SAGE explainer. Let the rows play: each one lights up where it sits in the diagram. Then the four content surfaces light up and the session-level hooks fade. Key points: PreToolUse is the strongest control point, because it sees the exact tool and arguments before anything happens; our €200 rule lives there. PostToolUse sees what came back, which is where injected instructions and sensitive data arrive. Then bridge: the guardrails in this demo were rules, and the bonus slide showed that a reworded attack can slip past rules. SAGE evaluates the same four surfaces on intent, not keywords. Caveat for the agent response: in Claude Code the Stop hook fires after the reply, and there is no hook that blocks the reply text itself (a MessageDisplay hook can change what is shown on screen, but not what the model wrote or what is logged), so response blocking needs a gateway in the path. On pricing: command and HTTP hooks add no model tokens. Event names follow Claude Code (code.claude.com/docs/en/hooks); other frameworks have similar callbacks.",
+   notes:"This slide closes the agent walkthrough and opens the SAGE explainer. Let the rows play: each one lights up where it sits in the diagram. Then the four content surfaces light up and the session-level hooks fade. Key points: PreToolUse is the strongest control point, because it sees the exact tool and arguments before anything happens; our €200 rule lives there. PostToolUse sees what came back, which is where injected instructions and sensitive data arrive. Then bridge: the guardrails in this demo were rules, and the bonus slide showed that a reworded attack can slip past rules. SAGE evaluates the same four surfaces on intent, not keywords. Caveat for the agent response: in Claude Code the Stop hook fires after the reply, and there is no hook that blocks the reply text itself, so response blocking needs a gateway in the path. On pricing: command and HTTP hooks add no model tokens. Event names follow Claude Code (code.claude.com/docs/en/hooks); other frameworks have similar callbacks.",
    run(){ setNodes([],NODES,[],true); chips(["md","skill","mem","rag"]); edges([]);
      const R=[["per session","SessionStart","Load Sara's memory into the context","",  "ctx",["agent-ctx"]],
        ["per turn","UserPromptSubmit","Input checks on Sara's message","prompt","guard",["agent-guard"]],
